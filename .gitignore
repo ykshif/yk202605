@@ -1,0 +1,43 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Notebook/runtime checkpoints
+.ipynb_checkpoints/
+
+# macOS metadata
+.DS_Store
+
+# Local virtual environments
+.venv/
+venv/
+
+# Editor-local configuration
+.vscode/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*~
+
+# Generated calculation outputs and heavy local data
+results/
+*.nc
+*.h5
+*.hdf5
+*.vtk
+*.vtu
+*.vtp
+*.avi
+*.mp4
+*.mov
+*.odb
+*.sim
+
+# Local machine data mirrors
+data/
+DM-FEM2D/

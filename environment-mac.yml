@@ -1,0 +1,60 @@
+﻿# Conda environment for deploying RODM_20250310 on macOS.
+#
+# Recommended install command:
+#   conda env create -f environment-mac.yml
+#   conda activate offshore-energy-sim
+#
+# Notes for MacBook users:
+# - Prefer Miniforge/Mambaforge or a conda installation using conda-forge.
+# - On Apple Silicon, conda-forge packages should install natively under osx-arm64.
+# - Local data paths in configs/*.yaml currently point to Windows paths such as
+#   E:\phd\Code\DM-FEM2D\...; update those paths after copying data to macOS.
+# - The pinned ranges are intentionally moderate: close to the validated Windows
+#   base environment, but flexible enough for macOS solver compatibility.
+
+name: offshore-energy-sim
+channels:
+  - conda-forge
+
+dependencies:
+  # Core Python version. The validated Windows environment used Python 3.9.12;
+  # Python 3.10 is usually easier to solve on modern macOS while remaining close.
+  - python=3.10
+
+  # Numerical computing
+  - numpy>=1.23,<2.0
+  - scipy>=1.10
+  - pandas>=1.5
+
+  # Hydrodynamics and NetCDF data access
+  - xarray>=2022.11
+  - netcdf4>=1.6
+  - h5netcdf>=1.0
+  - h5py>=3.7
+
+  # Plotting
+  - matplotlib>=3.5
+
+  # Configuration
+  - pyyaml>=6.0
+
+  # Local development, notebooks, and compiled scientific extensions.
+  - compilers
+  - cmake
+  - ninja
+  - make
+  - pkg-config
+  - jupyterlab>=3.0
+  - ipykernel>=6.0
+
+  # PV power modeling for future integrated workflows
+  - pvlib>=0.9
+
+  # General utilities
+  - pip
+
+  # Keep pip section for packages that may be added later.
+  - pip:
+      # Capytaine is not currently available as a native osx-arm64 conda
+      # package from conda-forge, so MacBook installs use the PyPI wheel/sdist.
+      - capytaine>=1.4

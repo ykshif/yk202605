@@ -1,0 +1,14 @@
+{
+  "5": {
+    "mass_matrix_path": "/Users/yongkang/Library/CloudStorage/OneDrive-宁波东方理工大学/Code_RODM/RODM_20250310/Yoon_hinge/Job6060hinge-1_MASS1.mtx",
+    "stiffness_matrix_path": "/Users/yongkang/Library/CloudStorage/OneDrive-宁波东方理工大学/Code_RODM/RODM_20250310/Yoon_hinge/Job6060hinge-1_STIF1.mtx",
+    "nodes_per_module_side": 13,
+    "center_node_one_based": 85
+  },
+  "15": {
+    "mass_matrix_path": "/Users/yongkang/Library/CloudStorage/OneDrive-宁波东方理工大学/Code_RODM/RODM_20250310/Yoon_hinge/Job2020hinge-1_MASS1.mtx",
+    "stiffness_matrix_path": "/Users/yongkang/Library/CloudStorage/OneDrive-宁波东方理工大学/Code_RODM/RODM_20250310/Yoon_hinge/Job2020hinge-1_STIF1.mtx",
+    "nodes_per_module_side": 5,
+    "center_node_one_based": 13
+  }
+}

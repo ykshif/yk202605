@@ -1,0 +1,66 @@
+# Explicit hydrodynamic-node-reversed variant of the 300 m x 60 m reference case.
+#
+# This variant is useful for provenance checks because it closely matches the
+# saved paper-comparison heave curve. It is not the default legacy-equivalent
+# path. Numerical algorithm expectation: unchanged; only the explicit node-order
+# option differs from configs/reference_case_300.yaml.
+
+case:
+  id: reference_case_300_hydro_reversed
+  description: 300 m x 60 m floating body with explicit hydrodynamic node reversal
+  tags:
+    - rodm
+    - frequency_domain
+    - provenance_variant
+
+geometry:
+  length_m: 300
+  width_m: 60
+  thickness_m: 2
+  mesh_label: 5m_x_5m
+  total_nodes: 793
+  nodes_per_row: 61
+  full_dofs_per_node: 6
+  retained_dofs_per_node: 5
+  removed_dofs_zero_based: [5]
+  master_node_rule:
+    function: offshore_energy_sim.structure.calculate_node_positions
+    first_node: 424
+    node_interval: 6
+    count: 10
+
+environment:
+  wave:
+    type: regular
+    wavelength_m: 300
+    direction_deg: 0
+
+hydrodynamics:
+  dataset: 'E:\phd\Code\DM-FEM2D\HydrodynamicData\Yoga\DM10_300_direction0.nc'
+  hydrodynamic_nodes: 10
+  hydrodynamic_dof_to_remove_zero_based: 5
+  reverse_hydrodynamic_node_order: true
+
+structure:
+  mass_matrix: 'E:\phd\Code\DM-FEM2D\StructureData\JobMesh5_5_MASS1.mtx'
+  stiffness_matrix: 'E:\phd\Code\DM-FEM2D\StructureData\JobMesh5_5_STIF1.mtx'
+  mass_blend_beta: 0.0
+
+reduction:
+  method: SEREP
+  retained_dofs_per_node: 5
+
+solver:
+  type: frequency_domain_mck
+  use_hydrostatic: true
+  frequency_index: 0
+
+validation:
+  baseline_response: results/reference_case_300_rodm_hydro_reversed.npy
+  expected_numerical_change: none relative to the explicit reversed candidate
+
+outputs:
+  root: results/reference_case_300_hydro_reversed
+  response_filename: response.npy
+  metrics_filename: metrics.json
+  report_filename: report.md

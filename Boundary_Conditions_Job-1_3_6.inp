@@ -1,0 +1,4763 @@
+** Node Sets Definitions
+*Nset, nset=Set-1, instance=Part-1-1
+ 1,
+*Nset, nset=Set-2, instance=Part-1-1
+ 2,
+*Nset, nset=Set-3, instance=Part-1-1
+ 3,
+*Nset, nset=Set-4, instance=Part-1-1
+ 4,
+*Nset, nset=Set-5, instance=Part-1-1
+ 5,
+*Nset, nset=Set-6, instance=Part-1-1
+ 6,
+*Nset, nset=Set-7, instance=Part-1-1
+ 7,
+*Nset, nset=Set-8, instance=Part-1-1
+ 8,
+*Nset, nset=Set-9, instance=Part-1-1
+ 9,
+*Nset, nset=Set-10, instance=Part-1-1
+ 10,
+*Nset, nset=Set-11, instance=Part-1-1
+ 11,
+*Nset, nset=Set-12, instance=Part-1-1
+ 12,
+*Nset, nset=Set-13, instance=Part-1-1
+ 13,
+*Nset, nset=Set-14, instance=Part-1-1
+ 14,
+*Nset, nset=Set-15, instance=Part-1-1
+ 15,
+*Nset, nset=Set-16, instance=Part-1-1
+ 16,
+*Nset, nset=Set-17, instance=Part-1-1
+ 17,
+*Nset, nset=Set-18, instance=Part-1-1
+ 18,
+*Nset, nset=Set-19, instance=Part-1-1
+ 19,
+*Nset, nset=Set-20, instance=Part-1-1
+ 20,
+*Nset, nset=Set-21, instance=Part-1-1
+ 21,
+*Nset, nset=Set-22, instance=Part-1-1
+ 22,
+*Nset, nset=Set-23, instance=Part-1-1
+ 23,
+*Nset, nset=Set-24, instance=Part-1-1
+ 24,
+*Nset, nset=Set-25, instance=Part-1-1
+ 25,
+*Nset, nset=Set-26, instance=Part-1-1
+ 26,
+*Nset, nset=Set-27, instance=Part-1-1
+ 27,
+*Nset, nset=Set-28, instance=Part-1-1
+ 28,
+*Nset, nset=Set-29, instance=Part-1-1
+ 29,
+*Nset, nset=Set-30, instance=Part-1-1
+ 30,
+*Nset, nset=Set-31, instance=Part-1-1
+ 31,
+*Nset, nset=Set-32, instance=Part-1-1
+ 32,
+*Nset, nset=Set-33, instance=Part-1-1
+ 33,
+*Nset, nset=Set-34, instance=Part-1-1
+ 34,
+*Nset, nset=Set-35, instance=Part-1-1
+ 35,
+*Nset, nset=Set-36, instance=Part-1-1
+ 36,
+*Nset, nset=Set-37, instance=Part-1-1
+ 37,
+*Nset, nset=Set-38, instance=Part-1-1
+ 38,
+*Nset, nset=Set-39, instance=Part-1-1
+ 39,
+*Nset, nset=Set-40, instance=Part-1-1
+ 40,
+*Nset, nset=Set-41, instance=Part-1-1
+ 41,
+*Nset, nset=Set-42, instance=Part-1-1
+ 42,
+*Nset, nset=Set-43, instance=Part-1-1
+ 43,
+*Nset, nset=Set-44, instance=Part-1-1
+ 44,
+*Nset, nset=Set-45, instance=Part-1-1
+ 45,
+*Nset, nset=Set-46, instance=Part-1-1
+ 46,
+*Nset, nset=Set-47, instance=Part-1-1
+ 47,
+*Nset, nset=Set-48, instance=Part-1-1
+ 48,
+*Nset, nset=Set-49, instance=Part-1-1
+ 49,
+*Nset, nset=Set-50, instance=Part-1-1
+ 50,
+*Nset, nset=Set-51, instance=Part-1-1
+ 51,
+*Nset, nset=Set-52, instance=Part-1-1
+ 52,
+*Nset, nset=Set-53, instance=Part-1-1
+ 53,
+*Nset, nset=Set-54, instance=Part-1-1
+ 54,
+*Nset, nset=Set-55, instance=Part-1-1
+ 55,
+*Nset, nset=Set-56, instance=Part-1-1
+ 56,
+*Nset, nset=Set-57, instance=Part-1-1
+ 57,
+*Nset, nset=Set-58, instance=Part-1-1
+ 58,
+*Nset, nset=Set-59, instance=Part-1-1
+ 59,
+*Nset, nset=Set-60, instance=Part-1-1
+ 60,
+*Nset, nset=Set-61, instance=Part-1-1
+ 61,
+*Nset, nset=Set-62, instance=Part-1-1
+ 62,
+*Nset, nset=Set-63, instance=Part-1-1
+ 63,
+*Nset, nset=Set-64, instance=Part-1-1
+ 64,
+*Nset, nset=Set-65, instance=Part-1-1
+ 65,
+*Nset, nset=Set-66, instance=Part-1-1
+ 66,
+*Nset, nset=Set-67, instance=Part-1-1
+ 67,
+*Nset, nset=Set-68, instance=Part-1-1
+ 68,
+*Nset, nset=Set-69, instance=Part-1-1
+ 69,
+*Nset, nset=Set-70, instance=Part-1-1
+ 70,
+*Nset, nset=Set-71, instance=Part-1-1
+ 71,
+*Nset, nset=Set-72, instance=Part-1-1
+ 72,
+*Nset, nset=Set-73, instance=Part-1-1
+ 73,
+*Nset, nset=Set-74, instance=Part-1-1
+ 74,
+*Nset, nset=Set-75, instance=Part-1-1
+ 75,
+*Nset, nset=Set-76, instance=Part-1-1
+ 76,
+*Nset, nset=Set-77, instance=Part-1-1
+ 77,
+*Nset, nset=Set-78, instance=Part-1-1
+ 78,
+*Nset, nset=Set-79, instance=Part-1-1
+ 79,
+*Nset, nset=Set-80, instance=Part-1-1
+ 80,
+*Nset, nset=Set-81, instance=Part-1-1
+ 81,
+*Nset, nset=Set-82, instance=Part-1-1
+ 82,
+*Nset, nset=Set-83, instance=Part-1-1
+ 83,
+*Nset, nset=Set-84, instance=Part-1-1
+ 84,
+*Nset, nset=Set-85, instance=Part-1-1
+ 85,
+*Nset, nset=Set-86, instance=Part-1-1
+ 86,
+*Nset, nset=Set-87, instance=Part-1-1
+ 87,
+*Nset, nset=Set-88, instance=Part-1-1
+ 88,
+*Nset, nset=Set-89, instance=Part-1-1
+ 89,
+*Nset, nset=Set-90, instance=Part-1-1
+ 90,
+*Nset, nset=Set-91, instance=Part-1-1
+ 91,
+*Nset, nset=Set-92, instance=Part-1-1
+ 92,
+*Nset, nset=Set-93, instance=Part-1-1
+ 93,
+*Nset, nset=Set-94, instance=Part-1-1
+ 94,
+*Nset, nset=Set-95, instance=Part-1-1
+ 95,
+*Nset, nset=Set-96, instance=Part-1-1
+ 96,
+*Nset, nset=Set-97, instance=Part-1-1
+ 97,
+*Nset, nset=Set-98, instance=Part-1-1
+ 98,
+*Nset, nset=Set-99, instance=Part-1-1
+ 99,
+*Nset, nset=Set-100, instance=Part-1-1
+ 100,
+*Nset, nset=Set-101, instance=Part-1-1
+ 101,
+*Nset, nset=Set-102, instance=Part-1-1
+ 102,
+*Nset, nset=Set-103, instance=Part-1-1
+ 103,
+*Nset, nset=Set-104, instance=Part-1-1
+ 104,
+*Nset, nset=Set-105, instance=Part-1-1
+ 105,
+*Nset, nset=Set-106, instance=Part-1-1
+ 106,
+*Nset, nset=Set-107, instance=Part-1-1
+ 107,
+*Nset, nset=Set-108, instance=Part-1-1
+ 108,
+*Nset, nset=Set-109, instance=Part-1-1
+ 109,
+*Nset, nset=Set-110, instance=Part-1-1
+ 110,
+*Nset, nset=Set-111, instance=Part-1-1
+ 111,
+*Nset, nset=Set-112, instance=Part-1-1
+ 112,
+*Nset, nset=Set-113, instance=Part-1-1
+ 113,
+*Nset, nset=Set-114, instance=Part-1-1
+ 114,
+*Nset, nset=Set-115, instance=Part-1-1
+ 115,
+*Nset, nset=Set-116, instance=Part-1-1
+ 116,
+*Nset, nset=Set-117, instance=Part-1-1
+ 117,
+*Nset, nset=Set-118, instance=Part-1-1
+ 118,
+*Nset, nset=Set-119, instance=Part-1-1
+ 119,
+*Nset, nset=Set-120, instance=Part-1-1
+ 120,
+*Nset, nset=Set-121, instance=Part-1-1
+ 121,
+*Nset, nset=Set-122, instance=Part-1-1
+ 122,
+*Nset, nset=Set-123, instance=Part-1-1
+ 123,
+*Nset, nset=Set-124, instance=Part-1-1
+ 124,
+*Nset, nset=Set-125, instance=Part-1-1
+ 125,
+*Nset, nset=Set-126, instance=Part-1-1
+ 126,
+*Nset, nset=Set-127, instance=Part-1-1
+ 127,
+*Nset, nset=Set-128, instance=Part-1-1
+ 128,
+*Nset, nset=Set-129, instance=Part-1-1
+ 129,
+*Nset, nset=Set-130, instance=Part-1-1
+ 130,
+*Nset, nset=Set-131, instance=Part-1-1
+ 131,
+*Nset, nset=Set-132, instance=Part-1-1
+ 132,
+*Nset, nset=Set-133, instance=Part-1-1
+ 133,
+*Nset, nset=Set-134, instance=Part-1-1
+ 134,
+*Nset, nset=Set-135, instance=Part-1-1
+ 135,
+*Nset, nset=Set-136, instance=Part-1-1
+ 136,
+*Nset, nset=Set-137, instance=Part-1-1
+ 137,
+*Nset, nset=Set-138, instance=Part-1-1
+ 138,
+*Nset, nset=Set-139, instance=Part-1-1
+ 139,
+*Nset, nset=Set-140, instance=Part-1-1
+ 140,
+*Nset, nset=Set-141, instance=Part-1-1
+ 141,
+*Nset, nset=Set-142, instance=Part-1-1
+ 142,
+*Nset, nset=Set-143, instance=Part-1-1
+ 143,
+*Nset, nset=Set-144, instance=Part-1-1
+ 144,
+*Nset, nset=Set-145, instance=Part-1-1
+ 145,
+*Nset, nset=Set-146, instance=Part-1-1
+ 146,
+*Nset, nset=Set-147, instance=Part-1-1
+ 147,
+*Nset, nset=Set-148, instance=Part-1-1
+ 148,
+*Nset, nset=Set-149, instance=Part-1-1
+ 149,
+*Nset, nset=Set-150, instance=Part-1-1
+ 150,
+*Nset, nset=Set-151, instance=Part-1-1
+ 151,
+*Nset, nset=Set-152, instance=Part-1-1
+ 152,
+*Nset, nset=Set-153, instance=Part-1-1
+ 153,
+*Nset, nset=Set-154, instance=Part-1-1
+ 154,
+*Nset, nset=Set-155, instance=Part-1-1
+ 155,
+*Nset, nset=Set-156, instance=Part-1-1
+ 156,
+*Nset, nset=Set-157, instance=Part-1-1
+ 157,
+*Nset, nset=Set-158, instance=Part-1-1
+ 158,
+*Nset, nset=Set-159, instance=Part-1-1
+ 159,
+*Nset, nset=Set-160, instance=Part-1-1
+ 160,
+*Nset, nset=Set-161, instance=Part-1-1
+ 161,
+*Nset, nset=Set-162, instance=Part-1-1
+ 162,
+*Nset, nset=Set-163, instance=Part-1-1
+ 163,
+*Nset, nset=Set-164, instance=Part-1-1
+ 164,
+*Nset, nset=Set-165, instance=Part-1-1
+ 165,
+*Nset, nset=Set-166, instance=Part-1-1
+ 166,
+*Nset, nset=Set-167, instance=Part-1-1
+ 167,
+*Nset, nset=Set-168, instance=Part-1-1
+ 168,
+*Nset, nset=Set-169, instance=Part-1-1
+ 169,
+*Nset, nset=Set-170, instance=Part-1-1
+ 170,
+*Nset, nset=Set-171, instance=Part-1-1
+ 171,
+*Nset, nset=Set-172, instance=Part-1-1
+ 172,
+*Nset, nset=Set-173, instance=Part-1-1
+ 173,
+*Nset, nset=Set-174, instance=Part-1-1
+ 174,
+*Nset, nset=Set-175, instance=Part-1-1
+ 175,
+*Nset, nset=Set-176, instance=Part-1-1
+ 176,
+*Nset, nset=Set-177, instance=Part-1-1
+ 177,
+*Nset, nset=Set-178, instance=Part-1-1
+ 178,
+*Nset, nset=Set-179, instance=Part-1-1
+ 179,
+*Nset, nset=Set-180, instance=Part-1-1
+ 180,
+*Nset, nset=Set-181, instance=Part-1-1
+ 181,
+*Nset, nset=Set-182, instance=Part-1-1
+ 182,
+*Nset, nset=Set-183, instance=Part-1-1
+ 183,
+*Nset, nset=Set-184, instance=Part-1-1
+ 184,
+*Nset, nset=Set-185, instance=Part-1-1
+ 185,
+*Nset, nset=Set-186, instance=Part-1-1
+ 186,
+*Nset, nset=Set-187, instance=Part-1-1
+ 187,
+*Nset, nset=Set-188, instance=Part-1-1
+ 188,
+*Nset, nset=Set-189, instance=Part-1-1
+ 189,
+*Nset, nset=Set-190, instance=Part-1-1
+ 190,
+*Nset, nset=Set-191, instance=Part-1-1
+ 191,
+*Nset, nset=Set-192, instance=Part-1-1
+ 192,
+*Nset, nset=Set-193, instance=Part-1-1
+ 193,
+*Nset, nset=Set-194, instance=Part-1-1
+ 194,
+*Nset, nset=Set-195, instance=Part-1-1
+ 195,
+*Nset, nset=Set-196, instance=Part-1-1
+ 196,
+*Nset, nset=Set-197, instance=Part-1-1
+ 197,
+*Nset, nset=Set-198, instance=Part-1-1
+ 198,
+*Nset, nset=Set-199, instance=Part-1-1
+ 199,
+*Nset, nset=Set-200, instance=Part-1-1
+ 200,
+*Nset, nset=Set-201, instance=Part-1-1
+ 201,
+*Nset, nset=Set-202, instance=Part-1-1
+ 202,
+*Nset, nset=Set-203, instance=Part-1-1
+ 203,
+*Nset, nset=Set-204, instance=Part-1-1
+ 204,
+*Nset, nset=Set-205, instance=Part-1-1
+ 205,
+*Nset, nset=Set-206, instance=Part-1-1
+ 206,
+*Nset, nset=Set-207, instance=Part-1-1
+ 207,
+*Nset, nset=Set-208, instance=Part-1-1
+ 208,
+*Nset, nset=Set-209, instance=Part-1-1
+ 209,
+*Nset, nset=Set-210, instance=Part-1-1
+ 210,
+*Nset, nset=Set-211, instance=Part-1-1
+ 211,
+*Nset, nset=Set-212, instance=Part-1-1
+ 212,
+*Nset, nset=Set-213, instance=Part-1-1
+ 213,
+*Nset, nset=Set-214, instance=Part-1-1
+ 214,
+*Nset, nset=Set-215, instance=Part-1-1
+ 215,
+*Nset, nset=Set-216, instance=Part-1-1
+ 216,
+*Nset, nset=Set-217, instance=Part-1-1
+ 217,
+*Nset, nset=Set-218, instance=Part-1-1
+ 218,
+*Nset, nset=Set-219, instance=Part-1-1
+ 219,
+*Nset, nset=Set-220, instance=Part-1-1
+ 220,
+*Nset, nset=Set-221, instance=Part-1-1
+ 221,
+*Nset, nset=Set-222, instance=Part-1-1
+ 222,
+*Nset, nset=Set-223, instance=Part-1-1
+ 223,
+*Nset, nset=Set-224, instance=Part-1-1
+ 224,
+*Nset, nset=Set-225, instance=Part-1-1
+ 225,
+*Nset, nset=Set-226, instance=Part-1-1
+ 226,
+*Nset, nset=Set-227, instance=Part-1-1
+ 227,
+*Nset, nset=Set-228, instance=Part-1-1
+ 228,
+*Nset, nset=Set-229, instance=Part-1-1
+ 229,
+*Nset, nset=Set-230, instance=Part-1-1
+ 230,
+*Nset, nset=Set-231, instance=Part-1-1
+ 231,
+*Nset, nset=Set-232, instance=Part-1-1
+ 232,
+*Nset, nset=Set-233, instance=Part-1-1
+ 233,
+*Nset, nset=Set-234, instance=Part-1-1
+ 234,
+*Nset, nset=Set-235, instance=Part-1-1
+ 235,
+*Nset, nset=Set-236, instance=Part-1-1
+ 236,
+*Nset, nset=Set-237, instance=Part-1-1
+ 237,
+*Nset, nset=Set-238, instance=Part-1-1
+ 238,
+*Nset, nset=Set-239, instance=Part-1-1
+ 239,
+*Nset, nset=Set-240, instance=Part-1-1
+ 240,
+*Nset, nset=Set-241, instance=Part-1-1
+ 241,
+*Nset, nset=Set-242, instance=Part-1-1
+ 242,
+*Nset, nset=Set-243, instance=Part-1-1
+ 243,
+*Nset, nset=Set-244, instance=Part-1-1
+ 244,
+*Nset, nset=Set-245, instance=Part-1-1
+ 245,
+*Nset, nset=Set-246, instance=Part-1-1
+ 246,
+*Nset, nset=Set-247, instance=Part-1-1
+ 247,
+*Nset, nset=Set-248, instance=Part-1-1
+ 248,
+*Nset, nset=Set-249, instance=Part-1-1
+ 249,
+*Nset, nset=Set-250, instance=Part-1-1
+ 250,
+*Nset, nset=Set-251, instance=Part-1-1
+ 251,
+*Nset, nset=Set-252, instance=Part-1-1
+ 252,
+*Nset, nset=Set-253, instance=Part-1-1
+ 253,
+*Nset, nset=Set-254, instance=Part-1-1
+ 254,
+*Nset, nset=Set-255, instance=Part-1-1
+ 255,
+*Nset, nset=Set-256, instance=Part-1-1
+ 256,
+*Nset, nset=Set-257, instance=Part-1-1
+ 257,
+*Nset, nset=Set-258, instance=Part-1-1
+ 258,
+*Nset, nset=Set-259, instance=Part-1-1
+ 259,
+*Nset, nset=Set-260, instance=Part-1-1
+ 260,
+*Nset, nset=Set-261, instance=Part-1-1
+ 261,
+*Nset, nset=Set-262, instance=Part-1-1
+ 262,
+*Nset, nset=Set-263, instance=Part-1-1
+ 263,
+*Nset, nset=Set-264, instance=Part-1-1
+ 264,
+*Nset, nset=Set-265, instance=Part-1-1
+ 265,
+*Nset, nset=Set-266, instance=Part-1-1
+ 266,
+*Nset, nset=Set-267, instance=Part-1-1
+ 267,
+*Nset, nset=Set-268, instance=Part-1-1
+ 268,
+*Nset, nset=Set-269, instance=Part-1-1
+ 269,
+*Nset, nset=Set-270, instance=Part-1-1
+ 270,
+*Nset, nset=Set-271, instance=Part-1-1
+ 271,
+*Nset, nset=Set-272, instance=Part-1-1
+ 272,
+*Nset, nset=Set-273, instance=Part-1-1
+ 273,
+*Nset, nset=Set-274, instance=Part-1-1
+ 274,
+*Nset, nset=Set-275, instance=Part-1-1
+ 275,
+*Nset, nset=Set-276, instance=Part-1-1
+ 276,
+*Nset, nset=Set-277, instance=Part-1-1
+ 277,
+*Nset, nset=Set-278, instance=Part-1-1
+ 278,
+*Nset, nset=Set-279, instance=Part-1-1
+ 279,
+*Nset, nset=Set-280, instance=Part-1-1
+ 280,
+*Nset, nset=Set-281, instance=Part-1-1
+ 281,
+*Nset, nset=Set-282, instance=Part-1-1
+ 282,
+*Nset, nset=Set-283, instance=Part-1-1
+ 283,
+*Nset, nset=Set-284, instance=Part-1-1
+ 284,
+*Nset, nset=Set-285, instance=Part-1-1
+ 285,
+*Nset, nset=Set-286, instance=Part-1-1
+ 286,
+*Nset, nset=Set-287, instance=Part-1-1
+ 287,
+*Nset, nset=Set-288, instance=Part-1-1
+ 288,
+*Nset, nset=Set-289, instance=Part-1-1
+ 289,
+*Nset, nset=Set-290, instance=Part-1-1
+ 290,
+*Nset, nset=Set-291, instance=Part-1-1
+ 291,
+*Nset, nset=Set-292, instance=Part-1-1
+ 292,
+*Nset, nset=Set-293, instance=Part-1-1
+ 293,
+*Nset, nset=Set-294, instance=Part-1-1
+ 294,
+*Nset, nset=Set-295, instance=Part-1-1
+ 295,
+*Nset, nset=Set-296, instance=Part-1-1
+ 296,
+*Nset, nset=Set-297, instance=Part-1-1
+ 297,
+*Nset, nset=Set-298, instance=Part-1-1
+ 298,
+*Nset, nset=Set-299, instance=Part-1-1
+ 299,
+*Nset, nset=Set-300, instance=Part-1-1
+ 300,
+*Nset, nset=Set-301, instance=Part-1-1
+ 301,
+*Nset, nset=Set-302, instance=Part-1-1
+ 302,
+*Nset, nset=Set-303, instance=Part-1-1
+ 303,
+*Nset, nset=Set-304, instance=Part-1-1
+ 304,
+*Nset, nset=Set-305, instance=Part-1-1
+ 305,
+*Nset, nset=Set-306, instance=Part-1-1
+ 306,
+*Nset, nset=Set-307, instance=Part-1-1
+ 307,
+*Nset, nset=Set-308, instance=Part-1-1
+ 308,
+*Nset, nset=Set-309, instance=Part-1-1
+ 309,
+*Nset, nset=Set-310, instance=Part-1-1
+ 310,
+*Nset, nset=Set-311, instance=Part-1-1
+ 311,
+*Nset, nset=Set-312, instance=Part-1-1
+ 312,
+*Nset, nset=Set-313, instance=Part-1-1
+ 313,
+*Nset, nset=Set-314, instance=Part-1-1
+ 314,
+*Nset, nset=Set-315, instance=Part-1-1
+ 315,
+*Nset, nset=Set-316, instance=Part-1-1
+ 316,
+*Nset, nset=Set-317, instance=Part-1-1
+ 317,
+*Nset, nset=Set-318, instance=Part-1-1
+ 318,
+*Nset, nset=Set-319, instance=Part-1-1
+ 319,
+*Nset, nset=Set-320, instance=Part-1-1
+ 320,
+*Nset, nset=Set-321, instance=Part-1-1
+ 321,
+*Nset, nset=Set-322, instance=Part-1-1
+ 322,
+*Nset, nset=Set-323, instance=Part-1-1
+ 323,
+*Nset, nset=Set-324, instance=Part-1-1
+ 324,
+*Nset, nset=Set-325, instance=Part-1-1
+ 325,
+*Nset, nset=Set-326, instance=Part-1-1
+ 326,
+*Nset, nset=Set-327, instance=Part-1-1
+ 327,
+*Nset, nset=Set-328, instance=Part-1-1
+ 328,
+*Nset, nset=Set-329, instance=Part-1-1
+ 329,
+*Nset, nset=Set-330, instance=Part-1-1
+ 330,
+*Nset, nset=Set-331, instance=Part-1-1
+ 331,
+*Nset, nset=Set-332, instance=Part-1-1
+ 332,
+*Nset, nset=Set-333, instance=Part-1-1
+ 333,
+*Nset, nset=Set-334, instance=Part-1-1
+ 334,
+*Nset, nset=Set-335, instance=Part-1-1
+ 335,
+*Nset, nset=Set-336, instance=Part-1-1
+ 336,
+*Nset, nset=Set-337, instance=Part-1-1
+ 337,
+*Nset, nset=Set-338, instance=Part-1-1
+ 338,
+*Nset, nset=Set-339, instance=Part-1-1
+ 339,
+*Nset, nset=Set-340, instance=Part-1-1
+ 340,
+*Nset, nset=Set-341, instance=Part-1-1
+ 341,
+*Nset, nset=Set-342, instance=Part-1-1
+ 342,
+*Nset, nset=Set-343, instance=Part-1-1
+ 343,
+*Nset, nset=Set-344, instance=Part-1-1
+ 344,
+*Nset, nset=Set-345, instance=Part-1-1
+ 345,
+*Nset, nset=Set-346, instance=Part-1-1
+ 346,
+*Nset, nset=Set-347, instance=Part-1-1
+ 347,
+*Nset, nset=Set-348, instance=Part-1-1
+ 348,
+*Nset, nset=Set-349, instance=Part-1-1
+ 349,
+*Nset, nset=Set-350, instance=Part-1-1
+ 350,
+*Nset, nset=Set-351, instance=Part-1-1
+ 351,
+*Nset, nset=Set-352, instance=Part-1-1
+ 352,
+*Nset, nset=Set-353, instance=Part-1-1
+ 353,
+*Nset, nset=Set-354, instance=Part-1-1
+ 354,
+*Nset, nset=Set-355, instance=Part-1-1
+ 355,
+*Nset, nset=Set-356, instance=Part-1-1
+ 356,
+*Nset, nset=Set-357, instance=Part-1-1
+ 357,
+*Nset, nset=Set-358, instance=Part-1-1
+ 358,
+*Nset, nset=Set-359, instance=Part-1-1
+ 359,
+*Nset, nset=Set-360, instance=Part-1-1
+ 360,
+*Nset, nset=Set-361, instance=Part-1-1
+ 361,
+*Nset, nset=Set-362, instance=Part-1-1
+ 362,
+*Nset, nset=Set-363, instance=Part-1-1
+ 363,
+*Nset, nset=Set-364, instance=Part-1-1
+ 364,
+*Nset, nset=Set-365, instance=Part-1-1
+ 365,
+*Nset, nset=Set-366, instance=Part-1-1
+ 366,
+*Nset, nset=Set-367, instance=Part-1-1
+ 367,
+*Nset, nset=Set-368, instance=Part-1-1
+ 368,
+*Nset, nset=Set-369, instance=Part-1-1
+ 369,
+*Nset, nset=Set-370, instance=Part-1-1
+ 370,
+*Nset, nset=Set-371, instance=Part-1-1
+ 371,
+*Nset, nset=Set-372, instance=Part-1-1
+ 372,
+*Nset, nset=Set-373, instance=Part-1-1
+ 373,
+*Nset, nset=Set-374, instance=Part-1-1
+ 374,
+*Nset, nset=Set-375, instance=Part-1-1
+ 375,
+*Nset, nset=Set-376, instance=Part-1-1
+ 376,
+*Nset, nset=Set-377, instance=Part-1-1
+ 377,
+*Nset, nset=Set-378, instance=Part-1-1
+ 378,
+*Nset, nset=Set-379, instance=Part-1-1
+ 379,
+*Nset, nset=Set-380, instance=Part-1-1
+ 380,
+*Nset, nset=Set-381, instance=Part-1-1
+ 381,
+*Nset, nset=Set-382, instance=Part-1-1
+ 382,
+*Nset, nset=Set-383, instance=Part-1-1
+ 383,
+*Nset, nset=Set-384, instance=Part-1-1
+ 384,
+*Nset, nset=Set-385, instance=Part-1-1
+ 385,
+*Nset, nset=Set-386, instance=Part-1-1
+ 386,
+*Nset, nset=Set-387, instance=Part-1-1
+ 387,
+*Nset, nset=Set-388, instance=Part-1-1
+ 388,
+*Nset, nset=Set-389, instance=Part-1-1
+ 389,
+*Nset, nset=Set-390, instance=Part-1-1
+ 390,
+*Nset, nset=Set-391, instance=Part-1-1
+ 391,
+*Nset, nset=Set-392, instance=Part-1-1
+ 392,
+*Nset, nset=Set-393, instance=Part-1-1
+ 393,
+*Nset, nset=Set-394, instance=Part-1-1
+ 394,
+*Nset, nset=Set-395, instance=Part-1-1
+ 395,
+*Nset, nset=Set-396, instance=Part-1-1
+ 396,
+*Nset, nset=Set-397, instance=Part-1-1
+ 397,
+*Nset, nset=Set-398, instance=Part-1-1
+ 398,
+*Nset, nset=Set-399, instance=Part-1-1
+ 399,
+*Nset, nset=Set-400, instance=Part-1-1
+ 400,
+*Nset, nset=Set-401, instance=Part-1-1
+ 401,
+*Nset, nset=Set-402, instance=Part-1-1
+ 402,
+*Nset, nset=Set-403, instance=Part-1-1
+ 403,
+*Nset, nset=Set-404, instance=Part-1-1
+ 404,
+*Nset, nset=Set-405, instance=Part-1-1
+ 405,
+*Nset, nset=Set-406, instance=Part-1-1
+ 406,
+*Nset, nset=Set-407, instance=Part-1-1
+ 407,
+*Nset, nset=Set-408, instance=Part-1-1
+ 408,
+*Nset, nset=Set-409, instance=Part-1-1
+ 409,
+*Nset, nset=Set-410, instance=Part-1-1
+ 410,
+*Nset, nset=Set-411, instance=Part-1-1
+ 411,
+*Nset, nset=Set-412, instance=Part-1-1
+ 412,
+*Nset, nset=Set-413, instance=Part-1-1
+ 413,
+*Nset, nset=Set-414, instance=Part-1-1
+ 414,
+*Nset, nset=Set-415, instance=Part-1-1
+ 415,
+*Nset, nset=Set-416, instance=Part-1-1
+ 416,
+*Nset, nset=Set-417, instance=Part-1-1
+ 417,
+*Nset, nset=Set-418, instance=Part-1-1
+ 418,
+*Nset, nset=Set-419, instance=Part-1-1
+ 419,
+*Nset, nset=Set-420, instance=Part-1-1
+ 420,
+*Nset, nset=Set-421, instance=Part-1-1
+ 421,
+*Nset, nset=Set-422, instance=Part-1-1
+ 422,
+*Nset, nset=Set-423, instance=Part-1-1
+ 423,
+*Nset, nset=Set-424, instance=Part-1-1
+ 424,
+*Nset, nset=Set-425, instance=Part-1-1
+ 425,
+*Nset, nset=Set-426, instance=Part-1-1
+ 426,
+*Nset, nset=Set-427, instance=Part-1-1
+ 427,
+*Nset, nset=Set-428, instance=Part-1-1
+ 428,
+*Nset, nset=Set-429, instance=Part-1-1
+ 429,
+*Nset, nset=Set-430, instance=Part-1-1
+ 430,
+*Nset, nset=Set-431, instance=Part-1-1
+ 431,
+*Nset, nset=Set-432, instance=Part-1-1
+ 432,
+*Nset, nset=Set-433, instance=Part-1-1
+ 433,
+*Nset, nset=Set-434, instance=Part-1-1
+ 434,
+*Nset, nset=Set-435, instance=Part-1-1
+ 435,
+*Nset, nset=Set-436, instance=Part-1-1
+ 436,
+*Nset, nset=Set-437, instance=Part-1-1
+ 437,
+*Nset, nset=Set-438, instance=Part-1-1
+ 438,
+*Nset, nset=Set-439, instance=Part-1-1
+ 439,
+*Nset, nset=Set-440, instance=Part-1-1
+ 440,
+*Nset, nset=Set-441, instance=Part-1-1
+ 441,
+*Nset, nset=Set-442, instance=Part-1-1
+ 442,
+*Nset, nset=Set-443, instance=Part-1-1
+ 443,
+*Nset, nset=Set-444, instance=Part-1-1
+ 444,
+*Nset, nset=Set-445, instance=Part-1-1
+ 445,
+*Nset, nset=Set-446, instance=Part-1-1
+ 446,
+*Nset, nset=Set-447, instance=Part-1-1
+ 447,
+*Nset, nset=Set-448, instance=Part-1-1
+ 448,
+*Nset, nset=Set-449, instance=Part-1-1
+ 449,
+*Nset, nset=Set-450, instance=Part-1-1
+ 450,
+*Nset, nset=Set-451, instance=Part-1-1
+ 451,
+*Nset, nset=Set-452, instance=Part-1-1
+ 452,
+*Nset, nset=Set-453, instance=Part-1-1
+ 453,
+*Nset, nset=Set-454, instance=Part-1-1
+ 454,
+*Nset, nset=Set-455, instance=Part-1-1
+ 455,
+*Nset, nset=Set-456, instance=Part-1-1
+ 456,
+*Nset, nset=Set-457, instance=Part-1-1
+ 457,
+*Nset, nset=Set-458, instance=Part-1-1
+ 458,
+*Nset, nset=Set-459, instance=Part-1-1
+ 459,
+*Nset, nset=Set-460, instance=Part-1-1
+ 460,
+*Nset, nset=Set-461, instance=Part-1-1
+ 461,
+*Nset, nset=Set-462, instance=Part-1-1
+ 462,
+*Nset, nset=Set-463, instance=Part-1-1
+ 463,
+*Nset, nset=Set-464, instance=Part-1-1
+ 464,
+*Nset, nset=Set-465, instance=Part-1-1
+ 465,
+*Nset, nset=Set-466, instance=Part-1-1
+ 466,
+*Nset, nset=Set-467, instance=Part-1-1
+ 467,
+*Nset, nset=Set-468, instance=Part-1-1
+ 468,
+*Nset, nset=Set-469, instance=Part-1-1
+ 469,
+*Nset, nset=Set-470, instance=Part-1-1
+ 470,
+*Nset, nset=Set-471, instance=Part-1-1
+ 471,
+*Nset, nset=Set-472, instance=Part-1-1
+ 472,
+*Nset, nset=Set-473, instance=Part-1-1
+ 473,
+*Nset, nset=Set-474, instance=Part-1-1
+ 474,
+*Nset, nset=Set-475, instance=Part-1-1
+ 475,
+*Nset, nset=Set-476, instance=Part-1-1
+ 476,
+*Nset, nset=Set-477, instance=Part-1-1
+ 477,
+*Nset, nset=Set-478, instance=Part-1-1
+ 478,
+*Nset, nset=Set-479, instance=Part-1-1
+ 479,
+*Nset, nset=Set-480, instance=Part-1-1
+ 480,
+*Nset, nset=Set-481, instance=Part-1-1
+ 481,
+*Nset, nset=Set-482, instance=Part-1-1
+ 482,
+*Nset, nset=Set-483, instance=Part-1-1
+ 483,
+*Nset, nset=Set-484, instance=Part-1-1
+ 484,
+*Nset, nset=Set-485, instance=Part-1-1
+ 485,
+*Nset, nset=Set-486, instance=Part-1-1
+ 486,
+*Nset, nset=Set-487, instance=Part-1-1
+ 487,
+*Nset, nset=Set-488, instance=Part-1-1
+ 488,
+*Nset, nset=Set-489, instance=Part-1-1
+ 489,
+*Nset, nset=Set-490, instance=Part-1-1
+ 490,
+*Nset, nset=Set-491, instance=Part-1-1
+ 491,
+*Nset, nset=Set-492, instance=Part-1-1
+ 492,
+*Nset, nset=Set-493, instance=Part-1-1
+ 493,
+*Nset, nset=Set-494, instance=Part-1-1
+ 494,
+*Nset, nset=Set-495, instance=Part-1-1
+ 495,
+*Nset, nset=Set-496, instance=Part-1-1
+ 496,
+*Nset, nset=Set-497, instance=Part-1-1
+ 497,
+*Nset, nset=Set-498, instance=Part-1-1
+ 498,
+*Nset, nset=Set-499, instance=Part-1-1
+ 499,
+*Nset, nset=Set-500, instance=Part-1-1
+ 500,
+*Nset, nset=Set-501, instance=Part-1-1
+ 501,
+*Nset, nset=Set-502, instance=Part-1-1
+ 502,
+*Nset, nset=Set-503, instance=Part-1-1
+ 503,
+*Nset, nset=Set-504, instance=Part-1-1
+ 504,
+*Nset, nset=Set-505, instance=Part-1-1
+ 505,
+*Nset, nset=Set-506, instance=Part-1-1
+ 506,
+*Nset, nset=Set-507, instance=Part-1-1
+ 507,
+*Nset, nset=Set-508, instance=Part-1-1
+ 508,
+*Nset, nset=Set-509, instance=Part-1-1
+ 509,
+*Nset, nset=Set-510, instance=Part-1-1
+ 510,
+*Nset, nset=Set-511, instance=Part-1-1
+ 511,
+*Nset, nset=Set-512, instance=Part-1-1
+ 512,
+*Nset, nset=Set-513, instance=Part-1-1
+ 513,
+*Nset, nset=Set-514, instance=Part-1-1
+ 514,
+*Nset, nset=Set-515, instance=Part-1-1
+ 515,
+*Nset, nset=Set-516, instance=Part-1-1
+ 516,
+*Nset, nset=Set-517, instance=Part-1-1
+ 517,
+*Nset, nset=Set-518, instance=Part-1-1
+ 518,
+*Nset, nset=Set-519, instance=Part-1-1
+ 519,
+*Nset, nset=Set-520, instance=Part-1-1
+ 520,
+*Nset, nset=Set-521, instance=Part-1-1
+ 521,
+*Nset, nset=Set-522, instance=Part-1-1
+ 522,
+*Nset, nset=Set-523, instance=Part-1-1
+ 523,
+*Nset, nset=Set-524, instance=Part-1-1
+ 524,
+*Nset, nset=Set-525, instance=Part-1-1
+ 525,
+*Nset, nset=Set-526, instance=Part-1-1
+ 526,
+*Nset, nset=Set-527, instance=Part-1-1
+ 527,
+*Nset, nset=Set-528, instance=Part-1-1
+ 528,
+*Nset, nset=Set-529, instance=Part-1-1
+ 529,
+*Nset, nset=Set-530, instance=Part-1-1
+ 530,
+*Nset, nset=Set-531, instance=Part-1-1
+ 531,
+*Nset, nset=Set-532, instance=Part-1-1
+ 532,
+*Nset, nset=Set-533, instance=Part-1-1
+ 533,
+*Nset, nset=Set-534, instance=Part-1-1
+ 534,
+*Nset, nset=Set-535, instance=Part-1-1
+ 535,
+*Nset, nset=Set-536, instance=Part-1-1
+ 536,
+*Nset, nset=Set-537, instance=Part-1-1
+ 537,
+*Nset, nset=Set-538, instance=Part-1-1
+ 538,
+*Nset, nset=Set-539, instance=Part-1-1
+ 539,
+*Nset, nset=Set-540, instance=Part-1-1
+ 540,
+*Nset, nset=Set-541, instance=Part-1-1
+ 541,
+*Nset, nset=Set-542, instance=Part-1-1
+ 542,
+*Nset, nset=Set-543, instance=Part-1-1
+ 543,
+*Nset, nset=Set-544, instance=Part-1-1
+ 544,
+*Nset, nset=Set-545, instance=Part-1-1
+ 545,
+*Nset, nset=Set-546, instance=Part-1-1
+ 546,
+*Nset, nset=Set-547, instance=Part-1-1
+ 547,
+*Nset, nset=Set-548, instance=Part-1-1
+ 548,
+*Nset, nset=Set-549, instance=Part-1-1
+ 549,
+*Nset, nset=Set-550, instance=Part-1-1
+ 550,
+*Nset, nset=Set-551, instance=Part-1-1
+ 551,
+*Nset, nset=Set-552, instance=Part-1-1
+ 552,
+*Nset, nset=Set-553, instance=Part-1-1
+ 553,
+*Nset, nset=Set-554, instance=Part-1-1
+ 554,
+*Nset, nset=Set-555, instance=Part-1-1
+ 555,
+*Nset, nset=Set-556, instance=Part-1-1
+ 556,
+*Nset, nset=Set-557, instance=Part-1-1
+ 557,
+*Nset, nset=Set-558, instance=Part-1-1
+ 558,
+*Nset, nset=Set-559, instance=Part-1-1
+ 559,
+*Nset, nset=Set-560, instance=Part-1-1
+ 560,
+*Nset, nset=Set-561, instance=Part-1-1
+ 561,
+*Nset, nset=Set-562, instance=Part-1-1
+ 562,
+*Nset, nset=Set-563, instance=Part-1-1
+ 563,
+*Nset, nset=Set-564, instance=Part-1-1
+ 564,
+*Nset, nset=Set-565, instance=Part-1-1
+ 565,
+*Nset, nset=Set-566, instance=Part-1-1
+ 566,
+*Nset, nset=Set-567, instance=Part-1-1
+ 567,
+*Nset, nset=Set-568, instance=Part-1-1
+ 568,
+*Nset, nset=Set-569, instance=Part-1-1
+ 569,
+*Nset, nset=Set-570, instance=Part-1-1
+ 570,
+*Nset, nset=Set-571, instance=Part-1-1
+ 571,
+*Nset, nset=Set-572, instance=Part-1-1
+ 572,
+*Nset, nset=Set-573, instance=Part-1-1
+ 573,
+*Nset, nset=Set-574, instance=Part-1-1
+ 574,
+*Nset, nset=Set-575, instance=Part-1-1
+ 575,
+*Nset, nset=Set-576, instance=Part-1-1
+ 576,
+*Nset, nset=Set-577, instance=Part-1-1
+ 577,
+*Nset, nset=Set-578, instance=Part-1-1
+ 578,
+*Nset, nset=Set-579, instance=Part-1-1
+ 579,
+*Nset, nset=Set-580, instance=Part-1-1
+ 580,
+*Nset, nset=Set-581, instance=Part-1-1
+ 581,
+*Nset, nset=Set-582, instance=Part-1-1
+ 582,
+*Nset, nset=Set-583, instance=Part-1-1
+ 583,
+*Nset, nset=Set-584, instance=Part-1-1
+ 584,
+*Nset, nset=Set-585, instance=Part-1-1
+ 585,
+*Nset, nset=Set-586, instance=Part-1-1
+ 586,
+*Nset, nset=Set-587, instance=Part-1-1
+ 587,
+*Nset, nset=Set-588, instance=Part-1-1
+ 588,
+*Nset, nset=Set-589, instance=Part-1-1
+ 589,
+*Nset, nset=Set-590, instance=Part-1-1
+ 590,
+*Nset, nset=Set-591, instance=Part-1-1
+ 591,
+*Nset, nset=Set-592, instance=Part-1-1
+ 592,
+*Nset, nset=Set-593, instance=Part-1-1
+ 593,
+*Nset, nset=Set-594, instance=Part-1-1
+ 594,
+*Nset, nset=Set-595, instance=Part-1-1
+ 595,
+*Nset, nset=Set-596, instance=Part-1-1
+ 596,
+*Nset, nset=Set-597, instance=Part-1-1
+ 597,
+*Nset, nset=Set-598, instance=Part-1-1
+ 598,
+*Nset, nset=Set-599, instance=Part-1-1
+ 599,
+*Nset, nset=Set-600, instance=Part-1-1
+ 600,
+*Nset, nset=Set-601, instance=Part-1-1
+ 601,
+*Nset, nset=Set-602, instance=Part-1-1
+ 602,
+*Nset, nset=Set-603, instance=Part-1-1
+ 603,
+*Nset, nset=Set-604, instance=Part-1-1
+ 604,
+*Nset, nset=Set-605, instance=Part-1-1
+ 605,
+*Nset, nset=Set-606, instance=Part-1-1
+ 606,
+*Nset, nset=Set-607, instance=Part-1-1
+ 607,
+*Nset, nset=Set-608, instance=Part-1-1
+ 608,
+*Nset, nset=Set-609, instance=Part-1-1
+ 609,
+*Nset, nset=Set-610, instance=Part-1-1
+ 610,
+*Nset, nset=Set-611, instance=Part-1-1
+ 611,
+*Nset, nset=Set-612, instance=Part-1-1
+ 612,
+*Nset, nset=Set-613, instance=Part-1-1
+ 613,
+*Nset, nset=Set-614, instance=Part-1-1
+ 614,
+*Nset, nset=Set-615, instance=Part-1-1
+ 615,
+*Nset, nset=Set-616, instance=Part-1-1
+ 616,
+*Nset, nset=Set-617, instance=Part-1-1
+ 617,
+*Nset, nset=Set-618, instance=Part-1-1
+ 618,
+*Nset, nset=Set-619, instance=Part-1-1
+ 619,
+*Nset, nset=Set-620, instance=Part-1-1
+ 620,
+*Nset, nset=Set-621, instance=Part-1-1
+ 621,
+*Nset, nset=Set-622, instance=Part-1-1
+ 622,
+*Nset, nset=Set-623, instance=Part-1-1
+ 623,
+*Nset, nset=Set-624, instance=Part-1-1
+ 624,
+*Nset, nset=Set-625, instance=Part-1-1
+ 625,
+*Nset, nset=Set-626, instance=Part-1-1
+ 626,
+*Nset, nset=Set-627, instance=Part-1-1
+ 627,
+*Nset, nset=Set-628, instance=Part-1-1
+ 628,
+*Nset, nset=Set-629, instance=Part-1-1
+ 629,
+*Nset, nset=Set-630, instance=Part-1-1
+ 630,
+*Nset, nset=Set-631, instance=Part-1-1
+ 631,
+*Nset, nset=Set-632, instance=Part-1-1
+ 632,
+*Nset, nset=Set-633, instance=Part-1-1
+ 633,
+*Nset, nset=Set-634, instance=Part-1-1
+ 634,
+*Nset, nset=Set-635, instance=Part-1-1
+ 635,
+*Nset, nset=Set-636, instance=Part-1-1
+ 636,
+*Nset, nset=Set-637, instance=Part-1-1
+ 637,
+*Nset, nset=Set-638, instance=Part-1-1
+ 638,
+*Nset, nset=Set-639, instance=Part-1-1
+ 639,
+*Nset, nset=Set-640, instance=Part-1-1
+ 640,
+*Nset, nset=Set-641, instance=Part-1-1
+ 641,
+*Nset, nset=Set-642, instance=Part-1-1
+ 642,
+*Nset, nset=Set-643, instance=Part-1-1
+ 643,
+*Nset, nset=Set-644, instance=Part-1-1
+ 644,
+*Nset, nset=Set-645, instance=Part-1-1
+ 645,
+*Nset, nset=Set-646, instance=Part-1-1
+ 646,
+*Nset, nset=Set-647, instance=Part-1-1
+ 647,
+*Nset, nset=Set-648, instance=Part-1-1
+ 648,
+*Nset, nset=Set-649, instance=Part-1-1
+ 649,
+*Nset, nset=Set-650, instance=Part-1-1
+ 650,
+*Nset, nset=Set-651, instance=Part-1-1
+ 651,
+*Nset, nset=Set-652, instance=Part-1-1
+ 652,
+*Nset, nset=Set-653, instance=Part-1-1
+ 653,
+*Nset, nset=Set-654, instance=Part-1-1
+ 654,
+*Nset, nset=Set-655, instance=Part-1-1
+ 655,
+*Nset, nset=Set-656, instance=Part-1-1
+ 656,
+*Nset, nset=Set-657, instance=Part-1-1
+ 657,
+*Nset, nset=Set-658, instance=Part-1-1
+ 658,
+*Nset, nset=Set-659, instance=Part-1-1
+ 659,
+*Nset, nset=Set-660, instance=Part-1-1
+ 660,
+*Nset, nset=Set-661, instance=Part-1-1
+ 661,
+*Nset, nset=Set-662, instance=Part-1-1
+ 662,
+*Nset, nset=Set-663, instance=Part-1-1
+ 663,
+*Nset, nset=Set-664, instance=Part-1-1
+ 664,
+*Nset, nset=Set-665, instance=Part-1-1
+ 665,
+*Nset, nset=Set-666, instance=Part-1-1
+ 666,
+*Nset, nset=Set-667, instance=Part-1-1
+ 667,
+*Nset, nset=Set-668, instance=Part-1-1
+ 668,
+*Nset, nset=Set-669, instance=Part-1-1
+ 669,
+*Nset, nset=Set-670, instance=Part-1-1
+ 670,
+*Nset, nset=Set-671, instance=Part-1-1
+ 671,
+*Nset, nset=Set-672, instance=Part-1-1
+ 672,
+*Nset, nset=Set-673, instance=Part-1-1
+ 673,
+*Nset, nset=Set-674, instance=Part-1-1
+ 674,
+*Nset, nset=Set-675, instance=Part-1-1
+ 675,
+*Nset, nset=Set-676, instance=Part-1-1
+ 676,
+*Nset, nset=Set-677, instance=Part-1-1
+ 677,
+*Nset, nset=Set-678, instance=Part-1-1
+ 678,
+*Nset, nset=Set-679, instance=Part-1-1
+ 679,
+*Nset, nset=Set-680, instance=Part-1-1
+ 680,
+*Nset, nset=Set-681, instance=Part-1-1
+ 681,
+*Nset, nset=Set-682, instance=Part-1-1
+ 682,
+*Nset, nset=Set-683, instance=Part-1-1
+ 683,
+*Nset, nset=Set-684, instance=Part-1-1
+ 684,
+*Nset, nset=Set-685, instance=Part-1-1
+ 685,
+*Nset, nset=Set-686, instance=Part-1-1
+ 686,
+*Nset, nset=Set-687, instance=Part-1-1
+ 687,
+*Nset, nset=Set-688, instance=Part-1-1
+ 688,
+*Nset, nset=Set-689, instance=Part-1-1
+ 689,
+*Nset, nset=Set-690, instance=Part-1-1
+ 690,
+*Nset, nset=Set-691, instance=Part-1-1
+ 691,
+*Nset, nset=Set-692, instance=Part-1-1
+ 692,
+*Nset, nset=Set-693, instance=Part-1-1
+ 693,
+*Nset, nset=Set-694, instance=Part-1-1
+ 694,
+*Nset, nset=Set-695, instance=Part-1-1
+ 695,
+*Nset, nset=Set-696, instance=Part-1-1
+ 696,
+*Nset, nset=Set-697, instance=Part-1-1
+ 697,
+*Nset, nset=Set-698, instance=Part-1-1
+ 698,
+*Nset, nset=Set-699, instance=Part-1-1
+ 699,
+*Nset, nset=Set-700, instance=Part-1-1
+ 700,
+*Nset, nset=Set-701, instance=Part-1-1
+ 701,
+*Nset, nset=Set-702, instance=Part-1-1
+ 702,
+*Nset, nset=Set-703, instance=Part-1-1
+ 703,
+*Nset, nset=Set-704, instance=Part-1-1
+ 704,
+*Nset, nset=Set-705, instance=Part-1-1
+ 705,
+*Nset, nset=Set-706, instance=Part-1-1
+ 706,
+*Nset, nset=Set-707, instance=Part-1-1
+ 707,
+*Nset, nset=Set-708, instance=Part-1-1
+ 708,
+*Nset, nset=Set-709, instance=Part-1-1
+ 709,
+*Nset, nset=Set-710, instance=Part-1-1
+ 710,
+*Nset, nset=Set-711, instance=Part-1-1
+ 711,
+*Nset, nset=Set-712, instance=Part-1-1
+ 712,
+*Nset, nset=Set-713, instance=Part-1-1
+ 713,
+*Nset, nset=Set-714, instance=Part-1-1
+ 714,
+*Nset, nset=Set-715, instance=Part-1-1
+ 715,
+*Nset, nset=Set-716, instance=Part-1-1
+ 716,
+*Nset, nset=Set-717, instance=Part-1-1
+ 717,
+*Nset, nset=Set-718, instance=Part-1-1
+ 718,
+*Nset, nset=Set-719, instance=Part-1-1
+ 719,
+*Nset, nset=Set-720, instance=Part-1-1
+ 720,
+*Nset, nset=Set-721, instance=Part-1-1
+ 721,
+*Nset, nset=Set-722, instance=Part-1-1
+ 722,
+*Nset, nset=Set-723, instance=Part-1-1
+ 723,
+*Nset, nset=Set-724, instance=Part-1-1
+ 724,
+*Nset, nset=Set-725, instance=Part-1-1
+ 725,
+*Nset, nset=Set-726, instance=Part-1-1
+ 726,
+*Nset, nset=Set-727, instance=Part-1-1
+ 727,
+*Nset, nset=Set-728, instance=Part-1-1
+ 728,
+*Nset, nset=Set-729, instance=Part-1-1
+ 729,
+*Nset, nset=Set-730, instance=Part-1-1
+ 730,
+*Nset, nset=Set-731, instance=Part-1-1
+ 731,
+*Nset, nset=Set-732, instance=Part-1-1
+ 732,
+*Nset, nset=Set-733, instance=Part-1-1
+ 733,
+*Nset, nset=Set-734, instance=Part-1-1
+ 734,
+*Nset, nset=Set-735, instance=Part-1-1
+ 735,
+*Nset, nset=Set-736, instance=Part-1-1
+ 736,
+*Nset, nset=Set-737, instance=Part-1-1
+ 737,
+*Nset, nset=Set-738, instance=Part-1-1
+ 738,
+*Nset, nset=Set-739, instance=Part-1-1
+ 739,
+*Nset, nset=Set-740, instance=Part-1-1
+ 740,
+*Nset, nset=Set-741, instance=Part-1-1
+ 741,
+*Nset, nset=Set-742, instance=Part-1-1
+ 742,
+*Nset, nset=Set-743, instance=Part-1-1
+ 743,
+*Nset, nset=Set-744, instance=Part-1-1
+ 744,
+*Nset, nset=Set-745, instance=Part-1-1
+ 745,
+*Nset, nset=Set-746, instance=Part-1-1
+ 746,
+*Nset, nset=Set-747, instance=Part-1-1
+ 747,
+*Nset, nset=Set-748, instance=Part-1-1
+ 748,
+*Nset, nset=Set-749, instance=Part-1-1
+ 749,
+*Nset, nset=Set-750, instance=Part-1-1
+ 750,
+*Nset, nset=Set-751, instance=Part-1-1
+ 751,
+*Nset, nset=Set-752, instance=Part-1-1
+ 752,
+*Nset, nset=Set-753, instance=Part-1-1
+ 753,
+*Nset, nset=Set-754, instance=Part-1-1
+ 754,
+*Nset, nset=Set-755, instance=Part-1-1
+ 755,
+*Nset, nset=Set-756, instance=Part-1-1
+ 756,
+*Nset, nset=Set-757, instance=Part-1-1
+ 757,
+*Nset, nset=Set-758, instance=Part-1-1
+ 758,
+*Nset, nset=Set-759, instance=Part-1-1
+ 759,
+*Nset, nset=Set-760, instance=Part-1-1
+ 760,
+*Nset, nset=Set-761, instance=Part-1-1
+ 761,
+*Nset, nset=Set-762, instance=Part-1-1
+ 762,
+*Nset, nset=Set-763, instance=Part-1-1
+ 763,
+*Nset, nset=Set-764, instance=Part-1-1
+ 764,
+*Nset, nset=Set-765, instance=Part-1-1
+ 765,
+*Nset, nset=Set-766, instance=Part-1-1
+ 766,
+*Nset, nset=Set-767, instance=Part-1-1
+ 767,
+*Nset, nset=Set-768, instance=Part-1-1
+ 768,
+*Nset, nset=Set-769, instance=Part-1-1
+ 769,
+*Nset, nset=Set-770, instance=Part-1-1
+ 770,
+*Nset, nset=Set-771, instance=Part-1-1
+ 771,
+*Nset, nset=Set-772, instance=Part-1-1
+ 772,
+*Nset, nset=Set-773, instance=Part-1-1
+ 773,
+*Nset, nset=Set-774, instance=Part-1-1
+ 774,
+*Nset, nset=Set-775, instance=Part-1-1
+ 775,
+*Nset, nset=Set-776, instance=Part-1-1
+ 776,
+*Nset, nset=Set-777, instance=Part-1-1
+ 777,
+*Nset, nset=Set-778, instance=Part-1-1
+ 778,
+*Nset, nset=Set-779, instance=Part-1-1
+ 779,
+*Nset, nset=Set-780, instance=Part-1-1
+ 780,
+*Nset, nset=Set-781, instance=Part-1-1
+ 781,
+*Nset, nset=Set-782, instance=Part-1-1
+ 782,
+*Nset, nset=Set-783, instance=Part-1-1
+ 783,
+*Nset, nset=Set-784, instance=Part-1-1
+ 784,
+*Nset, nset=Set-785, instance=Part-1-1
+ 785,
+*Nset, nset=Set-786, instance=Part-1-1
+ 786,
+*Nset, nset=Set-787, instance=Part-1-1
+ 787,
+*Nset, nset=Set-788, instance=Part-1-1
+ 788,
+*Nset, nset=Set-789, instance=Part-1-1
+ 789,
+*Nset, nset=Set-790, instance=Part-1-1
+ 790,
+*Nset, nset=Set-791, instance=Part-1-1
+ 791,
+*Nset, nset=Set-792, instance=Part-1-1
+ 792,
+*Nset, nset=Set-793, instance=Part-1-1
+ 793,
+**
+** Boundary Conditions
+*Boundary, real
+ Set-1, 3, 3, 0.5358227321364424
+*Boundary, real
+ Set-2, 3, 3, 0.5374453404005763
+*Boundary, real
+ Set-3, 3, 3, 0.5390935610214025
+*Boundary, real
+ Set-4, 3, 3, 0.5407847228197736
+*Boundary, real
+ Set-5, 3, 3, 0.5425334816799933
+*Boundary, real
+ Set-6, 3, 3, 0.5443521455676067
+*Boundary, real
+ Set-7, 3, 3, 0.5462494202088064
+*Boundary, real
+ Set-8, 3, 3, 0.5482282272633054
+*Boundary, real
+ Set-9, 3, 3, 0.5502843230495144
+*Boundary, real
+ Set-10, 3, 3, 0.5524064056879274
+*Boundary, real
+ Set-11, 3, 3, 0.554578058950756
+*Boundary, real
+ Set-12, 3, 3, 0.5567808322337282
+*Boundary, real
+ Set-13, 3, 3, 0.558997411223362
+*Boundary, real
+ Set-14, 3, 3, 0.5612137528985484
+*Boundary, real
+ Set-15, 3, 3, 0.5634195217701725
+*Boundary, real
+ Set-16, 3, 3, 0.5656068176382231
+*Boundary, real
+ Set-17, 3, 3, 0.5677678264469541
+*Boundary, real
+ Set-18, 3, 3, 0.5698923793147493
+*Boundary, real
+ Set-19, 3, 3, 0.571966363356448
+*Boundary, real
+ Set-20, 3, 3, 0.5739715324217292
+*Boundary, real
+ Set-21, 3, 3, 0.5758866952629323
+*Boundary, real
+ Set-22, 3, 3, 0.5776897498642733
+*Boundary, real
+ Set-23, 3, 3, 0.5793597786262169
+*Boundary, real
+ Set-24, 3, 3, 0.5808784987793274
+*Boundary, real
+ Set-25, 3, 3, 0.5822307125199836
+*Boundary, real
+ Set-26, 3, 3, 0.5834038547522528
+*Boundary, real
+ Set-27, 3, 3, 0.5843870953698466
+*Boundary, real
+ Set-28, 3, 3, 0.5851705753938224
+*Boundary, real
+ Set-29, 3, 3, 0.5857452106067973
+*Boundary, real
+ Set-30, 3, 3, 0.5861031694867581
+*Boundary, real
+ Set-31, 3, 3, 0.5862387847934639
+*Boundary, real
+ Set-32, 3, 3, 0.5861494503706917
+*Boundary, real
+ Set-33, 3, 3, 0.585836075196497
+*Boundary, real
+ Set-34, 3, 3, 0.5853028954899594
+*Boundary, real
+ Set-35, 3, 3, 0.5845567664990453
+*Boundary, real
+ Set-36, 3, 3, 0.5836063102374371
+*Boundary, real
+ Set-37, 3, 3, 0.5824613582796048
+*Boundary, real
+ Set-38, 3, 3, 0.5811329652342556
+*Boundary, real
+ Set-39, 3, 3, 0.5796339518016563
+*Boundary, real
+ Set-40, 3, 3, 0.5779796169165249
+*Boundary, real
+ Set-41, 3, 3, 0.5761880953319323
+*Boundary, real
+ Set-42, 3, 3, 0.5742799245062467
+*Boundary, real
+ Set-43, 3, 3, 0.5722767047323617
+*Boundary, real
+ Set-44, 3, 3, 0.5701991604336216
+*Boundary, real
+ Set-45, 3, 3, 0.568065250389572
+*Boundary, real
+ Set-46, 3, 3, 0.5658890652509279
+*Boundary, real
+ Set-47, 3, 3, 0.5636810223432648
+*Boundary, real
+ Set-48, 3, 3, 0.5614493894656726
+*Boundary, real
+ Set-49, 3, 3, 0.5592026217536124
+*Boundary, real
+ Set-50, 3, 3, 0.5569516086821461
+*Boundary, real
+ Set-51, 3, 3, 0.5547108791741524
+*Boundary, real
+ Set-52, 3, 3, 0.5524981475519989
+*Boundary, real
+ Set-53, 3, 3, 0.5503322030779921
+*Boundary, real
+ Set-54, 3, 3, 0.5482297841373913
+*Boundary, real
+ Set-55, 3, 3, 0.5462025372966598
+*Boundary, real
+ Set-56, 3, 3, 0.544255088299124
+*Boundary, real
+ Set-57, 3, 3, 0.5423849205620189
+*Boundary, real
+ Set-58, 3, 3, 0.5405837222846004
+*Boundary, real
+ Set-59, 3, 3, 0.538839529996218
+*Boundary, real
+ Set-60, 3, 3, 0.5371379573196959
+*Boundary, real
+ Set-61, 3, 3, 0.5354618625928993
+*Boundary, real
+ Set-62, 3, 3, 0.4509440596944471
+*Boundary, real
+ Set-63, 3, 3, 0.4525470002414914
+*Boundary, real
+ Set-64, 3, 3, 0.4541560452258866
+*Boundary, real
+ Set-65, 3, 3, 0.45579073339330844
+*Boundary, real
+ Set-66, 3, 3, 0.457466234778579
+*Boundary, real
+ Set-67, 3, 3, 0.45919468104661004
+*Boundary, real
+ Set-68, 3, 3, 0.4609855757333401
+*Boundary, real
+ Set-69, 3, 3, 0.4628442638034839
+*Boundary, real
+ Set-70, 3, 3, 0.46477059077715416
+*Boundary, real
+ Set-71, 3, 3, 0.46675846047426606
+*Boundary, real
+ Set-72, 3, 3, 0.4687968088970323
+*Boundary, real
+ Set-73, 3, 3, 0.47087164812635895
+*Boundary, real
+ Set-74, 3, 3, 0.4729684215289325
+*Boundary, real
+ Set-75, 3, 3, 0.47507380002443766
+*Boundary, real
+ Set-76, 3, 3, 0.47717632626761736
+*Boundary, real
+ Set-77, 3, 3, 0.47926580907779776
+*Boundary, real
+ Set-78, 3, 3, 0.481331872941388
+*Boundary, real
+ Set-79, 3, 3, 0.4833623701725693
+*Boundary, real
+ Set-80, 3, 3, 0.485342362829635
+*Boundary, real
+ Set-81, 3, 3, 0.48725409642124995
+*Boundary, real
+ Set-82, 3, 3, 0.4890779576181364
+*Boundary, real
+ Set-83, 3, 3, 0.4907940165480259
+*Boundary, real
+ Set-84, 3, 3, 0.49238356022895496
+*Boundary, real
+ Set-85, 3, 3, 0.49383009079063933
+*Boundary, real
+ Set-86, 3, 3, 0.4951195429403108
+*Boundary, real
+ Set-87, 3, 3, 0.49623983423466594
+*Boundary, real
+ Set-88, 3, 3, 0.49718013986013443
+*Boundary, real
+ Set-89, 3, 3, 0.4979303656031488
+*Boundary, real
+ Set-90, 3, 3, 0.49848115514978986
+*Boundary, real
+ Set-91, 3, 3, 0.4988244849093862
+*Boundary, real
+ Set-92, 3, 3, 0.4989546061451269
+*Boundary, real
+ Set-93, 3, 3, 0.4988689242301829
+*Boundary, real
+ Set-94, 3, 3, 0.4985684318126994
+*Boundary, real
+ Set-95, 3, 3, 0.4980575183240388
+*Boundary, real
+ Set-96, 3, 3, 0.4973432630784424
+*Boundary, real
+ Set-97, 3, 3, 0.4964345482188222
+*Boundary, real
+ Set-98, 3, 3, 0.49534139311775355
+*Boundary, real
+ Set-99, 3, 3, 0.49407478199025795
+*Boundary, real
+ Set-100, 3, 3, 0.49264699096352305
+*Boundary, real
+ Set-101, 3, 3, 0.49107214480831063
+*Boundary, real
+ Set-102, 3, 3, 0.4893665802724605
+*Boundary, real
+ Set-103, 3, 3, 0.4875486435455141
+*Boundary, real
+ Set-104, 3, 3, 0.48563779213553904
+*Boundary, real
+ Set-105, 3, 3, 0.4836532039619524
+*Boundary, real
+ Set-106, 3, 3, 0.4816123675709985
+*Boundary, real
+ Set-107, 3, 3, 0.4795302040519732
+*Boundary, real
+ Set-108, 3, 3, 0.47741910043543906
+*Boundary, real
+ Set-109, 3, 3, 0.47528986983943
+*Boundary, real
+ Set-110, 3, 3, 0.47315324505451
+*Boundary, real
+ Set-111, 3, 3, 0.471021234874084
+*Boundary, real
+ Set-112, 3, 3, 0.46890766567846964
+*Boundary, real
+ Set-113, 3, 3, 0.466827516772061
+*Boundary, real
+ Set-114, 3, 3, 0.46479514161430097
+*Boundary, real
+ Set-115, 3, 3, 0.46282194890368616
+*Boundary, real
+ Set-116, 3, 3, 0.4609143910148193
+*Boundary, real
+ Set-117, 3, 3, 0.459073002012259
+*Boundary, real
+ Set-118, 3, 3, 0.45729282723511305
+*Boundary, real
+ Set-119, 3, 3, 0.45556473503035283
+*Boundary, real
+ Set-120, 3, 3, 0.45387691531843966
+*Boundary, real
+ Set-121, 3, 3, 0.452214450699467
+*Boundary, real
+ Set-122, 3, 3, 0.4505579830922525
+*Boundary, real
+ Set-123, 3, 3, 0.36617991624103885
+*Boundary, real
+ Set-124, 3, 3, 0.3677496312269691
+*Boundary, real
+ Set-125, 3, 3, 0.3693112191294588
+*Boundary, real
+ Set-126, 3, 3, 0.37088365802515083
+*Boundary, real
+ Set-127, 3, 3, 0.3724807472441805
+*Boundary, real
+ Set-128, 3, 3, 0.37411345559927545
+*Boundary, real
+ Set-129, 3, 3, 0.37579170064584877
+*Boundary, real
+ Set-130, 3, 3, 0.3775233951364998
+*Boundary, real
+ Set-131, 3, 3, 0.3793129413283955
+*Boundary, real
+ Set-132, 3, 3, 0.38116002848959546
+*Boundary, real
+ Set-133, 3, 3, 0.383059472608747
+*Boundary, real
+ Set-134, 3, 3, 0.38500208269814956
+*Boundary, real
+ Set-135, 3, 3, 0.38697615109893635
+*Boundary, real
+ Set-136, 3, 3, 0.3889689254837746
+*Boundary, real
+ Set-137, 3, 3, 0.3909675390148966
+*Boundary, real
+ Set-138, 3, 3, 0.3929591749891491
+*Boundary, real
+ Set-139, 3, 3, 0.39493061176409217
+*Boundary, real
+ Set-140, 3, 3, 0.3968675510575526
+*Boundary, real
+ Set-141, 3, 3, 0.3987541858494444
+*Boundary, real
+ Set-142, 3, 3, 0.40057330855827034
+*Boundary, real
+ Set-143, 3, 3, 0.4023069817697467
+*Boundary, real
+ Set-144, 3, 3, 0.40393752731932225
+*Boundary, real
+ Set-145, 3, 3, 0.4054484521440788
+*Boundary, real
+ Set-146, 3, 3, 0.4068249763541405
+*Boundary, real
+ Set-147, 3, 3, 0.4080540288102115
+*Boundary, real
+ Set-148, 3, 3, 0.40912383092475785
+*Boundary, real
+ Set-149, 3, 3, 0.4100233812950477
+*Boundary, real
+ Set-150, 3, 3, 0.41074219594764666
+*Boundary, real
+ Set-151, 3, 3, 0.4112705347971671
+*Boundary, real
+ Set-152, 3, 3, 0.411600113328976
+*Boundary, real
+ Set-153, 3, 3, 0.4117250655484978
+*Boundary, real
+ Set-154, 3, 3, 0.4116427952099146
+*Boundary, real
+ Set-155, 3, 3, 0.4113543843908536
+*Boundary, real
+ Set-156, 3, 3, 0.41086440618895365
+*Boundary, real
+ Set-157, 3, 3, 0.410180230982006
+*Boundary, real
+ Set-158, 3, 3, 0.40931111454787383
+*Boundary, real
+ Set-159, 3, 3, 0.40826742313767356
+*Boundary, real
+ Set-160, 3, 3, 0.40706025791635925
+*Boundary, real
+ Set-161, 3, 3, 0.4057015336145618
+*Boundary, real
+ Set-162, 3, 3, 0.40420434094601904
+*Boundary, real
+ Set-163, 3, 3, 0.4025832841201967
+*Boundary, real
+ Set-164, 3, 3, 0.4008544986061448
+*Boundary, real
+ Set-165, 3, 3, 0.39903521413560555
+*Boundary, real
+ Set-166, 3, 3, 0.3971429591169786
+*Boundary, real
+ Set-167, 3, 3, 0.39519469346458136
+*Boundary, real
+ Set-168, 3, 3, 0.39320621229959446
+*Boundary, real
+ Set-169, 3, 3, 0.39119204626779047
+*Boundary, real
+ Set-170, 3, 3, 0.38916584240610963
+*Boundary, real
+ Set-171, 3, 3, 0.38714095022906114
+*Boundary, real
+ Set-172, 3, 3, 0.3851307895837646
+*Boundary, real
+ Set-173, 3, 3, 0.38314862443786546
+*Boundary, real
+ Set-174, 3, 3, 0.3812066094508533
+*Boundary, real
+ Set-175, 3, 3, 0.37931432870029597
+*Boundary, real
+ Set-176, 3, 3, 0.37747733365659114
+*Boundary, real
+ Set-177, 3, 3, 0.37569630279006494
+*Boundary, real
+ Set-178, 3, 3, 0.3739672110870157
+*Boundary, real
+ Set-179, 3, 3, 0.37228252127475286
+*Boundary, real
+ Set-180, 3, 3, 0.37063266494586944
+*Boundary, real
+ Set-181, 3, 3, 0.36900697036497093
+*Boundary, real
+ Set-182, 3, 3, 0.36739186997639894
+*Boundary, real
+ Set-183, 3, 3, 0.365768549316071
+*Boundary, real
+ Set-184, 3, 3, 0.28165667388782095
+*Boundary, real
+ Set-185, 3, 3, 0.28317498003917685
+*Boundary, real
+ Set-186, 3, 3, 0.28467546124880366
+*Boundary, real
+ Set-187, 3, 3, 0.2861753757821274
+*Boundary, real
+ Set-188, 3, 3, 0.28768442993015847
+*Boundary, real
+ Set-189, 3, 3, 0.28921094966716215
+*Boundary, real
+ Set-190, 3, 3, 0.2907647087875655
+*Boundary, real
+ Set-191, 3, 3, 0.29235629354119147
+*Boundary, real
+ Set-192, 3, 3, 0.29399530800184004
+*Boundary, real
+ Set-193, 3, 3, 0.29568811818015456
+*Boundary, real
+ Set-194, 3, 3, 0.2974363007787566
+*Boundary, real
+ Set-195, 3, 3, 0.29923610526884664
+*Boundary, real
+ Set-196, 3, 3, 0.30107895238658594
+*Boundary, real
+ Set-197, 3, 3, 0.30295257980678403
+*Boundary, real
+ Set-198, 3, 3, 0.3048423648422021
+*Boundary, real
+ Set-199, 3, 3, 0.30673242911237075
+*Boundary, real
+ Set-200, 3, 3, 0.3086063481362569
+*Boundary, real
+ Set-201, 3, 3, 0.31044750543277233
+*Boundary, real
+ Set-202, 3, 3, 0.3122392654015258
+*Boundary, real
+ Set-203, 3, 3, 0.31396514568255224
+*Boundary, real
+ Set-204, 3, 3, 0.31560907712955627
+*Boundary, real
+ Set-205, 3, 3, 0.31715571346301363
+*Boundary, real
+ Set-206, 3, 3, 0.3185906703011106
+*Boundary, real
+ Set-207, 3, 3, 0.31990057835311286
+*Boundary, real
+ Set-208, 3, 3, 0.32107292486936445
+*Boundary, real
+ Set-209, 3, 3, 0.32209578142683765
+*Boundary, real
+ Set-210, 3, 3, 0.3229576075304755
+*Boundary, real
+ Set-211, 3, 3, 0.3236473252924406
+*Boundary, real
+ Set-212, 3, 3, 0.32415476898635937
+*Boundary, real
+ Set-213, 3, 3, 0.3244714596783912
+*Boundary, real
+ Set-214, 3, 3, 0.32459150595161573
+*Boundary, real
+ Set-215, 3, 3, 0.3245123541352229
+*Boundary, real
+ Set-216, 3, 3, 0.3242351425738304
+*Boundary, real
+ Set-217, 3, 3, 0.32376454418050293
+*Boundary, real
+ Set-218, 3, 3, 0.3231081567441094
+*Boundary, real
+ Set-219, 3, 3, 0.3222756487377788
+*Boundary, real
+ Set-220, 3, 3, 0.32127793012115147
+*Boundary, real
+ Set-221, 3, 3, 0.32012657203547307
+*Boundary, real
+ Set-222, 3, 3, 0.31883357259519024
+*Boundary, real
+ Set-223, 3, 3, 0.3174114181148526
+*Boundary, real
+ Set-224, 3, 3, 0.31587328543016885
+*Boundary, real
+ Set-225, 3, 3, 0.31423321192159115
+*Boundary, real
+ Set-226, 3, 3, 0.3125061230557985
+*Boundary, real
+ Set-227, 3, 3, 0.3107077095683401
+*Boundary, real
+ Set-228, 3, 3, 0.30885422761655024
+*Boundary, real
+ Set-229, 3, 3, 0.30696230721726564
+*Boundary, real
+ Set-230, 3, 3, 0.3050487899376303
+*Boundary, real
+ Set-231, 3, 3, 0.3031305122743623
+*Boundary, real
+ Set-232, 3, 3, 0.3012238756658379
+*Boundary, real
+ Set-233, 3, 3, 0.29934405740167136
+*Boundary, real
+ Set-234, 3, 3, 0.29750384705937266
+*Boundary, real
+ Set-235, 3, 3, 0.2957122973321249
+*Boundary, real
+ Set-236, 3, 3, 0.29397358154182096
+*Boundary, real
+ Set-237, 3, 3, 0.29228651459938304
+*Boundary, real
+ Set-238, 3, 3, 0.29064510995595144
+*Boundary, real
+ Set-239, 3, 3, 0.2890401373473014
+*Boundary, real
+ Set-240, 3, 3, 0.28746136917339526
+*Boundary, real
+ Set-241, 3, 3, 0.2858993556422932
+*Boundary, real
+ Set-242, 3, 3, 0.28434604040079253
+*Boundary, real
+ Set-243, 3, 3, 0.28279192333511577
+*Boundary, real
+ Set-244, 3, 3, 0.2812198922165289
+*Boundary, real
+ Set-245, 3, 3, 0.1974593837861789
+*Boundary, real
+ Set-246, 3, 3, 0.1989045943731449
+*Boundary, real
+ Set-247, 3, 3, 0.2003287410121652
+*Boundary, real
+ Set-248, 3, 3, 0.20174316635371037
+*Boundary, real
+ Set-249, 3, 3, 0.20315167109183796
+*Boundary, real
+ Set-250, 3, 3, 0.20455873902352834
+*Boundary, real
+ Set-251, 3, 3, 0.20597355690901303
+*Boundary, real
+ Set-252, 3, 3, 0.2074095334707113
+*Boundary, real
+ Set-253, 3, 3, 0.2088819716681883
+*Boundary, real
+ Set-254, 3, 3, 0.21040460543917103
+*Boundary, real
+ Set-255, 3, 3, 0.2119864325500932
+*Boundary, real
+ Set-256, 3, 3, 0.21362962788934572
+*Boundary, real
+ Set-257, 3, 3, 0.21532897532811632
+*Boundary, real
+ Set-258, 3, 3, 0.2170727131288832
+*Boundary, real
+ Set-259, 3, 3, 0.21884434998484195
+*Boundary, real
+ Set-260, 3, 3, 0.2206248409799985
+*Boundary, real
+ Set-261, 3, 3, 0.22239456696716323
+*Boundary, real
+ Set-262, 3, 3, 0.22413475054535312
+*Boundary, real
+ Set-263, 3, 3, 0.22582818405887967
+*Boundary, real
+ Set-264, 3, 3, 0.2274593500391995
+*Boundary, real
+ Set-265, 3, 3, 0.22901413303933746
+*Boundary, real
+ Set-266, 3, 3, 0.23047934746596765
+*Boundary, real
+ Set-267, 3, 3, 0.2318422657418649
+*Boundary, real
+ Set-268, 3, 3, 0.23309026624134033
+*Boundary, real
+ Set-269, 3, 3, 0.2342106635592271
+*Boundary, real
+ Set-270, 3, 3, 0.23519074856155653
+*Boundary, real
+ Set-271, 3, 3, 0.23601804617446068
+*Boundary, real
+ Set-272, 3, 3, 0.23668078008971105
+*Boundary, real
+ Set-273, 3, 3, 0.23716850393584657
+*Boundary, real
+ Set-274, 3, 3, 0.2374728187889733
+*Boundary, real
+ Set-275, 3, 3, 0.23758806038623012
+*Boundary, real
+ Set-276, 3, 3, 0.23751182436948332
+*Boundary, real
+ Set-277, 3, 3, 0.23724521710725227
+*Boundary, real
+ Set-278, 3, 3, 0.2367927724916284
+*Boundary, real
+ Set-279, 3, 3, 0.23616204693674342
+*Boundary, real
+ Set-280, 3, 3, 0.23536297323598446
+*Boundary, real
+ Set-281, 3, 3, 0.2344070987824776
+*Boundary, real
+ Set-282, 3, 3, 0.23330684555179937
+*Boundary, real
+ Set-283, 3, 3, 0.23207491172667058
+*Boundary, real
+ Set-284, 3, 3, 0.23072390013552108
+*Boundary, real
+ Set-285, 3, 3, 0.22926621912361528
+*Boundary, real
+ Set-286, 3, 3, 0.2277142618667342
+*Boundary, real
+ Set-287, 3, 3, 0.22608082703637833
+*Boundary, real
+ Set-288, 3, 3, 0.22437969011747397
+*Boundary, real
+ Set-289, 3, 3, 0.2226261706836172
+*Boundary, real
+ Set-290, 3, 3, 0.2208374812634608
+*Boundary, real
+ Set-291, 3, 3, 0.21903261805580357
+*Boundary, real
+ Set-292, 3, 3, 0.21723159735998182
+*Boundary, real
+ Set-293, 3, 3, 0.21545397468566171
+*Boundary, real
+ Set-294, 3, 3, 0.21371679481921024
+*Boundary, real
+ Set-295, 3, 3, 0.21203236034248513
+*Boundary, real
+ Set-296, 3, 3, 0.2104063859831444
+*Boundary, real
+ Set-297, 3, 3, 0.20883714845922402
+*Boundary, real
+ Set-298, 3, 3, 0.20731606473773426
+*Boundary, real
+ Set-299, 3, 3, 0.2058297906887738
+*Boundary, real
+ Set-300, 3, 3, 0.2043633921292994
+*Boundary, real
+ Set-301, 3, 3, 0.2029038008054862
+*Boundary, real
+ Set-302, 3, 3, 0.20144212805882666
+*Boundary, real
+ Set-303, 3, 3, 0.19997413179317697
+*Boundary, real
+ Set-304, 3, 3, 0.19849619247149156
+*Boundary, real
+ Set-305, 3, 3, 0.19699709484729863
+*Boundary, real
+ Set-306, 3, 3, 0.11357641795914182
+*Boundary, real
+ Set-307, 3, 3, 0.11492825333431361
+*Boundary, real
+ Set-308, 3, 3, 0.11626242172486562
+*Boundary, real
+ Set-309, 3, 3, 0.11757958334651353
+*Boundary, real
+ Set-310, 3, 3, 0.11887599965059738
+*Boundary, real
+ Set-311, 3, 3, 0.1201518944269664
+*Boundary, real
+ Set-312, 3, 3, 0.1214156887972003
+*Boundary, real
+ Set-313, 3, 3, 0.12268370417421613
+*Boundary, real
+ Set-314, 3, 3, 0.12397712017630583
+*Boundary, real
+ Set-315, 3, 3, 0.1253172175431077
+*Boundary, real
+ Set-316, 3, 3, 0.12672053805404573
+*Boundary, real
+ Set-317, 3, 3, 0.12819523119469645
+*Boundary, real
+ Set-318, 3, 3, 0.12973945654539576
+*Boundary, real
+ Set-319, 3, 3, 0.13134200134893442
+*Boundary, real
+ Set-320, 3, 3, 0.13298467009055648
+*Boundary, real
+ Set-321, 3, 3, 0.1346455828660518
+*Boundary, real
+ Set-322, 3, 3, 0.13630241580135063
+*Boundary, real
+ Set-323, 3, 3, 0.13793479825380559
+*Boundary, real
+ Set-324, 3, 3, 0.13952545831549942
+*Boundary, real
+ Set-325, 3, 3, 0.14106013478892454
+*Boundary, real
+ Set-326, 3, 3, 0.1425266172268008
+*Boundary, real
+ Set-327, 3, 3, 0.1439134472171479
+*Boundary, real
+ Set-328, 3, 3, 0.14520879458010982
+*Boundary, real
+ Set-329, 3, 3, 0.14639985391922944
+*Boundary, real
+ Set-330, 3, 3, 0.14747287184120864
+*Boundary, real
+ Set-331, 3, 3, 0.1484137001892478
+*Boundary, real
+ Set-332, 3, 3, 0.14920863982404456
+*Boundary, real
+ Set-333, 3, 3, 0.1498453164978653
+*Boundary, real
+ Set-334, 3, 3, 0.15031339790763268
+*Boundary, real
+ Set-335, 3, 3, 0.15060507360607983
+*Boundary, real
+ Set-336, 3, 3, 0.15071532393469522
+*Boundary, real
+ Set-337, 3, 3, 0.15064206000261046
+*Boundary, real
+ Set-338, 3, 3, 0.15038620917995563
+*Boundary, real
+ Set-339, 3, 3, 0.1499517634226114
+*Boundary, real
+ Set-340, 3, 3, 0.1493457359738538
+*Boundary, real
+ Set-341, 3, 3, 0.14857792695839214
+*Boundary, real
+ Set-342, 3, 3, 0.14766041084307255
+*Boundary, real
+ Set-343, 3, 3, 0.14660673566994298
+*Boundary, real
+ Set-344, 3, 3, 0.14543094342312307
+*Boundary, real
+ Set-345, 3, 3, 0.1441466376001001
+*Boundary, real
+ Set-346, 3, 3, 0.14276638401857378
+*Boundary, real
+ Set-347, 3, 3, 0.14130169179674834
+*Boundary, real
+ Set-348, 3, 3, 0.13976367202940215
+*Boundary, real
+ Set-349, 3, 3, 0.13816424205328112
+*Boundary, real
+ Set-350, 3, 3, 0.13651750196312887
+*Boundary, real
+ Set-351, 3, 3, 0.1348407454983478
+*Boundary, real
+ Set-352, 3, 3, 0.13315455918850475
+*Boundary, real
+ Set-353, 3, 3, 0.13148164930882777
+*Boundary, real
+ Set-354, 3, 3, 0.12984439133255823
+*Boundary, real
+ Set-355, 3, 3, 0.12826152880254799
+*Boundary, real
+ Set-356, 3, 3, 0.12674482370404233
+*Boundary, real
+ Set-357, 3, 3, 0.12529663480194225
+*Boundary, real
+ Set-358, 3, 3, 0.12390928785997649
+*Boundary, real
+ Set-359, 3, 3, 0.12256667447793955
+*Boundary, real
+ Set-360, 3, 3, 0.12124791069918754
+*Boundary, real
+ Set-361, 3, 3, 0.11993217892265691
+*Boundary, real
+ Set-362, 3, 3, 0.11860348031320395
+*Boundary, real
+ Set-363, 3, 3, 0.11725366811584112
+*Boundary, real
+ Set-364, 3, 3, 0.1158827362506741
+*Boundary, real
+ Set-365, 3, 3, 0.11449458303315499
+*Boundary, real
+ Set-366, 3, 3, 0.11308865688986147
+*Boundary, real
+ Set-367, 3, 3, 0.029891524586186994
+*Boundary, real
+ Set-368, 3, 3, 0.031137229079831078
+*Boundary, real
+ Set-369, 3, 3, 0.03237285462460058
+*Boundary, real
+ Set-370, 3, 3, 0.03358558279289036
+*Boundary, real
+ Set-371, 3, 3, 0.03476339727589785
+*Boundary, real
+ Set-372, 3, 3, 0.035902314191029586
+*Boundary, real
+ Set-373, 3, 3, 0.03701008441078853
+*Boundary, real
+ Set-374, 3, 3, 0.038105886021463885
+*Boundary, real
+ Set-375, 3, 3, 0.039216521504008686
+*Boundary, real
+ Set-376, 3, 3, 0.04037039469679166
+*Boundary, real
+ Set-377, 3, 3, 0.04159107366626789
+*Boundary, real
+ Set-378, 3, 3, 0.04289220518352449
+*Boundary, real
+ Set-379, 3, 3, 0.04427502599917289
+*Boundary, real
+ Set-380, 3, 3, 0.04572886900876712
+*Boundary, real
+ Set-381, 3, 3, 0.047234180260194526
+*Boundary, real
+ Set-382, 3, 3, 0.04876690978451737
+*Boundary, real
+ Set-383, 3, 3, 0.05030289587699072
+*Boundary, real
+ Set-384, 3, 3, 0.05182106084797511
+*Boundary, real
+ Set-385, 3, 3, 0.05330476781338427
+*Boundary, real
+ Set-386, 3, 3, 0.054741348076305006
+*Boundary, real
+ Set-387, 3, 3, 0.056120372952647914
+*Boundary, real
+ Set-388, 3, 3, 0.057431543379906996
+*Boundary, real
+ Set-389, 3, 3, 0.058663042199816995
+*Boundary, real
+ Set-390, 3, 3, 0.05980089055233839
+*Boundary, real
+ Set-391, 3, 3, 0.06082941097548386
+*Boundary, real
+ Set-392, 3, 3, 0.061732494922133826
+*Boundary, real
+ Set-393, 3, 3, 0.06249513912871598
+*Boundary, real
+ Set-394, 3, 3, 0.06310471433554926
+*Boundary, real
+ Set-395, 3, 3, 0.06355163074559397
+*Boundary, real
+ Set-396, 3, 3, 0.06382936477309598
+*Boundary, real
+ Set-397, 3, 3, 0.06393408070288009
+*Boundary, real
+ Set-398, 3, 3, 0.06386421194407173
+*Boundary, real
+ Set-399, 3, 3, 0.0636203156334745
+*Boundary, real
+ Set-400, 3, 3, 0.06320531460086432
+*Boundary, real
+ Set-401, 3, 3, 0.06262498669120622
+*Boundary, real
+ Set-402, 3, 3, 0.06188837010370848
+*Boundary, real
+ Set-403, 3, 3, 0.061007716421099305
+*Boundary, real
+ Set-404, 3, 3, 0.059997768789542646
+*Boundary, real
+ Set-405, 3, 3, 0.05887442236721843
+*Boundary, real
+ Set-406, 3, 3, 0.05765312738819374
+*Boundary, real
+ Set-407, 3, 3, 0.05634759098983095
+*Boundary, real
+ Set-408, 3, 3, 0.05496932185111133
+*Boundary, real
+ Set-409, 3, 3, 0.05352831527308276
+*Boundary, real
+ Set-410, 3, 3, 0.05203476089478728
+*Boundary, real
+ Set-411, 3, 3, 0.05050121157424993
+*Boundary, real
+ Set-412, 3, 3, 0.048944350687666005
+*Boundary, real
+ Set-413, 3, 3, 0.04738547421759266
+*Boundary, real
+ Set-414, 3, 3, 0.04584911349437129
+*Boundary, real
+ Set-415, 3, 3, 0.044359797409046955
+*Boundary, real
+ Set-416, 3, 3, 0.04293761764399731
+*Boundary, real
+ Set-417, 3, 3, 0.04159379166827518
+*Boundary, real
+ Set-418, 3, 3, 0.0403276123058244
+*Boundary, real
+ Set-419, 3, 3, 0.03912592317077682
+*Boundary, real
+ Set-420, 3, 3, 0.03796560099332251
+*Boundary, real
+ Set-421, 3, 3, 0.036818640920539235
+*Boundary, real
+ Set-422, 3, 3, 0.03565859414437733
+*Boundary, real
+ Set-423, 3, 3, 0.03446658914606849
+*Boundary, real
+ Set-424, 3, 3, 0.03323513064247722
+*Boundary, real
+ Set-425, 3, 3, 0.03196840305104999
+*Boundary, real
+ Set-426, 3, 3, 0.030678567392700026
+*Boundary, real
+ Set-427, 3, 3, 0.029378534332573217
+*Boundary, real
+ Set-428, 3, 3, -0.05377882836442957
+*Boundary, real
+ Set-429, 3, 3, -0.05264040767782047
+*Boundary, real
+ Set-430, 3, 3, -0.05150426360548426
+*Boundary, real
+ Set-431, 3, 3, -0.05039629374324248
+*Boundary, real
+ Set-432, 3, 3, -0.0493361760874044
+*Boundary, real
+ Set-433, 3, 3, -0.048331581286428074
+*Boundary, real
+ Set-434, 3, 3, -0.04737523069230013
+*Boundary, real
+ Set-435, 3, 3, -0.04644532460022766
+*Boundary, real
+ Set-436, 3, 3, -0.04551010245609119
+*Boundary, real
+ Set-437, 3, 3, -0.04453501246391778
+*Boundary, real
+ Set-438, 3, 3, -0.04349054168843419
+*Boundary, real
+ Set-439, 3, 3, -0.042358493237464045
+*Boundary, real
+ Set-440, 3, 3, -0.04113514956483884
+*Boundary, real
+ Set-441, 3, 3, -0.039830739376294395
+*Boundary, real
+ Set-442, 3, 3, -0.0384657688701221
+*Boundary, real
+ Set-443, 3, 3, -0.03706563521246773
+*Boundary, real
+ Set-444, 3, 3, -0.03565529310168365
+*Boundary, real
+ Set-445, 3, 3, -0.03425550503188599
+*Boundary, real
+ Set-446, 3, 3, -0.03288150704345992
+*Boundary, real
+ Set-447, 3, 3, -0.03154403117395104
+*Boundary, real
+ Set-448, 3, 3, -0.030251858398677868
+*Boundary, real
+ Set-449, 3, 3, -0.029014676267730907
+*Boundary, real
+ Set-450, 3, 3, -0.027845083880145137
+*Boundary, real
+ Set-451, 3, 3, -0.02675905142213033
+*Boundary, real
+ Set-452, 3, 3, -0.02577479837831037
+*Boundary, real
+ Set-453, 3, 3, -0.024910648203801566
+*Boundary, real
+ Set-454, 3, 3, -0.02418273682750998
+*Boundary, real
+ Set-455, 3, 3, -0.023603404282917885
+*Boundary, real
+ Set-456, 3, 3, -0.02318073392453063
+*Boundary, real
+ Set-457, 3, 3, -0.022919189703092244
+*Boundary, real
+ Set-458, 3, 3, -0.022820853307604888
+*Boundary, real
+ Set-459, 3, 3, -0.02288655693201961
+*Boundary, real
+ Set-460, 3, 3, -0.0231163169728169
+*Boundary, real
+ Set-461, 3, 3, -0.023508842630147395
+*Boundary, real
+ Set-462, 3, 3, -0.024060359963994218
+*Boundary, real
+ Set-463, 3, 3, -0.024763355975683802
+*Boundary, real
+ Set-464, 3, 3, -0.025605949099652116
+*Boundary, real
+ Set-465, 3, 3, -0.026572378206351673
+*Boundary, real
+ Set-466, 3, 3, -0.02764464753147915
+*Boundary, real
+ Set-467, 3, 3, -0.028804849011778304
+*Boundary, real
+ Set-468, 3, 3, -0.030037321388882834
+*Boundary, real
+ Set-469, 3, 3, -0.03132976355440411
+*Boundary, real
+ Set-470, 3, 3, -0.032672746769525175
+*Boundary, real
+ Set-471, 3, 3, -0.03405767045280715
+*Boundary, real
+ Set-472, 3, 3, -0.03547386637269796
+*Boundary, real
+ Set-473, 3, 3, -0.03690601994295131
+*Boundary, real
+ Set-474, 3, 3, -0.0383331417108799
+*Boundary, real
+ Set-475, 3, 3, -0.03972991658552601
+*Boundary, real
+ Set-476, 3, 3, -0.04107048533307506
+*Boundary, real
+ Set-477, 3, 3, -0.04233381854381075
+*Boundary, real
+ Set-478, 3, 3, -0.04350914366640202
+*Boundary, real
+ Set-479, 3, 3, -0.04459964720299902
+*Boundary, real
+ Set-480, 3, 3, -0.045623030571816034
+*Boundary, real
+ Set-481, 3, 3, -0.046608358935613034
+*Boundary, real
+ Set-482, 3, 3, -0.047589788139618665
+*Boundary, real
+ Set-483, 3, 3, -0.04859873448632459
+*Boundary, real
+ Set-484, 3, 3, -0.04965670401561979
+*Boundary, real
+ Set-485, 3, 3, -0.050770732071069816
+*Boundary, real
+ Set-486, 3, 3, -0.05193295628581815
+*Boundary, real
+ Set-487, 3, 3, -0.0531235611116124
+*Boundary, real
+ Set-488, 3, 3, -0.054316568283718863
+*Boundary, real
+ Set-489, 3, 3, -0.13761958414057368
+*Boundary, real
+ Set-490, 3, 3, -0.13657765238937036
+*Boundary, real
+ Set-491, 3, 3, -0.13553398119618393
+*Boundary, real
+ Set-492, 3, 3, -0.1345240329682379
+*Boundary, real
+ Set-493, 3, 3, -0.13357331528274669
+*Boundary, real
+ Set-494, 3, 3, -0.13269231802368703
+*Boundary, real
+ Set-495, 3, 3, -0.13187398452942964
+*Boundary, real
+ Set-496, 3, 3, -0.1310942600393395
+*Boundary, real
+ Set-497, 3, 3, -0.13031735771130112
+*Boundary, real
+ Set-498, 3, 3, -0.12950389184281774
+*Boundary, real
+ Set-499, 3, 3, -0.12861981498140845
+*Boundary, real
+ Set-500, 3, 3, -0.12764359422359534
+*Boundary, real
+ Set-501, 3, 3, -0.1265698016150641
+*Boundary, real
+ Set-502, 3, 3, -0.12540842291081147
+*Boundary, real
+ Set-503, 3, 3, -0.12418054540322887
+*Boundary, real
+ Set-504, 3, 3, -0.12291211612657477
+*Boundary, real
+ Set-505, 3, 3, -0.12162788759860418
+*Boundary, real
+ Set-506, 3, 3, -0.12034736716889499
+*Boundary, real
+ Set-507, 3, 3, -0.11908371694579761
+*Boundary, real
+ Set-508, 3, 3, -0.11784544662923818
+*Boundary, real
+ Set-509, 3, 3, -0.11663979794082543
+*Boundary, real
+ Set-510, 3, 3, -0.11547625148880068
+*Boundary, real
+ Set-511, 3, 3, -0.11436872084023039
+*Boundary, real
+ Set-512, 3, 3, -0.11333563920701693
+*Boundary, real
+ Set-513, 3, 3, -0.11239801939784155
+*Boundary, real
+ Set-514, 3, 3, -0.11157633848227236
+*Boundary, real
+ Set-515, 3, 3, -0.1108874846311397
+*Boundary, real
+ Set-516, 3, 3, -0.1103428846296071
+*Boundary, real
+ Set-517, 3, 3, -0.10994838309474589
+*Boundary, real
+ Set-518, 3, 3, -0.10970570476877718
+*Boundary, real
+ Set-519, 3, 3, -0.10961469960547164
+*Boundary, real
+ Set-520, 3, 3, -0.10967529381359745
+*Boundary, real
+ Set-521, 3, 3, -0.10988824899039777
+*Boundary, real
+ Set-522, 3, 3, -0.1102543835587442
+*Boundary, real
+ Set-523, 3, 3, -0.11077260567739364
+*Boundary, real
+ Set-524, 3, 3, -0.1114376578390524
+*Boundary, real
+ Set-525, 3, 3, -0.11223865059102796
+*Boundary, real
+ Set-526, 3, 3, -0.11315918426002948
+*Boundary, real
+ Set-527, 3, 3, -0.11417922435693748
+*Boundary, real
+ Set-528, 3, 3, -0.1152781559201085
+*Boundary, real
+ Set-529, 3, 3, -0.11643789511815683
+*Boundary, real
+ Set-530, 3, 3, -0.11764481896895065
+*Boundary, real
+ Set-531, 3, 3, -0.11888966231920474
+*Boundary, real
+ Set-532, 3, 3, -0.12016530431724928
+*Boundary, real
+ Set-533, 3, 3, -0.12146324346520726
+*Boundary, real
+ Set-534, 3, 3, -0.12277020155757917
+*Boundary, real
+ Set-535, 3, 3, -0.1240664296848522
+*Boundary, real
+ Set-536, 3, 3, -0.12532681969190457
+*Boundary, real
+ Set-537, 3, 3, -0.1265249779406365
+*Boundary, real
+ Set-538, 3, 3, -0.12763931103738516
+*Boundary, real
+ Set-539, 3, 3, -0.12865930225558467
+*Boundary, real
+ Set-540, 3, 3, -0.1295898559139056
+*Boundary, real
+ Set-541, 3, 3, -0.13045201380607657
+*Boundary, real
+ Set-542, 3, 3, -0.1312793804983422
+*Boundary, real
+ Set-543, 3, 3, -0.13211095334618045
+*Boundary, real
+ Set-544, 3, 3, -0.13298218468502895
+*Boundary, real
+ Set-545, 3, 3, -0.13391684465698617
+*Boundary, real
+ Set-546, 3, 3, -0.13492175216400804
+*Boundary, real
+ Set-547, 3, 3, -0.13598622633875138
+*Boundary, real
+ Set-548, 3, 3, -0.13708462130289711
+*Boundary, real
+ Set-549, 3, 3, -0.1381813994946614
+*Boundary, real
+ Set-550, 3, 3, -0.22175100220879398
+*Boundary, real
+ Set-551, 3, 3, -0.2207863061112879
+*Boundary, real
+ Set-552, 3, 3, -0.21982214423692015
+*Boundary, real
+ Set-553, 3, 3, -0.2188982901523255
+*Boundary, real
+ Set-554, 3, 3, -0.21804373821430803
+*Boundary, real
+ Set-555, 3, 3, -0.21727079505714858
+*Boundary, real
+ Set-556, 3, 3, -0.2165722353599127
+*Boundary, real
+ Set-557, 3, 3, -0.21592212506916805
+*Boundary, real
+ Set-558, 3, 3, -0.2152816128779688
+*Boundary, real
+ Set-559, 3, 3, -0.21460780860745857
+*Boundary, real
+ Set-560, 3, 3, -0.21386353849866824
+*Boundary, real
+ Set-561, 3, 3, -0.2130251233938245
+*Boundary, real
+ Set-562, 3, 3, -0.21208617549006875
+*Boundary, real
+ Set-563, 3, 3, -0.21105664976954797
+*Boundary, real
+ Set-564, 3, 3, -0.2099579288563489
+*Boundary, real
+ Set-565, 3, 3, -0.2088158814943308
+*Boundary, real
+ Set-566, 3, 3, -0.2076543039034514
+*Boundary, real
+ Set-567, 3, 3, -0.20649077845297825
+*Boundary, real
+ Set-568, 3, 3, -0.20533595485759282
+*Boundary, real
+ Set-569, 3, 3, -0.20419596424599967
+*Boundary, real
+ Set-570, 3, 3, -0.2030765902081186
+*Boundary, real
+ Set-571, 3, 3, -0.20198731196062597
+*Boundary, real
+ Set-572, 3, 3, -0.20094355095475136
+*Boundary, real
+ Set-573, 3, 3, -0.19996626841051923
+*Boundary, real
+ Set-574, 3, 3, -0.19907914195733428
+*Boundary, real
+ Set-575, 3, 3, -0.1983044768891866
+*Boundary, real
+ Set-576, 3, 3, -0.197659440658161
+*Boundary, real
+ Set-577, 3, 3, -0.1971540069095749
+*Boundary, real
+ Set-578, 3, 3, -0.1967912624665239
+*Boundary, real
+ Set-579, 3, 3, -0.19656977056002412
+*Boundary, real
+ Set-580, 3, 3, -0.19648687796071768
+*Boundary, real
+ Set-581, 3, 3, -0.19654151468619743
+*Boundary, real
+ Set-582, 3, 3, -0.1967352871781795
+*Boundary, real
+ Set-583, 3, 3, -0.19707140111368446
+*Boundary, real
+ Set-584, 3, 3, -0.19755187091747545
+*Boundary, real
+ Set-585, 3, 3, -0.198174210512062
+*Boundary, real
+ Set-586, 3, 3, -0.19892905570470956
+*Boundary, real
+ Set-587, 3, 3, -0.19979983336908763
+*Boundary, real
+ Set-588, 3, 3, -0.20076478931015257
+*Boundary, real
+ Set-589, 3, 3, -0.20180072718020423
+*Boundary, real
+ Set-590, 3, 3, -0.20288707647633383
+*Boundary, real
+ Set-591, 3, 3, -0.2040087026786723
+*Boundary, real
+ Set-592, 3, 3, -0.20515630332624796
+*Boundary, real
+ Set-593, 3, 3, -0.20632415954318487
+*Boundary, real
+ Set-594, 3, 3, -0.20750609341055767
+*Boundary, real
+ Set-595, 3, 3, -0.20869129906927897
+*Boundary, real
+ Set-596, 3, 3, -0.20986193345665563
+*Boundary, real
+ Set-597, 3, 3, -0.21099384472571603
+*Boundary, real
+ Set-598, 3, 3, -0.21206073006082335
+*Boundary, real
+ Set-599, 3, 3, -0.2130407180985845
+*Boundary, real
+ Set-600, 3, 3, -0.2139233394708137
+*Boundary, real
+ Set-601, 3, 3, -0.21471447200417185
+*Boundary, real
+ Set-602, 3, 3, -0.21543731512553832
+*Boundary, real
+ Set-603, 3, 3, -0.21612861040533188
+*Boundary, real
+ Set-604, 3, 3, -0.21683087025012884
+*Boundary, real
+ Set-605, 3, 3, -0.21758262066336323
+*Boundary, real
+ Set-606, 3, 3, -0.21840951622101684
+*Boundary, real
+ Set-607, 3, 3, -0.21931854357725852
+*Boundary, real
+ Set-608, 3, 3, -0.22029719949653248
+*Boundary, real
+ Set-609, 3, 3, -0.22131634489035956
+*Boundary, real
+ Set-610, 3, 3, -0.22233613061613244
+*Boundary, real
+ Set-611, 3, 3, -0.30619064784966116
+*Boundary, real
+ Set-612, 3, 3, -0.30528125150691343
+*Boundary, real
+ Set-613, 3, 3, -0.3043808603754062
+*Boundary, real
+ Set-614, 3, 3, -0.30352918914865545
+*Boundary, real
+ Set-615, 3, 3, -0.3027567419756237
+*Boundary, real
+ Set-616, 3, 3, -0.3020763298218838
+*Boundary, real
+ Set-617, 3, 3, -0.3014800829961112
+*Boundary, real
+ Set-618, 3, 3, -0.30094041848368475
+*Boundary, real
+ Set-619, 3, 3, -0.30041612824540204
+*Boundary, real
+ Set-620, 3, 3, -0.299861836243022
+*Boundary, real
+ Set-621, 3, 3, -0.29923829958244397
+*Boundary, real
+ Set-622, 3, 3, -0.2985205689966794
+*Boundary, real
+ Set-623, 3, 3, -0.29770183137097905
+*Boundary, real
+ Set-624, 3, 3, -0.29679215656453106
+*Boundary, real
+ Set-625, 3, 3, -0.29581304040361134
+*Boundary, real
+ Set-626, 3, 3, -0.29478990321037835
+*Boundary, real
+ Set-627, 3, 3, -0.29374518960291973
+*Boundary, real
+ Set-628, 3, 3, -0.29269426733230863
+*Boundary, real
+ Set-629, 3, 3, -0.2916451477810186
+*Boundary, real
+ Set-630, 3, 3, -0.29060159775363725
+*Boundary, real
+ Set-631, 3, 3, -0.2895680115660849
+*Boundary, real
+ Set-632, 3, 3, -0.2885538844556078
+*Boundary, real
+ Set-633, 3, 3, -0.28757602905843177
+*Boundary, real
+ Set-634, 3, 3, -0.28665765591840103
+*Boundary, real
+ Set-635, 3, 3, -0.28582470071223004
+*Boundary, real
+ Set-636, 3, 3, -0.28510084050810997
+*Boundary, real
+ Set-637, 3, 3, -0.28450310587571526
+*Boundary, real
+ Set-638, 3, 3, -0.2840397089349477
+*Boundary, real
+ Set-639, 3, 3, -0.2837108017066227
+*Boundary, real
+ Set-640, 3, 3, -0.28351171905424233
+*Boundary, real
+ Set-641, 3, 3, -0.28343729995076916
+*Boundary, real
+ Set-642, 3, 3, -0.28348548923214967
+*Boundary, real
+ Set-643, 3, 3, -0.28365874433354243
+*Boundary, real
+ Set-644, 3, 3, -0.28396267529900365
+*Boundary, real
+ Set-645, 3, 3, -0.28440247432823273
+*Boundary, real
+ Set-646, 3, 3, -0.2849785998836557
+*Boundary, real
+ Set-647, 3, 3, -0.2856835108548499
+*Boundary, real
+ Set-648, 3, 3, -0.28650086330196056
+*Boundary, real
+ Set-649, 3, 3, -0.2874076275689198
+*Boundary, real
+ Set-650, 3, 3, -0.2883784252141878
+*Boundary, real
+ Set-651, 3, 3, -0.2893904764312506
+*Boundary, real
+ Set-652, 3, 3, -0.29042725606591324
+*Boundary, real
+ Set-653, 3, 3, -0.2914794142225337
+*Boundary, real
+ Set-654, 3, 3, -0.29254257242073756
+*Boundary, real
+ Set-655, 3, 3, -0.2936128667569757
+*Boundary, real
+ Set-656, 3, 3, -0.2946820905235842
+*Boundary, real
+ Set-657, 3, 3, -0.2957345934881686
+*Boundary, real
+ Set-658, 3, 3, -0.2967475709047496
+*Boundary, real
+ Set-659, 3, 3, -0.2976951766710263
+*Boundary, real
+ Set-660, 3, 3, -0.29855544131837075
+*Boundary, real
+ Set-661, 3, 3, -0.299317797620422
+*Boundary, real
+ Set-662, 3, 3, -0.29998856503720667
+*Boundary, real
+ Set-663, 3, 3, -0.30059222805591673
+*Boundary, real
+ Set-664, 3, 3, -0.30116761097399614
+*Boundary, real
+ Set-665, 3, 3, -0.3017597236622725
+*Boundary, real
+ Set-666, 3, 3, -0.3024094566464717
+*Boundary, real
+ Set-667, 3, 3, -0.3031441152351092
+*Boundary, real
+ Set-668, 3, 3, -0.3039713246880589
+*Boundary, real
+ Set-669, 3, 3, -0.30487806565403774
+*Boundary, real
+ Set-670, 3, 3, -0.3058336804822338
+*Boundary, real
+ Set-671, 3, 3, -0.30679837684586597
+*Boundary, real
+ Set-672, 3, 3, -0.39086035571401234
+*Boundary, real
+ Set-673, 3, 3, -0.3899866004432408
+*Boundary, real
+ Set-674, 3, 3, -0.3891346659736387
+*Boundary, real
+ Set-675, 3, 3, -0.3883432075821097
+*Boundary, real
+ Set-676, 3, 3, -0.3876419492225258
+*Boundary, real
+ Set-677, 3, 3, -0.3870430854810587
+*Boundary, real
+ Set-678, 3, 3, -0.38653763840504374
+*Boundary, real
+ Set-679, 3, 3, -0.3860962822934587
+*Boundary, real
+ Set-680, 3, 3, -0.38567567475310505
+*Boundary, real
+ Set-681, 3, 3, -0.3852283324197958
+*Boundary, real
+ Set-682, 3, 3, -0.38471336949233276
+*Boundary, real
+ Set-683, 3, 3, -0.38410493416828706
+*Boundary, real
+ Set-684, 3, 3, -0.38339603125668725
+*Boundary, real
+ Set-685, 3, 3, -0.3825969520925716
+*Boundary, real
+ Set-686, 3, 3, -0.3817293112832717
+*Boundary, real
+ Set-687, 3, 3, -0.3808180492009444
+*Boundary, real
+ Set-688, 3, 3, -0.37988425268121984
+*Boundary, real
+ Set-689, 3, 3, -0.3789411256369538
+*Boundary, real
+ Set-690, 3, 3, -0.37799413664047704
+*Boundary, real
+ Set-691, 3, 3, -0.3770447758014558
+*Boundary, real
+ Set-692, 3, 3, -0.3760960583150953
+*Boundary, real
+ Set-693, 3, 3, -0.37515737163911456
+*Boundary, real
+ Set-694, 3, 3, -0.374246645864295
+*Boundary, real
+ Set-695, 3, 3, -0.3733889529799663
+*Boundary, real
+ Set-696, 3, 3, -0.3726120636175262
+*Boundary, real
+ Set-697, 3, 3, -0.37194066397766007
+*Boundary, real
+ Set-698, 3, 3, -0.37139142410002146
+*Boundary, real
+ Set-699, 3, 3, -0.3709707429718714
+*Boundary, real
+ Set-700, 3, 3, -0.3706759341948066
+*Boundary, real
+ Set-701, 3, 3, -0.37049927730100585
+*Boundary, real
+ Set-702, 3, 3, -0.37043326232720986
+*Boundary, real
+ Set-703, 3, 3, -0.37047491842401004
+*Boundary, real
+ Set-704, 3, 3, -0.3706275035325035
+*Boundary, real
+ Set-705, 3, 3, -0.3708988872520307
+*Boundary, real
+ Set-706, 3, 3, -0.3712972721794539
+*Boundary, real
+ Set-707, 3, 3, -0.37182596133158907
+*Boundary, real
+ Set-708, 3, 3, -0.3724792773021894
+*Boundary, real
+ Set-709, 3, 3, -0.37324131445964615
+*Boundary, real
+ Set-710, 3, 3, -0.37408811683163234
+*Boundary, real
+ Set-711, 3, 3, -0.3749925382045187
+*Boundary, real
+ Set-712, 3, 3, -0.37592997522288396
+*Boundary, real
+ Set-713, 3, 3, -0.3768827898793653
+*Boundary, real
+ Set-714, 3, 3, -0.3778417166149495
+*Boundary, real
+ Set-715, 3, 3, -0.3788037159971578
+*Boundary, real
+ Set-716, 3, 3, -0.3797671571718094
+*Boundary, real
+ Set-717, 3, 3, -0.3807263398789248
+*Boundary, real
+ Set-718, 3, 3, -0.3816677548299011
+*Boundary, real
+ Set-719, 3, 3, -0.3825699466541037
+*Boundary, real
+ Set-720, 3, 3, -0.38340755262036447
+*Boundary, real
+ Set-721, 3, 3, -0.38415849544702463
+*Boundary, real
+ Set-722, 3, 3, -0.3848120010370116
+*Boundary, real
+ Set-723, 3, 3, -0.3853745865400571
+*Boundary, real
+ Set-724, 3, 3, -0.3858716542015522
+*Boundary, real
+ Set-725, 3, 3, -0.3863436850708265
+*Boundary, real
+ Set-726, 3, 3, -0.38683780739987855
+*Boundary, real
+ Set-727, 3, 3, -0.38739705233745814
+*Boundary, real
+ Set-728, 3, 3, -0.38805046706962204
+*Boundary, real
+ Set-729, 3, 3, -0.38880677664572794
+*Boundary, real
+ Set-730, 3, 3, -0.3896535624176445
+*Boundary, real
+ Set-731, 3, 3, -0.390560929916822
+*Boundary, real
+ Set-732, 3, 3, -0.3914901492896341
+*Boundary, real
+ Set-733, 3, 3, -0.4756401038562733
+*Boundary, real
+ Set-734, 3, 3, -0.4747863171857091
+*Boundary, real
+ Set-735, 3, 3, -0.47397213046356773
+*Boundary, real
+ Set-736, 3, 3, -0.4732329998157678
+*Boundary, real
+ Set-737, 3, 3, -0.4725969696355222
+*Boundary, real
+ Set-738, 3, 3, -0.47207524170974596
+*Boundary, real
+ Set-739, 3, 3, -0.4716573356390265
+*Boundary, real
+ Set-740, 3, 3, -0.47131173201830817
+*Boundary, real
+ Set-741, 3, 3, -0.4709924258348711
+*Boundary, real
+ Set-742, 3, 3, -0.4706493080784664
+*Boundary, real
+ Set-743, 3, 3, -0.4702394757964356
+*Boundary, real
+ Set-744, 3, 3, -0.4697360265065027
+*Boundary, real
+ Set-745, 3, 3, -0.4691318968817059
+*Boundary, real
+ Set-746, 3, 3, -0.4684379292806697
+*Boundary, real
+ Set-747, 3, 3, -0.46767630360723056
+*Boundary, real
+ Set-748, 3, 3, -0.4668719201868361
+*Boundary, real
+ Set-749, 3, 3, -0.4660448322368699
+*Boundary, real
+ Set-750, 3, 3, -0.4652062246198985
+*Boundary, real
+ Set-751, 3, 3, -0.4643589823614297
+*Boundary, real
+ Set-752, 3, 3, -0.46350213923003764
+*Boundary, real
+ Set-753, 3, 3, -0.46263708948161697
+*Boundary, real
+ Set-754, 3, 3, -0.4617728880060938
+*Boundary, real
+ Set-755, 3, 3, -0.4609284306580465
+*Boundary, real
+ Set-756, 3, 3, -0.46013059178557014
+*Boundary, real
+ Set-757, 3, 3, -0.45940899395878726
+*Boundary, real
+ Set-758, 3, 3, -0.45878938627894866
+*Boundary, real
+ Set-759, 3, 3, -0.4582881260059124
+*Boundary, real
+ Set-760, 3, 3, -0.4579098120173316
+*Boundary, real
+ Set-761, 3, 3, -0.4576488925969786
+*Boundary, real
+ Set-762, 3, 3, -0.4574945420041929
+*Boundary, real
+ Set-763, 3, 3, -0.4574368565698281
+*Boundary, real
+ Set-764, 3, 3, -0.4574719348939016
+*Boundary, real
+ Set-765, 3, 3, -0.4576038595159074
+*Boundary, real
+ Set-766, 3, 3, -0.45784281139839905
+*Boundary, real
+ Set-767, 3, 3, -0.4582000567922836
+*Boundary, real
+ Set-768, 3, 3, -0.4586817693229975
+*Boundary, real
+ Set-769, 3, 3, -0.4592841180437042
+*Boundary, real
+ Set-770, 3, 3, -0.4599915819473818
+*Boundary, real
+ Set-771, 3, 3, -0.46077921933701155
+*Boundary, real
+ Set-772, 3, 3, -0.4616180956513991
+*Boundary, real
+ Set-773, 3, 3, -0.46248184244835977
+*Boundary, real
+ Set-774, 3, 3, -0.46335186285912966
+*Boundary, real
+ Set-775, 3, 3, -0.46421920473478373
+*Boundary, real
+ Set-776, 3, 3, -0.46508241419249674
+*Boundary, real
+ Set-777, 3, 3, -0.4659422767974266
+*Boundary, real
+ Set-778, 3, 3, -0.46679564119356076
+*Boundary, real
+ Set-779, 3, 3, -0.46763099353073
+*Boundary, real
+ Set-780, 3, 3, -0.4684279008917196
+*Boundary, real
+ Set-781, 3, 3, -0.46916104004678283
+*Boundary, real
+ Set-782, 3, 3, -0.4698077751650493
+*Boundary, real
+ Set-783, 3, 3, -0.47035679202893627
+*Boundary, real
+ Set-784, 3, 3, -0.47081468881375477
+*Boundary, real
+ Set-785, 3, 3, -0.47120793195445476
+*Boundary, real
+ Set-786, 3, 3, -0.4715790325452274
+*Boundary, real
+ Set-787, 3, 3, -0.47197775497329697
+*Boundary, real
+ Set-788, 3, 3, -0.4724497987465356
+*Boundary, real
+ Set-789, 3, 3, -0.47302640323009454
+*Boundary, real
+ Set-790, 3, 3, -0.47371778588019264
+*Boundary, real
+ Set-791, 3, 3, -0.4745125031744377
+*Boundary, real
+ Set-792, 3, 3, -0.4753823164567419
+*Boundary, real
+ Set-793, 3, 3, -0.4762916745213843
+**imag
+** Boundary Conditions
+*Boundary, imaginary
+ Set-1, 3, 3, 0.5524942512311369
+*Boundary, imaginary
+ Set-2, 3, 3, 0.5502614842207609
+*Boundary, imaginary
+ Set-3, 3, 3, 0.5480211993045285
+*Boundary, imaginary
+ Set-4, 3, 3, 0.5457760640494026
+*Boundary, imaginary
+ Set-5, 3, 3, 0.5435432721347354
+*Boundary, imaginary
+ Set-6, 3, 3, 0.5413564127168333
+*Boundary, imaginary
+ Set-7, 3, 3, 0.5392639412420119
+*Boundary, imaginary
+ Set-8, 3, 3, 0.5373243169917742
+*Boundary, imaginary
+ Set-9, 3, 3, 0.5355987514615319
+*Boundary, imaginary
+ Set-10, 3, 3, 0.5341435705605967
+*Boundary, imaginary
+ Set-11, 3, 3, 0.5330039441392994
+*Boundary, imaginary
+ Set-12, 3, 3, 0.5322102775777982
+*Boundary, imaginary
+ Set-13, 3, 3, 0.5317776067856586
+*Boundary, imaginary
+ Set-14, 3, 3, 0.5317074482066511
+*Boundary, imaginary
+ Set-15, 3, 3, 0.5319909014393942
+*Boundary, imaginary
+ Set-16, 3, 3, 0.5326116242945999
+*Boundary, imaginary
+ Set-17, 3, 3, 0.5335475979541671
+*Boundary, imaginary
+ Set-18, 3, 3, 0.5347712419460798
+*Boundary, imaginary
+ Set-19, 3, 3, 0.5362481778927057
+*Boundary, imaginary
+ Set-20, 3, 3, 0.5379355148553181
+*Boundary, imaginary
+ Set-21, 3, 3, 0.539780749362832
+*Boundary, imaginary
+ Set-22, 3, 3, 0.5417221814208645
+*Boundary, imaginary
+ Set-23, 3, 3, 0.5436912319960799
+*Boundary, imaginary
+ Set-24, 3, 3, 0.545616401390743
+*Boundary, imaginary
+ Set-25, 3, 3, 0.5474280611305198
+*Boundary, imaginary
+ Set-26, 3, 3, 0.5490630088418075
+*Boundary, imaginary
+ Set-27, 3, 3, 0.5504678155040293
+*Boundary, imaginary
+ Set-28, 3, 3, 0.5516004099411377
+*Boundary, imaginary
+ Set-29, 3, 3, 0.5524299235058021
+*Boundary, imaginary
+ Set-30, 3, 3, 0.5529353561440592
+*Boundary, imaginary
+ Set-31, 3, 3, 0.5531039418037523
+*Boundary, imaginary
+ Set-32, 3, 3, 0.5529300860806847
+*Boundary, imaginary
+ Set-33, 3, 3, 0.5524154332991308
+*Boundary, imaginary
+ Set-34, 3, 3, 0.5515701095464587
+*Boundary, imaginary
+ Set-35, 3, 3, 0.5504146619531651
+*Boundary, imaginary
+ Set-36, 3, 3, 0.5489818544561227
+*Boundary, imaginary
+ Set-37, 3, 3, 0.5473174111314705
+*Boundary, imaginary
+ Set-38, 3, 3, 0.5454790461146417
+*Boundary, imaginary
+ Set-39, 3, 3, 0.5435336058781184
+*Boundary, imaginary
+ Set-40, 3, 3, 0.5415527174018459
+*Boundary, imaginary
+ Set-41, 3, 3, 0.5396077982426213
+*Boundary, imaginary
+ Set-42, 3, 3, 0.5377654877444196
+*Boundary, imaginary
+ Set-43, 3, 3, 0.536084430585927
+*Boundary, imaginary
+ Set-44, 3, 3, 0.5346139199387583
+*Boundary, imaginary
+ Set-45, 3, 3, 0.5333943197694462
+*Boundary, imaginary
+ Set-46, 3, 3, 0.5324586240622358
+*Boundary, imaginary
+ Set-47, 3, 3, 0.5318341626746083
+*Boundary, imaginary
+ Set-48, 3, 3, 0.5315434526328763
+*Boundary, imaginary
+ Set-49, 3, 3, 0.5316035389567398
+*Boundary, imaginary
+ Set-50, 3, 3, 0.5320237696551152
+*Boundary, imaginary
+ Set-51, 3, 3, 0.5328026173334671
+*Boundary, imaginary
+ Set-52, 3, 3, 0.5339246704757559
+*Boundary, imaginary
+ Set-53, 3, 3, 0.5353590834419646
+*Boundary, imaginary
+ Set-54, 3, 3, 0.5370605178267606
+*Boundary, imaginary
+ Set-55, 3, 3, 0.5389729568901972
+*Boundary, imaginary
+ Set-56, 3, 3, 0.5410359597751739
+*Boundary, imaginary
+ Set-57, 3, 3, 0.5431920793749446
+*Boundary, imaginary
+ Set-58, 3, 3, 0.5453937995598374
+*Boundary, imaginary
+ Set-59, 3, 3, 0.5476081390426648
+*Boundary, imaginary
+ Set-60, 3, 3, 0.5498180864648687
+*Boundary, imaginary
+ Set-61, 3, 3, 0.552020829410622
+*Boundary, imaginary
+ Set-62, 3, 3, 0.4270995032211151
+*Boundary, imaginary
+ Set-63, 3, 3, 0.4248701122066927
+*Boundary, imaginary
+ Set-64, 3, 3, 0.4226327552635644
+*Boundary, imaginary
+ Set-65, 3, 3, 0.4203900768690179
+*Boundary, imaginary
+ Set-66, 3, 3, 0.4181582409498287
+*Boundary, imaginary
+ Set-67, 3, 3, 0.41596940581690867
+*Boundary, imaginary
+ Set-68, 3, 3, 0.4138707294060932
+*Boundary, imaginary
+ Set-69, 3, 3, 0.41191999871797236
+*Boundary, imaginary
+ Set-70, 3, 3, 0.4101787050289048
+*Boundary, imaginary
+ Set-71, 3, 3, 0.40870446965995055
+*Boundary, imaginary
+ Set-72, 3, 3, 0.4075445711145933
+*Boundary, imaginary
+ Set-73, 3, 3, 0.40673190567285167
+*Boundary, imaginary
+ Set-74, 3, 3, 0.4062838514395579
+*Boundary, imaginary
+ Set-75, 3, 3, 0.4062036298848725
+*Boundary, imaginary
+ Set-76, 3, 3, 0.40648309517155523
+*Boundary, imaginary
+ Set-77, 3, 3, 0.40710564695528967
+*Boundary, imaginary
+ Set-78, 3, 3, 0.408048184654839
+*Boundary, imaginary
+ Set-79, 3, 3, 0.4092815926994789
+*Boundary, imaginary
+ Set-80, 3, 3, 0.41076993766156733
+*Boundary, imaginary
+ Set-81, 3, 3, 0.41246912405200864
+*Boundary, imaginary
+ Set-82, 3, 3, 0.41432600383455587
+*Boundary, imaginary
+ Set-83, 3, 3, 0.41627879881862295
+*Boundary, imaginary
+ Set-84, 3, 3, 0.41825924250906393
+*Boundary, imaginary
+ Set-85, 3, 3, 0.42019625413106754
+*Boundary, imaginary
+ Set-86, 3, 3, 0.4220204368450715
+*Boundary, imaginary
+ Set-87, 3, 3, 0.423668423663748
+*Boundary, imaginary
+ Set-88, 3, 3, 0.4250861619358942
+*Boundary, imaginary
+ Set-89, 3, 3, 0.42623059469479085
+*Boundary, imaginary
+ Set-90, 3, 3, 0.4270697269072546
+*Boundary, imaginary
+ Set-91, 3, 3, 0.42758156807600783
+*Boundary, imaginary
+ Set-92, 3, 3, 0.4277527468060189
+*Boundary, imaginary
+ Set-93, 3, 3, 0.42757759917166666
+*Boundary, imaginary
+ Set-94, 3, 3, 0.42705824733571063
+*Boundary, imaginary
+ Set-95, 3, 3, 0.42620571424081655
+*Boundary, imaginary
+ Set-96, 3, 3, 0.4250416323741404
+*Boundary, imaginary
+ Set-97, 3, 3, 0.42359977185995756
+*Boundary, imaginary
+ Set-98, 3, 3, 0.42192655327067474
+*Boundary, imaginary
+ Set-99, 3, 3, 0.42007994837514834
+*Boundary, imaginary
+ Set-100, 3, 3, 0.41812663175994796
+*Boundary, imaginary
+ Set-101, 3, 3, 0.41613777659492873
+*Boundary, imaginary
+ Set-102, 3, 3, 0.4141843118373141
+*Boundary, imaginary
+ Set-103, 3, 3, 0.41233263130394593
+*Boundary, imaginary
+ Set-104, 3, 3, 0.41064160375369074
+*Boundary, imaginary
+ Set-105, 3, 3, 0.40916131737418215
+*Boundary, imaginary
+ Set-106, 3, 3, 0.4079334336755819
+*Boundary, imaginary
+ Set-107, 3, 3, 0.40699250883424687
+*Boundary, imaginary
+ Set-108, 3, 3, 0.40636734091524507
+*Boundary, imaginary
+ Set-109, 3, 3, 0.40608143073305947
+*Boundary, imaginary
+ Set-110, 3, 3, 0.40615200634932824
+*Boundary, imaginary
+ Set-111, 3, 3, 0.4065876515916429
+*Boundary, imaginary
+ Set-112, 3, 3, 0.407385205155415
+*Boundary, imaginary
+ Set-113, 3, 3, 0.40852704908174153
+*Boundary, imaginary
+ Set-114, 3, 3, 0.4099800079376531
+*Boundary, imaginary
+ Set-115, 3, 3, 0.4116967750915991
+*Boundary, imaginary
+ Set-116, 3, 3, 0.41362012229277123
+*Boundary, imaginary
+ Set-117, 3, 3, 0.41568934244525324
+*Boundary, imaginary
+ Set-118, 3, 3, 0.4178476135247844
+*Boundary, imaginary
+ Set-119, 3, 3, 0.4200486357682013
+*Boundary, imaginary
+ Set-120, 3, 3, 0.4222607756252241
+*Boundary, imaginary
+ Set-121, 3, 3, 0.42446799169519434
+*Boundary, imaginary
+ Set-122, 3, 3, 0.42666747531851446
+*Boundary, imaginary
+ Set-123, 3, 3, 0.3017366232377111
+*Boundary, imaginary
+ Set-124, 3, 3, 0.29951334636586513
+*Boundary, imaginary
+ Set-125, 3, 3, 0.29727981871185966
+*Boundary, imaginary
+ Set-126, 3, 3, 0.29503988241016516
+*Boundary, imaginary
+ Set-127, 3, 3, 0.29280827415942123
+*Boundary, imaginary
+ Set-128, 3, 3, 0.2906153973371045
+*Boundary, imaginary
+ Set-129, 3, 3, 0.28850721811190777
+*Boundary, imaginary
+ Set-130, 3, 3, 0.28654125922559065
+*Boundary, imaginary
+ Set-131, 3, 3, 0.28477992094402393
+*Boundary, imaginary
+ Set-132, 3, 3, 0.28328279385570176
+*Boundary, imaginary
+ Set-133, 3, 3, 0.2820998279336543
+*Boundary, imaginary
+ Set-134, 3, 3, 0.2812667492553593
+*Boundary, imaginary
+ Set-135, 3, 3, 0.2808033550950965
+*Boundary, imaginary
+ Set-136, 3, 3, 0.28071442467985847
+*Boundary, imaginary
+ Set-137, 3, 3, 0.2809922887656835
+*Boundary, imaginary
+ Set-138, 3, 3, 0.2816197910197109
+*Boundary, imaginary
+ Set-139, 3, 3, 0.2825725229167101
+*Boundary, imaginary
+ Set-140, 3, 3, 0.2838197222021447
+*Boundary, imaginary
+ Set-141, 3, 3, 0.2853238911195806
+*Boundary, imaginary
+ Set-142, 3, 3, 0.2870397665511517
+*Boundary, imaginary
+ Set-143, 3, 3, 0.28891356650534983
+*Boundary, imaginary
+ Set-144, 3, 3, 0.2908833598555796
+*Boundary, imaginary
+ Set-145, 3, 3, 0.29288100986462423
+*Boundary, imaginary
+ Set-146, 3, 3, 0.2948355847619837
+*Boundary, imaginary
+ Set-147, 3, 3, 0.2966776171592271
+*Boundary, imaginary
+ Set-148, 3, 3, 0.29834330790931557
+*Boundary, imaginary
+ Set-149, 3, 3, 0.299777801384649
+*Boundary, imaginary
+ Set-150, 3, 3, 0.30093698487948606
+*Boundary, imaginary
+ Set-151, 3, 3, 0.301787759451985
+*Boundary, imaginary
+ Set-152, 3, 3, 0.3023072130023399
+*Boundary, imaginary
+ Set-153, 3, 3, 0.3024814288981603
+*Boundary, imaginary
+ Set-154, 3, 3, 0.30230468389757403
+*Boundary, imaginary
+ Set-155, 3, 3, 0.30177952808473396
+*Boundary, imaginary
+ Set-156, 3, 3, 0.30091779626514464
+*Boundary, imaginary
+ Set-157, 3, 3, 0.29974213675503675
+*Boundary, imaginary
+ Set-158, 3, 3, 0.2982873273685102
+*Boundary, imaginary
+ Set-159, 3, 3, 0.2966005953043591
+*Boundary, imaginary
+ Set-160, 3, 3, 0.29474039148905784
+*Boundary, imaginary
+ Set-161, 3, 3, 0.2927735156223181
+*Boundary, imaginary
+ Set-162, 3, 3, 0.29077099609866924
+*Boundary, imaginary
+ Set-163, 3, 3, 0.28880352572048296
+*Boundary, imaginary
+ Set-164, 3, 3, 0.2869374003672803
+*Boundary, imaginary
+ Set-165, 3, 3, 0.28523174686579805
+*Boundary, imaginary
+ Set-166, 3, 3, 0.2837374044054326
+*Boundary, imaginary
+ Set-167, 3, 3, 0.2824972781497958
+*Boundary, imaginary
+ Set-168, 3, 3, 0.28154749750000874
+*Boundary, imaginary
+ Set-169, 3, 3, 0.280918456276996
+*Boundary, imaginary
+ Set-170, 3, 3, 0.280634886624199
+*Boundary, imaginary
+ Set-171, 3, 3, 0.28071451515497237
+*Boundary, imaginary
+ Set-172, 3, 3, 0.2811654477443587
+*Boundary, imaginary
+ Set-173, 3, 3, 0.28198303496769483
+*Boundary, imaginary
+ Set-174, 3, 3, 0.2831473686466676
+*Boundary, imaginary
+ Set-175, 3, 3, 0.28462259934416406
+*Boundary, imaginary
+ Set-176, 3, 3, 0.2863588910952081
+*Boundary, imaginary
+ Set-177, 3, 3, 0.28829714081596347
+*Boundary, imaginary
+ Set-178, 3, 3, 0.29037576220090966
+*Boundary, imaginary
+ Set-179, 3, 3, 0.29253816552439016
+*Boundary, imaginary
+ Set-180, 3, 3, 0.29473916972004005
+*Boundary, imaginary
+ Set-181, 3, 3, 0.29694880827985953
+*Boundary, imaginary
+ Set-182, 3, 3, 0.2991523977327159
+*Boundary, imaginary
+ Set-183, 3, 3, 0.30134593418728606
+*Boundary, imaginary
+ Set-184, 3, 3, 0.17644373122135218
+*Boundary, imaginary
+ Set-185, 3, 3, 0.17422719482251403
+*Boundary, imaginary
+ Set-186, 3, 3, 0.17200017989650832
+*Boundary, imaginary
+ Set-187, 3, 3, 0.1697662838905261
+*Boundary, imaginary
+ Set-188, 3, 3, 0.16753839925978392
+*Boundary, imaginary
+ Set-189, 3, 3, 0.16534472234974384
+*Boundary, imaginary
+ Set-190, 3, 3, 0.16322973215923345
+*Boundary, imaginary
+ Set-191, 3, 3, 0.1612506419285886
+*Boundary, imaginary
+ Set-192, 3, 3, 0.15947089430654582
+*Boundary, imaginary
+ Set-193, 3, 3, 0.15795230835547425
+*Boundary, imaginary
+ Set-194, 3, 3, 0.1567477815802318
+*Boundary, imaginary
+ Set-195, 3, 3, 0.1558960720759217
+*Boundary, imaginary
+ Set-196, 3, 3, 0.15541946282747499
+*Boundary, imaginary
+ Set-197, 3, 3, 0.1553242133735016
+*Boundary, imaginary
+ Set-198, 3, 3, 0.1556029484779765
+*Boundary, imaginary
+ Set-199, 3, 3, 0.1562377391523902
+*Boundary, imaginary
+ Set-200, 3, 3, 0.15720269180705945
+*Boundary, imaginary
+ Set-201, 3, 3, 0.15846531206718895
+*Boundary, imaginary
+ Set-202, 3, 3, 0.1599865575305553
+*Boundary, imaginary
+ Set-203, 3, 3, 0.16172009734875
+*Boundary, imaginary
+ Set-204, 3, 3, 0.16361164514033516
+*Boundary, imaginary
+ Set-205, 3, 3, 0.16559922175455646
+*Boundary, imaginary
+ Set-206, 3, 3, 0.16761486311038334
+*Boundary, imaginary
+ Set-207, 3, 3, 0.16958775974028703
+*Boundary, imaginary
+ Set-208, 3, 3, 0.17144829976438605
+*Boundary, imaginary
+ Set-209, 3, 3, 0.1731321715157073
+*Boundary, imaginary
+ Set-210, 3, 3, 0.17458367092472987
+*Boundary, imaginary
+ Set-211, 3, 3, 0.17575764368377259
+*Boundary, imaginary
+ Set-212, 3, 3, 0.1766199592313399
+*Boundary, imaginary
+ Set-213, 3, 3, 0.1771468881547974
+*Boundary, imaginary
+ Set-214, 3, 3, 0.17732406543003815
+*Boundary, imaginary
+ Set-215, 3, 3, 0.17714576165704202
+*Boundary, imaginary
+ Set-216, 3, 3, 0.17661494590506266
+*Boundary, imaginary
+ Set-217, 3, 3, 0.17574420021630677
+*Boundary, imaginary
+ Set-218, 3, 3, 0.17455709614935427
+*Boundary, imaginary
+ Set-219, 3, 3, 0.17308933548142624
+*Boundary, imaginary
+ Set-220, 3, 3, 0.1713889071127228
+*Boundary, imaginary
+ Set-221, 3, 3, 0.16951474524590487
+*Boundary, imaginary
+ Set-222, 3, 3, 0.16753381407888462
+*Boundary, imaginary
+ Set-223, 3, 3, 0.165517040327804
+*Boundary, imaginary
+ Set-224, 3, 3, 0.16353489254261297
+*Boundary, imaginary
+ Set-225, 3, 3, 0.16165352787237675
+*Boundary, imaginary
+ Set-226, 3, 3, 0.15993224142558185
+*Boundary, imaginary
+ Set-227, 3, 3, 0.1584225153118023
+*Boundary, imaginary
+ Set-228, 3, 3, 0.15716841914214869
+*Boundary, imaginary
+ Set-229, 3, 3, 0.15620765047586713
+*Boundary, imaginary
+ Set-230, 3, 3, 0.1555722906903976
+*Boundary, imaginary
+ Set-231, 3, 3, 0.15528847952815034
+*Boundary, imaginary
+ Set-232, 3, 3, 0.15537465403027373
+*Boundary, imaginary
+ Set-233, 3, 3, 0.15583861992225373
+*Boundary, imaginary
+ Set-234, 3, 3, 0.15667431545843394
+*Boundary, imaginary
+ Set-235, 3, 3, 0.1578594785971325
+*Boundary, imaginary
+ Set-236, 3, 3, 0.15935539055700806
+*Boundary, imaginary
+ Set-237, 3, 3, 0.16110941895127384
+*Boundary, imaginary
+ Set-238, 3, 3, 0.16306033528102398
+*Boundary, imaginary
+ Set-239, 3, 3, 0.16514554672504234
+*Boundary, imaginary
+ Set-240, 3, 3, 0.16730874386982292
+*Boundary, imaginary
+ Set-241, 3, 3, 0.16950615834480814
+*Boundary, imaginary
+ Set-242, 3, 3, 0.17170993977528862
+*Boundary, imaginary
+ Set-243, 3, 3, 0.17390718181100262
+*Boundary, imaginary
+ Set-244, 3, 3, 0.17609411588648394
+*Boundary, imaginary
+ Set-245, 3, 3, 0.0512296001721866
+*Boundary, imaginary
+ Set-246, 3, 3, 0.04901925108383933
+*Boundary, imaginary
+ Set-247, 3, 3, 0.04680268971827676
+*Boundary, imaginary
+ Set-248, 3, 3, 0.0445809646416732
+*Boundary, imaginary
+ Set-249, 3, 3, 0.042364208483837366
+*Boundary, imaginary
+ Set-250, 3, 3, 0.04017803302609423
+*Boundary, imaginary
+ Set-251, 3, 3, 0.03806501952963698
+*Boundary, imaginary
+ Set-252, 3, 3, 0.03608169583875337
+*Boundary, imaginary
+ Set-253, 3, 3, 0.03429221413413884
+*Boundary, imaginary
+ Set-254, 3, 3, 0.0327603329974458
+*Boundary, imaginary
+ Set-255, 3, 3, 0.031541645351665246
+*Boundary, imaginary
+ Set-256, 3, 3, 0.030677709505243303
+*Boundary, imaginary
+ Set-257, 3, 3, 0.030193079815105925
+*Boundary, imaginary
+ Set-258, 3, 3, 0.03009531162623722
+*Boundary, imaginary
+ Set-259, 3, 3, 0.030377198148077003
+*Boundary, imaginary
+ Set-260, 3, 3, 0.03102000318966458
+*Boundary, imaginary
+ Set-261, 3, 3, 0.03199642660535042
+*Boundary, imaginary
+ Set-262, 3, 3, 0.033272431448155025
+*Boundary, imaginary
+ Set-263, 3, 3, 0.03480770236560758
+*Boundary, imaginary
+ Set-264, 3, 3, 0.03655514449584848
+*Boundary, imaginary
+ Set-265, 3, 3, 0.03846024726852152
+*Boundary, imaginary
+ Set-266, 3, 3, 0.040461197255693804
+*Boundary, imaginary
+ Set-267, 3, 3, 0.042490334777146
+*Boundary, imaginary
+ Set-268, 3, 3, 0.044477039169738775
+*Boundary, imaginary
+ Set-269, 3, 3, 0.04635159763756885
+*Boundary, imaginary
+ Set-270, 3, 3, 0.048049258005731774
+*Boundary, imaginary
+ Set-271, 3, 3, 0.04951360829241526
+*Boundary, imaginary
+ Set-272, 3, 3, 0.05069867367430879
+*Boundary, imaginary
+ Set-273, 3, 3, 0.05156957069939562
+*Boundary, imaginary
+ Set-274, 3, 3, 0.052102036829103957
+*Boundary, imaginary
+ Set-275, 3, 3, 0.05228148328770014
+*Boundary, imaginary
+ Set-276, 3, 3, 0.05210228320741485
+*Boundary, imaginary
+ Set-277, 3, 3, 0.05156778836953824
+*Boundary, imaginary
+ Set-278, 3, 3, 0.05069115466221575
+*Boundary, imaginary
+ Set-279, 3, 3, 0.04949660795195586
+*Boundary, imaginary
+ Set-280, 3, 3, 0.048020470284321784
+*Boundary, imaginary
+ Set-281, 3, 3, 0.046311213306876854
+*Boundary, imaginary
+ Set-282, 3, 3, 0.04442803938321914
+*Boundary, imaginary
+ Set-283, 3, 3, 0.042437933718739745
+*Boundary, imaginary
+ Set-284, 3, 3, 0.04041162691903727
+*Boundary, imaginary
+ Set-285, 3, 3, 0.03841927686783649
+*Boundary, imaginary
+ Set-286, 3, 3, 0.03652678229314674
+*Boundary, imaginary
+ Set-287, 3, 3, 0.034793429446871416
+*Boundary, imaginary
+ Set-288, 3, 3, 0.03327111173900531
+*Boundary, imaginary
+ Set-289, 3, 3, 0.03200480677956716
+*Boundary, imaginary
+ Set-290, 3, 3, 0.031033544383225243
+*Boundary, imaginary
+ Set-291, 3, 3, 0.030390923544699064
+*Boundary, imaginary
+ Set-292, 3, 3, 0.030104417256744537
+*Boundary, imaginary
+ Set-293, 3, 3, 0.03019320079671467
+*Boundary, imaginary
+ Set-294, 3, 3, 0.030664893522870218
+*Boundary, imaginary
+ Set-295, 3, 3, 0.031512193927302146
+*Boundary, imaginary
+ Set-296, 3, 3, 0.032710691051950416
+*Boundary, imaginary
+ Set-297, 3, 3, 0.03421902230061766
+*Boundary, imaginary
+ Set-298, 3, 3, 0.03598200718273159
+*Boundary, imaginary
+ Set-299, 3, 3, 0.03793657872974812
+*Boundary, imaginary
+ Set-300, 3, 3, 0.04001947038447626
+*Boundary, imaginary
+ Set-301, 3, 3, 0.042175031379658084
+*Boundary, imaginary
+ Set-302, 3, 3, 0.04436132238724902
+*Boundary, imaginary
+ Set-303, 3, 3, 0.04655299661938475
+*Boundary, imaginary
+ Set-304, 3, 3, 0.04873984379323501
+*Boundary, imaginary
+ Set-305, 3, 3, 0.05092062205937814
+*Boundary, imaginary
+ Set-306, 3, 3, -0.07395490241458205
+*Boundary, imaginary
+ Set-307, 3, 3, -0.07615853563230873
+*Boundary, imaginary
+ Set-308, 3, 3, -0.0783595817168824
+*Boundary, imaginary
+ Set-309, 3, 3, -0.08056138603567878
+*Boundary, imaginary
+ Set-310, 3, 3, -0.08275718732126087
+*Boundary, imaginary
+ Set-311, 3, 3, -0.08492423303815545
+*Boundary, imaginary
+ Set-312, 3, 3, -0.08702220369295396
+*Boundary, imaginary
+ Set-313, 3, 3, -0.08899580258125052
+*Boundary, imaginary
+ Set-314, 3, 3, -0.09078086492700163
+*Boundary, imaginary
+ Set-315, 3, 3, -0.09231246272954904
+*Boundary, imaginary
+ Set-316, 3, 3, -0.09353308206603538
+*Boundary, imaginary
+ Set-317, 3, 3, -0.09439905769373279
+*Boundary, imaginary
+ Set-318, 3, 3, -0.09488410426868933
+*Boundary, imaginary
+ Set-319, 3, 3, -0.09497969639036828
+*Boundary, imaginary
+ Set-320, 3, 3, -0.09469294974182206
+*Boundary, imaginary
+ Set-321, 3, 3, -0.09404323623927335
+*Boundary, imaginary
+ Set-322, 3, 3, -0.09305888161974377
+*Boundary, imaginary
+ Set-323, 3, 3, -0.09177494760016369
+*Boundary, imaginary
+ Set-324, 3, 3, -0.09023246096494755
+*Boundary, imaginary
+ Set-325, 3, 3, -0.0884787673855035
+*Boundary, imaginary
+ Set-326, 3, 3, -0.08656820570882093
+*Boundary, imaginary
+ Set-327, 3, 3, -0.08456217324681464
+*Boundary, imaginary
+ Set-328, 3, 3, -0.08252790134613602
+*Boundary, imaginary
+ Set-329, 3, 3, -0.08053576502954328
+*Boundary, imaginary
+ Set-330, 3, 3, -0.07865550804970965
+*Boundary, imaginary
+ Set-331, 3, 3, -0.07695216543612718
+*Boundary, imaginary
+ Set-332, 3, 3, -0.07548256839613735
+*Boundary, imaginary
+ Set-333, 3, 3, -0.07429309700848605
+*Boundary, imaginary
+ Set-334, 3, 3, -0.07341889992158548
+*Boundary, imaginary
+ Set-335, 3, 3, -0.07288430268204081
+*Boundary, imaginary
+ Set-336, 3, 3, -0.07270376556460359
+*Boundary, imaginary
+ Set-337, 3, 3, -0.07288265961841998
+*Boundary, imaginary
+ Set-338, 3, 3, -0.07341733372762614
+*Boundary, imaginary
+ Set-339, 3, 3, -0.07429436125477748
+*Boundary, imaginary
+ Set-340, 3, 3, -0.07548931849772135
+*Boundary, imaginary
+ Set-341, 3, 3, -0.07696577729036864
+*Boundary, imaginary
+ Set-342, 3, 3, -0.07867525845252485
+*Boundary, imaginary
+ Set-343, 3, 3, -0.08055865807368241
+*Boundary, imaginary
+ Set-344, 3, 3, -0.08254920378236968
+*Boundary, imaginary
+ Set-345, 3, 3, -0.0845764872908921
+*Boundary, imaginary
+ Set-346, 3, 3, -0.086570742545375
+*Boundary, imaginary
+ Set-347, 3, 3, -0.08846644246159069
+*Boundary, imaginary
+ Set-348, 3, 3, -0.09020451978638744
+*Boundary, imaginary
+ Set-349, 3, 3, -0.0917330075270615
+*Boundary, imaginary
+ Set-350, 3, 3, -0.09300647100397932
+*Boundary, imaginary
+ Set-351, 3, 3, -0.0939850556508127
+*Boundary, imaginary
+ Set-352, 3, 3, -0.09463412516399952
+*Boundary, imaginary
+ Set-353, 3, 3, -0.09492523648318352
+*Boundary, imaginary
+ Set-354, 3, 3, -0.09483864829876142
+*Boundary, imaginary
+ Set-355, 3, 3, -0.09436686545360898
+*Boundary, imaginary
+ Set-356, 3, 3, -0.09351812785516667
+*Boundary, imaginary
+ Set-357, 3, 3, -0.0923184834631281
+*Boundary, imaginary
+ Set-358, 3, 3, -0.09081127343105572
+*Boundary, imaginary
+ Set-359, 3, 3, -0.08905347566239812
+*Boundary, imaginary
+ Set-360, 3, 3, -0.08710924155511252
+*Boundary, imaginary
+ Set-361, 3, 3, -0.08504182036828781
+*Boundary, imaginary
+ Set-362, 3, 3, -0.08290565279597181
+*Boundary, imaginary
+ Set-363, 3, 3, -0.08074046873111633
+*Boundary, imaginary
+ Set-364, 3, 3, -0.07856881512726918
+*Boundary, imaginary
+ Set-365, 3, 3, -0.076397579026941
+*Boundary, imaginary
+ Set-366, 3, 3, -0.07422363780077201
+*Boundary, imaginary
+ Set-367, 3, 3, -0.19921351179104502
+*Boundary, imaginary
+ Set-368, 3, 3, -0.20140691399538863
+*Boundary, imaginary
+ Set-369, 3, 3, -0.20358658144566935
+*Boundary, imaginary
+ Set-370, 3, 3, -0.20576054956812387
+*Boundary, imaginary
+ Set-371, 3, 3, -0.2079252745339588
+*Boundary, imaginary
+ Set-372, 3, 3, -0.21006078001780337
+*Boundary, imaginary
+ Set-373, 3, 3, -0.21212925209325917
+*Boundary, imaginary
+ Set-374, 3, 3, -0.21407720668381877
+*Boundary, imaginary
+ Set-375, 3, 3, -0.2158413487419921
+*Boundary, imaginary
+ Set-376, 3, 3, -0.21735665275598948
+*Boundary, imaginary
+ Set-377, 3, 3, -0.21856479818297267
+*Boundary, imaginary
+ Set-378, 3, 3, -0.21942101989590945
+*Boundary, imaginary
+ Set-379, 3, 3, -0.2198980604969607
+*Boundary, imaginary
+ Set-380, 3, 3, -0.21998683622191906
+*Boundary, imaginary
+ Set-381, 3, 3, -0.21969439399900711
+*Boundary, imaginary
+ Set-382, 3, 3, -0.2190404010257978
+*Boundary, imaginary
+ Set-383, 3, 3, -0.21805359329617421
+*Boundary, imaginary
+ Set-384, 3, 3, -0.21676929815615897
+*Boundary, imaginary
+ Set-385, 3, 3, -0.21522849476011757
+*Boundary, imaginary
+ Set-386, 3, 3, -0.2134781448335215
+*Boundary, imaginary
+ Set-387, 3, 3, -0.21157198135291394
+*Boundary, imaginary
+ Set-388, 3, 3, -0.2095707645461325
+*Boundary, imaginary
+ Set-389, 3, 3, -0.20754123935350868
+*Boundary, imaginary
+ Set-390, 3, 3, -0.20555354443575033
+*Boundary, imaginary
+ Set-391, 3, 3, -0.20367742026994223
+*Boundary, imaginary
+ Set-392, 3, 3, -0.20197801476406846
+*Boundary, imaginary
+ Set-393, 3, 3, -0.20051222773610008
+*Boundary, imaginary
+ Set-394, 3, 3, -0.19932633074217096
+*Boundary, imaginary
+ Set-395, 3, 3, -0.19845513756983788
+*Boundary, imaginary
+ Set-396, 3, 3, -0.19792246629609725
+*Boundary, imaginary
+ Set-397, 3, 3, -0.19774223061757162
+*Boundary, imaginary
+ Set-398, 3, 3, -0.19791937537838672
+*Boundary, imaginary
+ Set-399, 3, 3, -0.19845006826805084
+*Boundary, imaginary
+ Set-400, 3, 3, -0.19932099339487322
+*Boundary, imaginary
+ Set-401, 3, 3, -0.20050809015829235
+*Boundary, imaginary
+ Set-402, 3, 3, -0.2019754458836256
+*Boundary, imaginary
+ Set-403, 3, 3, -0.2036751360276657
+*Boundary, imaginary
+ Set-404, 3, 3, -0.20554856972514352
+*Boundary, imaginary
+ Set-405, 3, 3, -0.2075294218626536
+*Boundary, imaginary
+ Set-406, 3, 3, -0.20954769062265993
+*Boundary, imaginary
+ Set-407, 3, 3, -0.21153401671013525
+*Boundary, imaginary
+ Set-408, 3, 3, -0.2134232963193037
+*Boundary, imaginary
+ Set-409, 3, 3, -0.21515686707306264
+*Boundary, imaginary
+ Set-410, 3, 3, -0.21668306663229234
+*Boundary, imaginary
+ Set-411, 3, 3, -0.21795657264926532
+*Boundary, imaginary
+ Set-412, 3, 3, -0.21893740225406377
+*Boundary, imaginary
+ Set-413, 3, 3, -0.21959059157707886
+*Boundary, imaginary
+ Set-414, 3, 3, -0.2198873137137758
+*Boundary, imaginary
+ Set-415, 3, 3, -0.2198075958434386
+*Boundary, imaginary
+ Set-416, 3, 3, -0.21934406077657093
+*Boundary, imaginary
+ Set-417, 3, 3, -0.21850550878162286
+*Boundary, imaginary
+ Set-418, 3, 3, -0.21731891021296926
+*Boundary, imaginary
+ Set-419, 3, 3, -0.2158286246305712
+*Boundary, imaginary
+ Set-420, 3, 3, -0.2140923543084956
+*Boundary, imaginary
+ Set-421, 3, 3, -0.21217429191495935
+*Boundary, imaginary
+ Set-422, 3, 3, -0.2101367985843868
+*Boundary, imaginary
+ Set-423, 3, 3, -0.20803251609556822
+*Boundary, imaginary
+ Set-424, 3, 3, -0.20589869811417444
+*Boundary, imaginary
+ Set-425, 3, 3, -0.20375514300561434
+*Boundary, imaginary
+ Set-426, 3, 3, -0.20160554125481994
+*Boundary, imaginary
+ Set-427, 3, 3, -0.19944210663743933
+*Boundary, imaginary
+ Set-428, 3, 3, -0.32467231644308797
+*Boundary, imaginary
+ Set-429, 3, 3, -0.32684848130542493
+*Boundary, imaginary
+ Set-430, 3, 3, -0.32900086887401564
+*Boundary, imaginary
+ Set-431, 3, 3, -0.3311404258996963
+*Boundary, imaginary
+ Set-432, 3, 3, -0.33326572395683
+*Boundary, imaginary
+ Set-433, 3, 3, -0.3353590951668118
+*Boundary, imaginary
+ Set-434, 3, 3, -0.3373852635584334
+*Boundary, imaginary
+ Set-435, 3, 3, -0.33929305472655297
+*Boundary, imaginary
+ Set-436, 3, 3, -0.341020923843548
+*Boundary, imaginary
+ Set-437, 3, 3, -0.34250487418130926
+*Boundary, imaginary
+ Set-438, 3, 3, -0.3436869849681811
+*Boundary, imaginary
+ Set-439, 3, 3, -0.34452248848909456
+*Boundary, imaginary
+ Set-440, 3, 3, -0.3449839719960095
+*Boundary, imaginary
+ Set-441, 3, 3, -0.3450622083512095
+*Boundary, imaginary
+ Set-442, 3, 3, -0.3447641460848199
+*Boundary, imaginary
+ Set-443, 3, 3, -0.34410931498692715
+*Boundary, imaginary
+ Set-444, 3, 3, -0.34312614143804715
+*Boundary, imaginary
+ Set-445, 3, 3, -0.3418493718407035
+*Boundary, imaginary
+ Set-446, 3, 3, -0.34031913127819013
+*Boundary, imaginary
+ Set-447, 3, 3, -0.33858136549791534
+*Boundary, imaginary
+ Set-448, 3, 3, -0.3366888162447863
+*Boundary, imaginary
+ Set-449, 3, 3, -0.3347014657738355
+*Boundary, imaginary
+ Set-450, 3, 3, -0.33268560623421195
+*Boundary, imaginary
+ Set-451, 3, 3, -0.3307112346527195
+*Boundary, imaginary
+ Set-452, 3, 3, -0.328848121769502
+*Boundary, imaginary
+ Set-453, 3, 3, -0.32716140535510846
+*Boundary, imaginary
+ Set-454, 3, 3, -0.32570773305818274
+*Boundary, imaginary
+ Set-455, 3, 3, -0.3245327740908052
+*Boundary, imaginary
+ Set-456, 3, 3, -0.32367042435489396
+*Boundary, imaginary
+ Set-457, 3, 3, -0.32314344207406565
+*Boundary, imaginary
+ Set-458, 3, 3, -0.3229647955154381
+*Boundary, imaginary
+ Set-459, 3, 3, -0.32313885026558425
+*Boundary, imaginary
+ Set-460, 3, 3, -0.3236617220195128
+*Boundary, imaginary
+ Set-461, 3, 3, -0.32452058788853644
+*Boundary, imaginary
+ Set-462, 3, 3, -0.32569229904614294
+*Boundary, imaginary
+ Set-463, 3, 3, -0.32714205319490336
+*Boundary, imaginary
+ Set-464, 3, 3, -0.3288230007259288
+*Boundary, imaginary
+ Set-465, 3, 3, -0.33067742113337156
+*Boundary, imaginary
+ Set-466, 3, 3, -0.3326395988211359
+*Boundary, imaginary
+ Set-467, 3, 3, -0.3346399381943217
+*Boundary, imaginary
+ Set-468, 3, 3, -0.33660941116805726
+*Boundary, imaginary
+ Set-469, 3, 3, -0.3384833028320581
+*Boundary, imaginary
+ Set-470, 3, 3, -0.34020347379525856
+*Boundary, imaginary
+ Set-471, 3, 3, -0.3417189093082878
+*Boundary, imaginary
+ Set-472, 3, 3, -0.3429849758840412
+*Boundary, imaginary
+ Set-473, 3, 3, -0.3439623097931025
+*Boundary, imaginary
+ Set-474, 3, 3, -0.3446164144081844
+*Boundary, imaginary
+ Set-475, 3, 3, -0.34491876399450877
+*Boundary, imaginary
+ Set-476, 3, 3, -0.3448495755492918
+*Boundary, imaginary
+ Set-477, 3, 3, -0.34440163370914
+*Boundary, imaginary
+ Set-478, 3, 3, -0.34358392098210383
+*Boundary, imaginary
+ Set-479, 3, 3, -0.3424235656228878
+*Boundary, imaginary
+ Set-480, 3, 3, -0.3409649056807016
+*Boundary, imaginary
+ Set-481, 3, 3, -0.33926521301423895
+*Boundary, imaginary
+ Set-482, 3, 3, -0.3373876317367552
+*Boundary, imaginary
+ Set-483, 3, 3, -0.3353927697418167
+*Boundary, imaginary
+ Set-484, 3, 3, -0.333330966034153
+*Boundary, imaginary
+ Set-485, 3, 3, -0.33123694042883606
+*Boundary, imaginary
+ Set-486, 3, 3, -0.32912817468227784
+*Boundary, imaginary
+ Set-487, 3, 3, -0.327006231333346
+*Boundary, imaginary
+ Set-488, 3, 3, -0.324860423172563
+*Boundary, imaginary
+ Set-489, 3, 3, -0.45043227428854493
+*Boundary, imaginary
+ Set-490, 3, 3, -0.45258220408695604
+*Boundary, imaginary
+ Set-491, 3, 3, -0.45470256827680644
+*Boundary, imaginary
+ Set-492, 3, 3, -0.456803671815409
+*Boundary, imaginary
+ Set-493, 3, 3, -0.458884446670038
+*Boundary, imaginary
+ Set-494, 3, 3, -0.46092879408289683
+*Boundary, imaginary
+ Set-495, 3, 3, -0.4629038187175239
+*Boundary, imaginary
+ Set-496, 3, 3, -0.4647610055397282
+*Boundary, imaginary
+ Set-497, 3, 3, -0.4664412513509314
+*Boundary, imaginary
+ Set-498, 3, 3, -0.46788253397009666
+*Boundary, imaginary
+ Set-499, 3, 3, -0.4690283752859675
+*Boundary, imaginary
+ Set-500, 3, 3, -0.46983496496524957
+*Boundary, imaginary
+ Set-501, 3, 3, -0.47027544411066197
+*Boundary, imaginary
+ Set-502, 3, 3, -0.47034078458392503
+*Boundary, imaginary
+ Set-503, 3, 3, -0.47003777283213116
+*Boundary, imaginary
+ Set-504, 3, 3, -0.4693853777024603
+*Boundary, imaginary
+ Set-505, 3, 3, -0.46841104859020866
+*Boundary, imaginary
+ Set-506, 3, 3, -0.4671481948303417
+*Boundary, imaginary
+ Set-507, 3, 3, -0.4656353975322343
+*Boundary, imaginary
+ Set-508, 3, 3, -0.4639170804163896
+*Boundary, imaginary
+ Set-509, 3, 3, -0.4620447275326007
+*Boundary, imaginary
+ Set-510, 3, 3, -0.4600775020323177
+*Boundary, imaginary
+ Set-511, 3, 3, -0.45808135444074816
+*Boundary, imaginary
+ Set-512, 3, 3, -0.45612629668485455
+*Boundary, imaginary
+ Set-513, 3, 3, -0.4542822232404644
+*Boundary, imaginary
+ Set-514, 3, 3, -0.4526142124188543
+*Boundary, imaginary
+ Set-515, 3, 3, -0.45117843744722314
+*Boundary, imaginary
+ Set-516, 3, 3, -0.4500195958278346
+*Boundary, imaginary
+ Set-517, 3, 3, -0.4491702220317702
+*Boundary, imaginary
+ Set-518, 3, 3, -0.4486515956840876
+*Boundary, imaginary
+ Set-519, 3, 3, -0.44847544344667956
+*Boundary, imaginary
+ Set-520, 3, 3, -0.448645448400565
+*Boundary, imaginary
+ Set-521, 3, 3, -0.4491577884051306
+*Boundary, imaginary
+ Set-522, 3, 3, -0.4500004376316412
+*Boundary, imaginary
+ Set-523, 3, 3, -0.4511515810727612
+*Boundary, imaginary
+ Set-524, 3, 3, -0.4525779697941933
+*Boundary, imaginary
+ Set-525, 3, 3, -0.4542341967624852
+*Boundary, imaginary
+ Set-526, 3, 3, -0.45606363457006643
+*Boundary, imaginary
+ Set-527, 3, 3, -0.4580012314573618
+*Boundary, imaginary
+ Set-528, 3, 3, -0.459977713804098
+*Boundary, imaginary
+ Set-529, 3, 3, -0.461924238312577
+*Boundary, imaginary
+ Set-530, 3, 3, -0.4637763732018576
+*Boundary, imaginary
+ Set-531, 3, 3, -0.46547653797871147
+*Boundary, imaginary
+ Set-532, 3, 3, -0.4669746122600782
+*Boundary, imaginary
+ Set-533, 3, 3, -0.4682271235134121
+*Boundary, imaginary
+ Set-534, 3, 3, -0.46919597373093047
+*Boundary, imaginary
+ Set-535, 3, 3, -0.46984784580058897
+*Boundary, imaginary
+ Set-536, 3, 3, -0.47015514857733964
+*Boundary, imaginary
+ Set-537, 3, 3, -0.47009869746512445
+*Boundary, imaginary
+ Set-538, 3, 3, -0.46967151167334803
+*Boundary, imaginary
+ Set-539, 3, 3, -0.4688824460045583
+*Boundary, imaginary
+ Set-540, 3, 3, -0.4677581269196598
+*Boundary, imaginary
+ Set-541, 3, 3, -0.46634196728451893
+*Boundary, imaginary
+ Set-542, 3, 3, -0.4646898172040253
+*Boundary, imaginary
+ Set-543, 3, 3, -0.46286286334400406
+*Boundary, imaginary
+ Set-544, 3, 3, -0.46091928524947656
+*Boundary, imaginary
+ Set-545, 3, 3, -0.4589067642794875
+*Boundary, imaginary
+ Set-546, 3, 3, -0.45685762145785147
+*Boundary, imaginary
+ Set-547, 3, 3, -0.4547877293238983
+*Boundary, imaginary
+ Set-548, 3, 3, -0.452698244379489
+*Boundary, imaginary
+ Set-549, 3, 3, -0.450579106254282
+*Boundary, imaginary
+ Set-550, 3, 3, -0.57652730357598
+*Boundary, imaginary
+ Set-551, 3, 3, -0.578643199952501
+*Boundary, imaginary
+ Set-552, 3, 3, -0.5807292289956202
+*Boundary, imaginary
+ Set-553, 3, 3, -0.5827910049763073
+*Boundary, imaginary
+ Set-554, 3, 3, -0.5848259405518793
+*Boundary, imaginary
+ Set-555, 3, 3, -0.5868187821957919
+*Boundary, imaginary
+ Set-556, 3, 3, -0.5887388749185494
+*Boundary, imaginary
+ Set-557, 3, 3, -0.5905404859249935
+*Boundary, imaginary
+ Set-558, 3, 3, -0.5921673241637175
+*Boundary, imaginary
+ Set-559, 3, 3, -0.5935599267385436
+*Boundary, imaginary
+ Set-560, 3, 3, -0.5946639377638119
+*Boundary, imaginary
+ Set-561, 3, 3, -0.595437152336362
+*Boundary, imaginary
+ Set-562, 3, 3, -0.5958537482293713
+*Boundary, imaginary
+ Set-563, 3, 3, -0.5959051221996852
+*Boundary, imaginary
+ Set-564, 3, 3, -0.595597836833282
+*Boundary, imaginary
+ Set-565, 3, 3, -0.5949499869711032
+*Boundary, imaginary
+ Set-566, 3, 3, -0.593987570849985
+*Boundary, imaginary
+ Set-567, 3, 3, -0.5927421435192997
+*Boundary, imaginary
+ Set-568, 3, 3, -0.5912502947851741
+*Boundary, imaginary
+ Set-569, 3, 3, -0.5895546298452647
+*Boundary, imaginary
+ Set-570, 3, 3, -0.5877052604707647
+*Boundary, imaginary
+ Set-571, 3, 3, -0.5857605780065225
+*Boundary, imaginary
+ Set-572, 3, 3, -0.5837863404982173
+*Boundary, imaginary
+ Set-573, 3, 3, -0.5818527471803523
+*Boundary, imaginary
+ Set-574, 3, 3, -0.5800299380753718
+*Boundary, imaginary
+ Set-575, 3, 3, -0.5783829539050234
+*Boundary, imaginary
+ Set-576, 3, 3, -0.5769674013821743
+*Boundary, imaginary
+ Set-577, 3, 3, -0.5758268220032539
+*Boundary, imaginary
+ Set-578, 3, 3, -0.5749921607603654
+*Boundary, imaginary
+ Set-579, 3, 3, -0.5744830069354857
+*Boundary, imaginary
+ Set-580, 3, 3, -0.5743097050377501
+*Boundary, imaginary
+ Set-581, 3, 3, -0.57447522182999
+*Boundary, imaginary
+ Set-582, 3, 3, -0.574975877989563
+*Boundary, imaginary
+ Set-583, 3, 3, -0.5758006185046276
+*Boundary, imaginary
+ Set-584, 3, 3, -0.5769291844875963
+*Boundary, imaginary
+ Set-585, 3, 3, -0.5783300948306958
+*Boundary, imaginary
+ Set-586, 3, 3, -0.5799595379164537
+*Boundary, imaginary
+ Set-587, 3, 3, -0.5817620336285567
+*Boundary, imaginary
+ Set-588, 3, 3, -0.5836731401703638
+*Boundary, imaginary
+ Set-589, 3, 3, -0.585623766758449
+*Boundary, imaginary
+ Set-590, 3, 3, -0.5875450821239137
+*Boundary, imaginary
+ Set-591, 3, 3, -0.5893728005636127
+*Boundary, imaginary
+ Set-592, 3, 3, -0.5910498684838335
+*Boundary, imaginary
+ Set-593, 3, 3, -0.5925271829721651
+*Boundary, imaginary
+ Set-594, 3, 3, -0.5937627238959788
+*Boundary, imaginary
+ Set-595, 3, 3, -0.5947200868217131
+*Boundary, imaginary
+ Set-596, 3, 3, -0.5953676228051855
+*Boundary, imaginary
+ Set-597, 3, 3, -0.5956791214500846
+*Boundary, imaginary
+ Set-598, 3, 3, -0.5956362924941331
+*Boundary, imaginary
+ Set-599, 3, 3, -0.5952324526156327
+*Boundary, imaginary
+ Set-600, 3, 3, -0.5944761242404311
+*Boundary, imaginary
+ Set-601, 3, 3, -0.5933929863618064
+*Boundary, imaginary
+ Set-602, 3, 3, -0.5920249230191096
+*Boundary, imaginary
+ Set-603, 3, 3, -0.5904257243895492
+*Boundary, imaginary
+ Set-604, 3, 3, -0.5886540646497458
+*Boundary, imaginary
+ Set-605, 3, 3, -0.5867653376887272
+*Boundary, imaginary
+ Set-606, 3, 3, -0.5848044410163578
+*Boundary, imaginary
+ Set-607, 3, 3, -0.5828014208643344
+*Boundary, imaginary
+ Set-608, 3, 3, -0.5807712423660348
+*Boundary, imaginary
+ Set-609, 3, 3, -0.5787165114130338
+*Boundary, imaginary
+ Set-610, 3, 3, -0.5766318161721711
+*Boundary, imaginary
+ Set-611, 3, 3, -0.7029076331345837
+*Boundary, imaginary
+ Set-612, 3, 3, -0.7049866956384518
+*Boundary, imaginary
+ Set-613, 3, 3, -0.7070396086478509
+*Boundary, imaginary
+ Set-614, 3, 3, -0.7090641351487296
+*Boundary, imaginary
+ Set-615, 3, 3, -0.7110549961446704
+*Boundary, imaginary
+ Set-616, 3, 3, -0.7129978148423096
+*Boundary, imaginary
+ Set-617, 3, 3, -0.7148640105205731
+*Boundary, imaginary
+ Set-618, 3, 3, -0.7166105073757306
+*Boundary, imaginary
+ Set-619, 3, 3, -0.7181838289226465
+*Boundary, imaginary
+ Set-620, 3, 3, -0.7195271874059611
+*Boundary, imaginary
+ Set-621, 3, 3, -0.7205885654083539
+*Boundary, imaginary
+ Set-622, 3, 3, -0.7213276100076992
+*Boundary, imaginary
+ Set-623, 3, 3, -0.7217197408335798
+*Boundary, imaginary
+ Set-624, 3, 3, -0.7217568862072761
+*Boundary, imaginary
+ Set-625, 3, 3, -0.7214453681554776
+*Boundary, imaginary
+ Set-626, 3, 3, -0.7208022805638932
+*Boundary, imaginary
+ Set-627, 3, 3, -0.7198519780427988
+*Boundary, imaginary
+ Set-628, 3, 3, -0.7186239621751014
+*Boundary, imaginary
+ Set-629, 3, 3, -0.7171526814568152
+*Boundary, imaginary
+ Set-630, 3, 3, -0.7154788571271287
+*Boundary, imaginary
+ Set-631, 3, 3, -0.7136512564461579
+*Boundary, imaginary
+ Set-632, 3, 3, -0.7117276021027995
+*Boundary, imaginary
+ Set-633, 3, 3, -0.7097736039201039
+*Boundary, imaginary
+ Set-634, 3, 3, -0.7078597953689866
+*Boundary, imaginary
+ Set-635, 3, 3, -0.7060566812770146
+*Boundary, imaginary
+ Set-636, 3, 3, -0.7044293412702314
+*Boundary, imaginary
+ Set-637, 3, 3, -0.7030328507295711
+*Boundary, imaginary
+ Set-638, 3, 3, -0.7019096026793423
+*Boundary, imaginary
+ Set-639, 3, 3, -0.7010889511277889
+*Boundary, imaginary
+ Set-640, 3, 3, -0.7005888005381258
+*Boundary, imaginary
+ Set-641, 3, 3, -0.7004181342249812
+*Boundary, imaginary
+ Set-642, 3, 3, -0.7005792380881749
+*Boundary, imaginary
+ Set-643, 3, 3, -0.7010686166239795
+*Boundary, imaginary
+ Set-644, 3, 3, -0.7018762186759998
+*Boundary, imaginary
+ Set-645, 3, 3, -0.7029833522443969
+*Boundary, imaginary
+ Set-646, 3, 3, -0.7043602807846262
+*Boundary, imaginary
+ Set-647, 3, 3, -0.7059647239045527
+*Boundary, imaginary
+ Set-648, 3, 3, -0.7077422432524941
+*Boundary, imaginary
+ Set-649, 3, 3, -0.7096288672601581
+*Boundary, imaginary
+ Set-650, 3, 3, -0.7115555291441307
+*Boundary, imaginary
+ Set-651, 3, 3, -0.7134532542052008
+*Boundary, imaginary
+ Set-652, 3, 3, -0.715257777723896
+*Boundary, imaginary
+ Set-653, 3, 3, -0.7169125050275166
+*Boundary, imaginary
+ Set-654, 3, 3, -0.7183693589700406
+*Boundary, imaginary
+ Set-655, 3, 3, -0.7195878613074761
+*Boundary, imaginary
+ Set-656, 3, 3, -0.7205334568383748
+*Boundary, imaginary
+ Set-657, 3, 3, -0.7211763528287805
+*Boundary, imaginary
+ Set-658, 3, 3, -0.7214918920755877
+*Boundary, imaginary
+ Set-659, 3, 3, -0.7214627871963654
+*Boundary, imaginary
+ Set-660, 3, 3, -0.7210826610899587
+*Boundary, imaginary
+ Set-661, 3, 3, -0.7203596036456538
+*Boundary, imaginary
+ Set-662, 3, 3, -0.7193181603886452
+*Boundary, imaginary
+ Set-663, 3, 3, -0.7179984656223211
+*Boundary, imaginary
+ Set-664, 3, 3, -0.7164520576916357
+*Boundary, imaginary
+ Set-665, 3, 3, -0.7147349992395644
+*Boundary, imaginary
+ Set-666, 3, 3, -0.7128999025019152
+*Boundary, imaginary
+ Set-667, 3, 3, -0.710989003706789
+*Boundary, imaginary
+ Set-668, 3, 3, -0.7090302316177122
+*Boundary, imaginary
+ Set-669, 3, 3, -0.7070376009447217
+*Boundary, imaginary
+ Set-670, 3, 3, -0.7050163295473653
+*Boundary, imaginary
+ Set-671, 3, 3, -0.7029687976679608
+*Boundary, imaginary
+ Set-672, 3, 3, -0.8294612298486947
+*Boundary, imaginary
+ Set-673, 3, 3, -0.8315087850926494
+*Boundary, imaginary
+ Set-674, 3, 3, -0.8335331329624597
+*Boundary, imaginary
+ Set-675, 3, 3, -0.8355234873768579
+*Boundary, imaginary
+ Set-676, 3, 3, -0.8374736550260009
+*Boundary, imaginary
+ Set-677, 3, 3, -0.8393704684580863
+*Boundary, imaginary
+ Set-678, 3, 3, -0.8411872276747255
+*Boundary, imaginary
+ Set-679, 3, 3, -0.8428832211125501
+*Boundary, imaginary
+ Set-680, 3, 3, -0.8444073874180409
+*Boundary, imaginary
+ Set-681, 3, 3, -0.8457052683595268
+*Boundary, imaginary
+ Set-682, 3, 3, -0.8467269280445282
+*Boundary, imaginary
+ Set-683, 3, 3, -0.8474337260923548
+*Boundary, imaginary
+ Set-684, 3, 3, -0.8478022925160532
+*Boundary, imaginary
+ Set-685, 3, 3, -0.8478251332790083
+*Boundary, imaginary
+ Set-686, 3, 3, -0.8475084158727748
+*Boundary, imaginary
+ Set-687, 3, 3, -0.8468683279981131
+*Boundary, imaginary
+ Set-688, 3, 3, -0.8459276652922945
+*Boundary, imaginary
+ Set-689, 3, 3, -0.844713948559474
+*Boundary, imaginary
+ Set-690, 3, 3, -0.8432595539464967
+*Boundary, imaginary
+ Set-691, 3, 3, -0.8416033977886959
+*Boundary, imaginary
+ Set-692, 3, 3, -0.8397930024432639
+*Boundary, imaginary
+ Set-693, 3, 3, -0.8378855462338859
+*Boundary, imaginary
+ Set-694, 3, 3, -0.8359468359281796
+*Boundary, imaginary
+ Set-695, 3, 3, -0.8340478966422858
+*Boundary, imaginary
+ Set-696, 3, 3, -0.8322597579047566
+*Boundary, imaginary
+ Set-697, 3, 3, -0.8306476933928074
+*Boundary, imaginary
+ Set-698, 3, 3, -0.8292663941852536
+*Boundary, imaginary
+ Set-699, 3, 3, -0.828157243251018
+*Boundary, imaginary
+ Set-700, 3, 3, -0.827348133019509
+*Boundary, imaginary
+ Set-701, 3, 3, -0.8268554002718206
+*Boundary, imaginary
+ Set-702, 3, 3, -0.8266867640898198
+*Boundary, imaginary
+ Set-703, 3, 3, -0.826843894114508
+*Boundary, imaginary
+ Set-704, 3, 3, -0.8273234971672492
+*Boundary, imaginary
+ Set-705, 3, 3, -0.8281164870058686
+*Boundary, imaginary
+ Set-706, 3, 3, -0.8292056372226293
+*Boundary, imaginary
+ Set-707, 3, 3, -0.8305627963597346
+*Boundary, imaginary
+ Set-708, 3, 3, -0.8321470111355656
+*Boundary, imaginary
+ Set-709, 3, 3, -0.8339046571199304
+*Boundary, imaginary
+ Set-710, 3, 3, -0.8357720055052997
+*Boundary, imaginary
+ Set-711, 3, 3, -0.8376798089182195
+*Boundary, imaginary
+ Set-712, 3, 3, -0.8395587836878531
+*Boundary, imaginary
+ Set-713, 3, 3, -0.8413445663801093
+*Boundary, imaginary
+ Set-714, 3, 3, -0.8429809433900555
+*Boundary, imaginary
+ Set-715, 3, 3, -0.844420814160243
+*Boundary, imaginary
+ Set-716, 3, 3, -0.8456252025781175
+*Boundary, imaginary
+ Set-717, 3, 3, -0.846561353299996
+*Boundary, imaginary
+ Set-718, 3, 3, -0.8472012566274463
+*Boundary, imaginary
+ Set-719, 3, 3, -0.8475217099186011
+*Boundary, imaginary
+ Set-720, 3, 3, -0.8475063161569504
+*Boundary, imaginary
+ Set-721, 3, 3, -0.847148905487946
+*Boundary, imaginary
+ Set-722, 3, 3, -0.8464570853626796
+*Boundary, imaginary
+ Set-723, 3, 3, -0.8454543038578226
+*Boundary, imaginary
+ Set-724, 3, 3, -0.844179093489643
+*Boundary, imaginary
+ Set-725, 3, 3, -0.8426810048011363
+*Boundary, imaginary
+ Set-726, 3, 3, -0.8410138367079157
+*Boundary, imaginary
+ Set-727, 3, 3, -0.8392278164172624
+*Boundary, imaginary
+ Set-728, 3, 3, -0.8373628063532992
+*Boundary, imaginary
+ Set-729, 3, 3, -0.8354448077451342
+*Boundary, imaginary
+ Set-730, 3, 3, -0.8334865512499829
+*Boundary, imaginary
+ Set-731, 3, 3, -0.8314940855126887
+*Boundary, imaginary
+ Set-732, 3, 3, -0.8294782830484393
+*Boundary, imaginary
+ Set-733, 3, 3, -0.956074454972507
+*Boundary, imaginary
+ Set-734, 3, 3, -0.9581034129760618
+*Boundary, imaginary
+ Set-735, 3, 3, -0.9601025572018624
+*Boundary, imaginary
+ Set-736, 3, 3, -0.9620609784906495
+*Boundary, imaginary
+ Set-737, 3, 3, -0.963973608226545
+*Boundary, imaginary
+ Set-738, 3, 3, -0.9658288787022914
+*Boundary, imaginary
+ Set-739, 3, 3, -0.9676019842707443
+*Boundary, imaginary
+ Set-740, 3, 3, -0.9692540849867868
+*Boundary, imaginary
+ Set-741, 3, 3, -0.9707358320746002
+*Boundary, imaginary
+ Set-742, 3, 3, -0.9719943333953535
+*Boundary, imaginary
+ Set-743, 3, 3, -0.9729810857814367
+*Boundary, imaginary
+ Set-744, 3, 3, -0.9736587552629338
+*Boundary, imaginary
+ Set-745, 3, 3, -0.9740050585629172
+*Boundary, imaginary
+ Set-746, 3, 3, -0.9740132028482767
+*Boundary, imaginary
+ Set-747, 3, 3, -0.9736894750013121
+*Boundary, imaginary
+ Set-748, 3, 3, -0.9730494631585115
+*Boundary, imaginary
+ Set-749, 3, 3, -0.9721146474108917
+*Boundary, imaginary
+ Set-750, 3, 3, -0.9709107002094509
+*Boundary, imaginary
+ Set-751, 3, 3, -0.9694679593159319
+*Boundary, imaginary
+ Set-752, 3, 3, -0.9678235291793487
+*Boundary, imaginary
+ Set-753, 3, 3, -0.9660237157748658
+*Boundary, imaginary
+ Set-754, 3, 3, -0.9641252790002321
+*Boundary, imaginary
+ Set-755, 3, 3, -0.9621943698768044
+*Boundary, imaginary
+ Set-756, 3, 3, -0.9603028510345551
+*Boundary, imaginary
+ Set-757, 3, 3, -0.958522661620685
+*Boundary, imaginary
+ Set-758, 3, 3, -0.9569196199958454
+*Boundary, imaginary
+ Set-759, 3, 3, -0.9555482891156513
+*Boundary, imaginary
+ Set-760, 3, 3, -0.954449177164753
+*Boundary, imaginary
+ Set-761, 3, 3, -0.9536487433784717
+*Boundary, imaginary
+ Set-762, 3, 3, -0.9531617237192722
+*Boundary, imaginary
+ Set-763, 3, 3, -0.9529945343220592
+*Boundary, imaginary
+ Set-764, 3, 3, -0.9531482265943538
+*Boundary, imaginary
+ Set-765, 3, 3, -0.953619755054558
+*Boundary, imaginary
+ Set-766, 3, 3, -0.9544010651201316
+*Boundary, imaginary
+ Set-767, 3, 3, -0.9554764318282651
+*Boundary, imaginary
+ Set-768, 3, 3, -0.9568192365409368
+*Boundary, imaginary
+ Set-769, 3, 3, -0.9583896751413671
+*Boundary, imaginary
+ Set-770, 3, 3, -0.9601346332973507
+*Boundary, imaginary
+ Set-771, 3, 3, -0.9619902367085704
+*Boundary, imaginary
+ Set-772, 3, 3, -0.9638866558193214
+*Boundary, imaginary
+ Set-773, 3, 3, -0.9657539598611726
+*Boundary, imaginary
+ Set-774, 3, 3, -0.9675274669139036
+*Boundary, imaginary
+ Set-775, 3, 3, -0.9691512554245669
+*Boundary, imaginary
+ Set-776, 3, 3, -0.9705792072343158
+*Boundary, imaginary
+ Set-777, 3, 3, -0.9717738777585125
+*Boundary, imaginary
+ Set-778, 3, 3, -0.972704284335054
+*Boundary, imaginary
+ Set-779, 3, 3, -0.9733440615436588
+*Boundary, imaginary
+ Set-780, 3, 3, -0.973671205024216
+*Boundary, imaginary
+ Set-781, 3, 3, -0.9736698896146934
+*Boundary, imaginary
+ Set-782, 3, 3, -0.9733338730146762
+*Boundary, imaginary
+ Set-783, 3, 3, -0.9726701579276467
+*Boundary, imaginary
+ Set-784, 3, 3, -0.9717012238183175
+*Boundary, imaginary
+ Set-785, 3, 3, -0.9704644114078707
+*Boundary, imaginary
+ Set-786, 3, 3, -0.9690079305091879
+*Boundary, imaginary
+ Set-787, 3, 3, -0.9673840710039545
+*Boundary, imaginary
+ Set-788, 3, 3, -0.965641364499929
+*Boundary, imaginary
+ Set-789, 3, 3, -0.9638177799540407
+*Boundary, imaginary
+ Set-790, 3, 3, -0.9619373708782208
+*Boundary, imaginary
+ Set-791, 3, 3, -0.9600111959369415
+*Boundary, imaginary
+ Set-792, 3, 3, -0.9580441006257852
+*Boundary, imaginary
+ Set-793, 3, 3, -0.9560470114145514

@@ -1,0 +1,25 @@
+﻿# Pip fallback requirements for RODM_20250310.
+#
+# For macOS, environment-mac.yml is preferred because capytaine, vtk, and
+# NetCDF-related libraries are more reliable from conda-forge.
+#
+# Suggested fallback:
+#   python -m venv .venv
+#   source .venv/bin/activate
+#   python -m pip install --upgrade pip
+#   pip install -r requirements.txt
+
+numpy>=1.23,<2.0
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.5
+xarray>=2022.11
+netCDF4>=1.6
+h5netcdf>=1.0
+h5py>=3.7
+PyYAML>=6.0
+capytaine>=1.4
+vtk>=9.2
+pvlib>=0.9
+jupyterlab>=3.0
+ipykernel>=6.0

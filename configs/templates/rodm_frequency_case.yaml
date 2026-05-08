@@ -1,0 +1,78 @@
+# Template for a RODM frequency-domain case.
+#
+# This template documents the target configuration shape for future cases.
+# Copy it to configs/<case_id>.yaml and replace placeholder values.
+# Numerical-result expectation: using this template alone changes no results.
+
+case:
+  id: example_case_id
+  description: short description of the physical case
+  tags:
+    - rodm
+    - frequency_domain
+
+geometry:
+  length_m: 300
+  width_m: 60
+  thickness_m: 2
+  mesh_label: 5m_x_5m
+  total_nodes: 793
+  nodes_per_row: 61
+  full_dofs_per_node: 6
+  retained_dofs_per_node: 5
+  removed_dofs_zero_based: [5]
+  master_node_rule:
+    function: offshore_energy_sim.structure.calculate_node_positions
+    first_node: 424
+    node_interval: 6
+    count: 10
+
+environment:
+  wave:
+    type: regular
+    wavelength_m: 300
+    direction_deg: 0
+  wind:
+    enabled: false
+
+hydrodynamics:
+  dataset: path/to/hydrodynamic_dataset.nc
+  hydrodynamic_nodes: 10
+  hydrodynamic_dof_to_remove_zero_based: 5
+  reverse_hydrodynamic_node_order: false
+
+structure:
+  mass_matrix: path/to/mass.mtx
+  stiffness_matrix: path/to/stiffness.mtx
+  mass_blend_beta: 0.0
+
+reduction:
+  method: SEREP
+  retained_dofs_per_node: 5
+
+solver:
+  type: frequency_domain_mck
+  use_hydrostatic: true
+  frequency_index: 0
+
+response:
+  extraction:
+    quantity: heave_rao
+    start_node_one_based: 367
+    stop_node_one_based: 427
+    dof_index_zero_based: 2
+    column: 0
+
+validation:
+  baseline_response: path/to/baseline.npy
+  experiment_curve: path/to/experiment.txt
+  reference_curve: path/to/reference_simulation.txt
+  expected_numerical_change: none
+
+outputs:
+  root: results/example_case_id
+  response_filename: response.npy
+  metrics_filename: metrics.json
+  report_filename: report.md
+  figures_dir: figures
+  logs_dir: logs
