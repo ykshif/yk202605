@@ -51,6 +51,7 @@ def build_rodm_frequency_case_from_config(
     structure = config.get("structure", {})
     solver = config.get("solver", {})
     master_rule = geometry["master_node_rule"]
+    explicit_master_nodes = geometry.get("master_nodes_one_based")
 
     hydrodynamic_dataset = hydrodynamics.get(
         "dataset",
@@ -83,6 +84,11 @@ def build_rodm_frequency_case_from_config(
             mass=Path(mass_matrix),
             stiffness=Path(stiffness_matrix),
         ),
+        master_nodes_one_based=(
+            tuple(int(value) for value in explicit_master_nodes)
+            if explicit_master_nodes is not None
+            else None
+        ),
         hydrodynamic_nodes=int(hydrodynamics.get("hydrodynamic_nodes", master_rule["count"])),
         hydrodynamic_dof_to_remove_zero_based=int(
             hydrodynamics.get(
@@ -91,6 +97,17 @@ def build_rodm_frequency_case_from_config(
             )
         ),
         mass_blend_beta=float(structure.get("mass_blend_beta", 0.0)),
+        structural_reduction_method=str(
+            solver.get("structural_reduction_method", "serep")
+        ),
+        preserve_master_order=bool(solver.get("preserve_master_order", False)),
+        robust_serep_mode_multiplier=float(
+            solver.get("robust_serep_mode_multiplier", 3.0)
+        ),
+        robust_serep_rcond=float(solver.get("robust_serep_rcond", 1.0e-12)),
+        serep_ridge_relative_lambda=float(
+            solver.get("serep_ridge_relative_lambda", 1.0e-16)
+        ),
         use_hydrostatic=bool(
             solver.get("use_hydrostatic", True)
             if use_hydrostatic is None

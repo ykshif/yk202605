@@ -12,6 +12,8 @@ def reconstruct_global_response(
     master_displacement: np.ndarray,
     master_dofs: np.ndarray,
     slave_dofs: np.ndarray,
+    *,
+    reverse_master_order: bool = True,
 ) -> np.ndarray:
     """Reconstruct the retained global response from master DOF response.
 
@@ -35,4 +37,5 @@ def reconstruct_global_response(
         global_displacement_disordered,
         master_dofs,
         slave_dofs,
+        reverse_master_order=reverse_master_order,
     )

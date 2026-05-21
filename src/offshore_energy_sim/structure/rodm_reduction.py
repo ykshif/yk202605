@@ -8,9 +8,13 @@ import numpy as np
 
 from offshore_energy_sim.core.cases import RodmFrequencyCase
 from offshore_energy_sim.reduction import (
+    guyan_static_reduce,
+    guyan_static_reduce_ordered,
     reduce_matrix_dofs,
     separate_master_slave_dofs,
     serep_reduce,
+    serep_reduce_ridge_ordered,
+    serep_reduce_robust_ordered,
     transform_mass_matrix,
 )
 from offshore_energy_sim.structure.matrix_io import read_abaqus_matrix_dense
@@ -26,6 +30,7 @@ class StructuralReductionResult:
     transformation: np.ndarray
     reduced_mass: np.ndarray
     reduced_stiffness: np.ndarray
+    reverse_master_order_for_reconstruction: bool = True
 
 
 def prepare_structural_reduction(
@@ -66,13 +71,52 @@ def prepare_structural_reduction(
         master_nodes,
         dofs_per_node=case.retained_dofs_per_node,
     )
-    reduced_mass, reduced_stiffness, transformation = serep_reduce(
-        stiffness_retained,
-        mass_retained,
-        slave_dofs,
-        master_nodes,
-        dofs_per_master_node=case.retained_dofs_per_node,
-    )
+    if case.structural_reduction_method == "serep":
+        reduced_mass, reduced_stiffness, transformation = serep_reduce(
+            stiffness_retained,
+            mass_retained,
+            slave_dofs,
+            master_nodes,
+            dofs_per_master_node=case.retained_dofs_per_node,
+        )
+    elif case.structural_reduction_method == "guyan_static":
+        if case.preserve_master_order:
+            reduced_mass, reduced_stiffness, transformation = guyan_static_reduce_ordered(
+                stiffness_retained,
+                mass_retained,
+                master_dofs,
+                slave_dofs,
+            )
+        else:
+            reduced_mass, reduced_stiffness, transformation = guyan_static_reduce(
+                stiffness_retained,
+                mass_retained,
+                slave_dofs,
+                master_nodes,
+                dofs_per_master_node=case.retained_dofs_per_node,
+            )
+    elif case.structural_reduction_method == "serep_robust":
+        reduced_mass, reduced_stiffness, transformation = serep_reduce_robust_ordered(
+            stiffness_retained,
+            mass_retained,
+            master_dofs,
+            slave_dofs,
+            mode_multiplier=case.robust_serep_mode_multiplier,
+            rcond=case.robust_serep_rcond,
+        )
+    elif case.structural_reduction_method == "serep_ridge":
+        reduced_mass, reduced_stiffness, transformation = serep_reduce_ridge_ordered(
+            stiffness_retained,
+            mass_retained,
+            master_dofs,
+            slave_dofs,
+            relative_lambda=case.serep_ridge_relative_lambda,
+        )
+    else:
+        raise ValueError(
+            "Unsupported structural_reduction_method: "
+            f"{case.structural_reduction_method!r}"
+        )
 
     return StructuralReductionResult(
         master_nodes=master_nodes,
@@ -81,4 +125,8 @@ def prepare_structural_reduction(
         transformation=transformation,
         reduced_mass=reduced_mass,
         reduced_stiffness=reduced_stiffness,
+        reverse_master_order_for_reconstruction=not (
+            case.preserve_master_order
+            or case.structural_reduction_method in {"serep_robust", "serep_ridge"}
+        ),
     )

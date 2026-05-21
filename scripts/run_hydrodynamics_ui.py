@@ -8,6 +8,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 import argparse
 import json
+import math
 import sys
 import threading
 import traceback
@@ -21,7 +22,10 @@ from offshore_energy_sim.hydrodynamics import (  # noqa: E402
     ArrayHydrodynamicsConfig,
     ArrayLayoutSpec,
     RectangularModuleSpec,
+    StructuralGridSpec,
     degrees_to_radians,
+    module_structural_node_mappings,
+    omega_values_from_wavelengths,
     omega_values_from_range,
     parse_float_sequence,
     preview_layout,
@@ -58,10 +62,10 @@ INDEX_HTML = r"""<!doctype html>
         <section class="section">
           <h2>浮体模块</h2>
           <div class="field-grid two">
-            <label>长度 m<input name="length_m" type="number" step="0.1" value="30"></label>
-            <label>宽度 m<input name="width_m" type="number" step="0.1" value="30"></label>
-            <label>高度 m<input name="height_m" type="number" step="0.1" value="4"></label>
-            <label>吃水 m<input name="draft_m" type="number" step="0.1" value="1.1"></label>
+            <label>单模块长度 m<input name="length_m" type="number" step="0.1" value="30"></label>
+            <label>宽度 m<input name="width_m" type="number" step="0.1" value="60"></label>
+            <label>高度 m<input name="height_m" type="number" step="0.1" value="2"></label>
+            <label>吃水 m<input name="draft_m" type="number" step="0.1" value="0.5"></label>
             <label>水平网格 m<input name="mesh_size_m" type="number" step="0.1" value="6"></label>
             <label>竖向网格 m<input name="vertical_mesh_size_m" type="number" step="0.1" value="0.8"></label>
           </div>
@@ -71,11 +75,23 @@ INDEX_HTML = r"""<!doctype html>
         <section class="section">
           <h2>阵列布局</h2>
           <div class="field-grid two">
-            <label>行数<input name="rows" type="number" min="1" step="1" value="3"></label>
-            <label>列数<input name="columns" type="number" min="1" step="1" value="3"></label>
+            <label>总长度 m<input name="total_length_m" type="number" step="0.1" value="300"></label>
+            <label>列数<input name="columns" type="number" min="1" step="1" value="10"></label>
+            <label>行数<input name="rows" type="number" min="1" step="1" value="1"></label>
             <label>X 间距 m<input name="spacing_x_m" type="number" step="0.1" value="30"></label>
-            <label>Y 间距 m<input name="spacing_y_m" type="number" step="0.1" value="30"></label>
+            <label>Y 间距 m<input name="spacing_y_m" type="number" step="0.1" value="60"></label>
+            <label>划分模式<select name="division_mode">
+              <option value="uniform">Uniform division</option>
+              <option value="custom">Custom non-uniform division</option>
+              <option value="random">Random non-uniform division</option>
+            </select></label>
+            <label>随机种子<input name="random_seed" type="number" step="1" value="42"></label>
+            <label>FEM dx m<input name="structural_grid_dx_m" type="number" step="0.1" value="5"></label>
+            <label>FEM dy m<input name="structural_grid_dy_m" type="number" step="0.1" value="5"></label>
           </div>
+          <label class="check-row"><input name="align_centers_to_structural_grid" type="checkbox" checked> Align module centers to 5 m FEM nodes</label>
+          <label class="full">自定义模块长度 m<input name="module_lengths_x_m" type="text" value="20, 40, 30, 30, 20, 40, 20, 40, 30, 30"></label>
+          <label class="full command-label">模块划分结果<textarea id="divisionSummary" spellcheck="false" readonly></textarea></label>
         </section>
 
         <section class="section">
@@ -96,6 +112,7 @@ INDEX_HTML = r"""<!doctype html>
             <label><input type="radio" name="omega_mode" value="single" checked> 单频</label>
             <label><input type="radio" name="omega_mode" value="range"> 范围</label>
             <label><input type="radio" name="omega_mode" value="list"> 列表</label>
+            <label><input type="radio" name="omega_mode" value="wavelength"> 波长</label>
           </div>
           <div class="omega-panel" data-mode="single">
             <label class="full">omega rad/s<input name="omega_single" type="number" step="0.0001" value="0.5851"></label>
@@ -109,6 +126,9 @@ INDEX_HTML = r"""<!doctype html>
           </div>
           <div class="omega-panel is-hidden" data-mode="list">
             <label class="full">omega 列表<input name="omega_values" type="text" value="0.5851" placeholder="例如 0.4, 0.5851, 0.8"></label>
+          </div>
+          <div class="omega-panel is-hidden" data-mode="wavelength">
+            <label class="full">波长列表 m<input name="wavelength_values_m" type="text" value="300" placeholder="例如 180, 240, 300"></label>
           </div>
         </section>
 
@@ -200,7 +220,7 @@ body {
   font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-button, input, textarea { font: inherit; }
+button, input, select, textarea { font: inherit; }
 
 .app-shell {
   min-height: 100vh;
@@ -298,7 +318,7 @@ label.full {
   margin-top: 10px;
 }
 
-input, textarea {
+input, select, textarea {
   width: 100%;
   min-width: 0;
   border: 1px solid #c8d1cc;
@@ -308,7 +328,7 @@ input, textarea {
   outline: none;
 }
 
-input {
+input, select {
   height: 34px;
   padding: 6px 9px;
 }
@@ -565,6 +585,7 @@ const motionMode = document.getElementById("motionMode");
 const metricRao = document.getElementById("metricRao");
 const waveReadout = document.getElementById("waveReadout");
 const motionReadout = document.getElementById("motionReadout");
+const divisionSummary = document.getElementById("divisionSummary");
 
 const defaults = {};
 let raoPreview = null;
@@ -605,6 +626,113 @@ function currentOmegaMode() {
   return form.querySelector("input[name='omega_mode']:checked").value;
 }
 
+function currentDivisionMode() {
+  return value("division_mode") || "uniform";
+}
+
+function seededRandom(seed) {
+  let state = Math.trunc(Math.abs(seed || 1)) % 2147483647;
+  if (state === 0) state = 1;
+  return () => {
+    state = (state * 48271) % 2147483647;
+    return state / 2147483647;
+  };
+}
+
+function randomModuleLengths(totalLength, count, seed) {
+  const random = seededRandom(seed);
+  const weights = Array.from({ length: count }, () => 0.25 + random());
+  const weightSum = weights.reduce((sum, item) => sum + item, 0);
+  const raw = weights.map((item) => (item / weightSum) * totalLength);
+  const rounded = raw.map((item) => Number(item.toFixed(6)));
+  const correction = Number((totalLength - rounded.reduce((sum, item) => sum + item, 0)).toFixed(6));
+  rounded[rounded.length - 1] = Number((rounded[rounded.length - 1] + correction).toFixed(6));
+  return rounded;
+}
+
+function randomGridAlignedModuleLengths(totalLength, count, gridDx, seed) {
+  const unit = 2 * gridDx;
+  const totalUnits = Math.round(totalLength / unit);
+  if (!Number.isFinite(totalUnits) || Math.abs(totalUnits * unit - totalLength) > 1e-6) {
+    throw new Error("Total length must be divisible by 2 * FEM dx for node-centered random division.");
+  }
+  if (totalUnits < count) {
+    throw new Error("Too many modules for the requested FEM grid spacing.");
+  }
+  const random = seededRandom(seed);
+  const base = Math.floor(totalUnits / count);
+  const remainder = totalUnits - base * count;
+  const units = Array.from({ length: count }, () => base);
+  const indices = Array.from({ length: count }, (_, index) => index);
+  for (let i = indices.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(random() * (i + 1));
+    [indices[i], indices[j]] = [indices[j], indices[i]];
+  }
+  for (let i = 0; i < remainder; i += 1) {
+    units[indices[i]] += 1;
+  }
+  const minUnit = Math.max(1, base - 1);
+  const maxUnit = Math.ceil(totalUnits / count) + 1;
+  const transferCount = Math.min(Math.floor(count * 0.4), count - remainder);
+  const donorOrder = indices.filter((index) => units[index] > minUnit);
+  const receiverOrder = indices.filter((index) => units[index] < maxUnit);
+  let transfers = 0;
+  for (const donor of donorOrder) {
+    const receiver = receiverOrder.find((index) => index !== donor && units[index] < maxUnit);
+    if (receiver === undefined) break;
+    units[donor] -= 1;
+    units[receiver] += 1;
+    transfers += 1;
+    if (transfers >= transferCount) break;
+  }
+  return units.map((item) => Number((item * unit).toFixed(6)));
+}
+
+function moduleLengthsForPayload(mode, totalLength, count) {
+  if (mode === "custom") {
+    return parseNumbers(value("module_lengths_x_m"));
+  }
+  if (mode === "random") {
+    if (form.elements.align_centers_to_structural_grid.checked) {
+      return randomGridAlignedModuleLengths(
+        totalLength,
+        count,
+        numberValue("structural_grid_dx_m", 5),
+        numberValue("random_seed", 42)
+      );
+    }
+    return randomModuleLengths(totalLength, count, numberValue("random_seed", 42));
+  }
+  return Array.from({ length: count }, () => totalLength / count);
+}
+
+function boundariesFromLengths(lengths) {
+  const boundaries = [0];
+  for (const length of lengths) {
+    boundaries.push(boundaries[boundaries.length - 1] + length);
+  }
+  return boundaries.map((item) => Number(item.toFixed(6)));
+}
+
+function formatList(values) {
+  return values.map((item) => Number(item).toFixed(6).replace(/\.?0+$/, "")).join(", ");
+}
+
+function structuralNodeMappings(payload, centers) {
+  if (!payload.layout.align_centers_to_structural_grid) return [];
+  const dx = payload.layout.structural_grid_dx_m || 5;
+  const dy = payload.layout.structural_grid_dy_m || 5;
+  const totalLength = payload.layout.total_length_m || 300;
+  const width = payload.module.width_m || 60;
+  const nodesPerX = Math.round(totalLength / dx) + 1;
+  const yIndex = Math.round((0 + width / 2) / dy);
+  return centers.map((center) => {
+    const xIndex = Math.round(center / dx);
+    const nodeXIndex = nodesPerX - 1 - xIndex;
+    return yIndex * nodesPerX + nodeXIndex + 1;
+  });
+}
+
 function buildPayload() {
   const mode = currentOmegaMode();
   const omega = { mode };
@@ -614,28 +742,48 @@ function buildPayload() {
     omega.start_rad_s = numberValue("omega_start", 0.1);
     omega.stop_rad_s = numberValue("omega_stop", 2.0);
     omega.count = intValue("omega_count", 40);
-  } else {
+  } else if (mode === "list") {
     omega.values_rad_s = parseNumbers(value("omega_values"));
+  } else {
+    omega.wavelength_values_m = parseNumbers(value("wavelength_values_m"));
   }
 
   const massText = value("mass_kg");
   const waterDepthInfinite = form.elements.infinite_depth.checked;
+  const divisionMode = currentDivisionMode();
+  const columns = intValue("columns", 10);
+  const totalLength = numberValue("total_length_m", 300);
+  const moduleLengths = moduleLengthsForPayload(divisionMode, totalLength, columns);
+  const nominalModuleLength = totalLength / columns;
+  const alignCentersToGrid = form.elements.align_centers_to_structural_grid.checked;
+  const layout = {
+    rows: intValue("rows", 1),
+    columns,
+    spacing_x_m: nominalModuleLength,
+    spacing_y_m: numberValue("spacing_y_m", 60),
+    division_mode: divisionMode,
+    total_length_m: totalLength,
+    align_centers_to_structural_grid: alignCentersToGrid,
+    structural_grid_dx_m: numberValue("structural_grid_dx_m", 5),
+    structural_grid_dy_m: numberValue("structural_grid_dy_m", 5)
+  };
+  if (divisionMode !== "uniform") {
+    layout.module_lengths_x_m = moduleLengths;
+  }
+  if (divisionMode === "random") {
+    layout.random_seed = Math.trunc(numberValue("random_seed", 42));
+  }
   return {
     module: {
-      length_m: numberValue("length_m", 30),
-      width_m: numberValue("width_m", 30),
-      height_m: numberValue("height_m", 4),
-      draft_m: numberValue("draft_m", 1.1),
+      length_m: nominalModuleLength,
+      width_m: numberValue("width_m", 60),
+      height_m: numberValue("height_m", 2),
+      draft_m: numberValue("draft_m", 0.5),
       mesh_size_m: numberValue("mesh_size_m", 6),
       vertical_mesh_size_m: numberValue("vertical_mesh_size_m", 0.8),
       mass_kg: massText === "" ? null : Number(massText)
     },
-    layout: {
-      rows: intValue("rows", 3),
-      columns: intValue("columns", 3),
-      spacing_x_m: numberValue("spacing_x_m", 30),
-      spacing_y_m: numberValue("spacing_y_m", 30)
-    },
+    layout,
     hydro: {
       rho: numberValue("rho", 1025),
       g: numberValue("g", 9.81),
@@ -673,6 +821,12 @@ function firstOmega(payload) {
   const omega = payload.hydro.omega;
   if (omega.mode === "range") return omega.start_rad_s || 0.5851;
   if (omega.mode === "list") return omega.values_rad_s[0] || 0.5851;
+  if (omega.mode === "wavelength") {
+    const wavelength = omega.wavelength_values_m[0] || 300;
+    const k = 2 * Math.PI / wavelength;
+    const depthFactor = payload.hydro.water_depth_m === null ? 1 : Math.tanh(k * payload.hydro.water_depth_m);
+    return Math.sqrt(payload.hydro.g * k * depthFactor);
+  }
   return omega.single_rad_s || 0.5851;
 }
 
@@ -701,6 +855,7 @@ function updatePreview(payload) {
   const dofs = bodies * 6;
   const waveDirections = Math.max(1, payload.hydro.wave_directions_deg.length);
   const problems = dofs * omegaCount(payload) + omegaCount(payload) * waveDirections;
+  updateDivisionSummary(payload);
   document.getElementById("previewTitle").textContent = `${columns} x ${rows} modules`;
   document.getElementById("metricBodies").textContent = bodies;
   document.getElementById("metricDofs").textContent = dofs;
@@ -708,6 +863,32 @@ function updatePreview(payload) {
   outputPath.textContent = payload.output_path;
   waveReadout.textContent = `omega ${firstOmega(payload).toFixed(4)} rad/s`;
   updateMotionLabels(payload);
+}
+
+function updateDivisionSummary(payload) {
+  const lengths = payload.layout.module_lengths_x_m || moduleLengthsForPayload(
+    payload.layout.division_mode,
+    payload.layout.total_length_m,
+    payload.layout.columns
+  );
+  const boundaries = boundariesFromLengths(lengths);
+  const centers = lengths.map((_, index) => Number(((boundaries[index] + boundaries[index + 1]) / 2).toFixed(6)));
+  const femNodes = structuralNodeMappings(payload, centers);
+  const sum = lengths.reduce((total, item) => total + item, 0);
+  if (divisionSummary) {
+    const lines = [
+      `Mode: ${payload.layout.division_mode}`,
+      `Layout: ${payload.layout.columns} x ${payload.layout.rows}`,
+      `Module lengths: [${formatList(lengths)}]`,
+      `Module boundaries: [${formatList(boundaries)}]`,
+      `Module centers: [${formatList(centers)}]`,
+      `Length sum: ${sum.toFixed(6).replace(/\.?0+$/, "")} m`
+    ];
+    if (femNodes.length) {
+      lines.push(`FEM node ids: [${femNodes.join(", ")}]`);
+    }
+    divisionSummary.value = lines.join("\n");
+  }
 }
 
 function updateMotionLabels(payload) {
@@ -769,17 +950,20 @@ function drawArray(payload, elapsed) {
 
   const rows = payload.layout.rows;
   const cols = payload.layout.columns;
-  const length = payload.module.length_m;
   const width = payload.module.width_m;
-  const sx = payload.layout.spacing_x_m;
   const sy = payload.layout.spacing_y_m;
-  const spanX = (cols - 1) * sx + length;
+  const lengths = payload.layout.module_lengths_x_m || moduleLengthsForPayload(
+    payload.layout.division_mode || "uniform",
+    payload.layout.total_length_m || payload.module.length_m * cols,
+    cols
+  );
+  const boundaries = boundariesFromLengths(lengths);
+  const spanX = boundaries[boundaries.length - 1];
   const spanY = (rows - 1) * sy + width;
   const margin = 54;
   const scale = Math.min((rect.width - 2 * margin) / Math.max(spanX, 1), (rect.height - 2 * margin) / Math.max(spanY, 1));
   const cx = rect.width / 2;
   const cy = rect.height / 2 + 8;
-  const moduleW = Math.max(12, length * scale);
   const moduleH = Math.max(12, width * scale);
 
   drawWaveField(ctx, rect.width, rect.height, payload, elapsed);
@@ -787,7 +971,7 @@ function drawArray(payload, elapsed) {
   const modules = [];
   for (let r = 0; r < rows; r += 1) {
     for (let c = 0; c < cols; c += 1) {
-      const worldX = (c - (cols - 1) / 2) * sx;
+      const worldX = ((boundaries[c] + boundaries[c + 1]) / 2) - spanX / 2;
       const worldY = (r - (rows - 1) / 2) * sy;
       const name = `${c}_${r}`;
       const motion = bodyMotion(name, worldX, worldY, payload, elapsed);
@@ -795,15 +979,16 @@ function drawArray(payload, elapsed) {
         name,
         x: cx + worldX * scale,
         y: cy + worldY * scale,
+        moduleW: Math.max(12, lengths[c] * scale),
         motion
       });
     }
   }
 
   modules.sort((a, b) => a.y - b.y);
-  const showLabels = rows * cols <= 100 && moduleW > 24 && moduleH > 18;
+  const showLabels = rows * cols <= 100 && moduleH > 18;
   for (const module of modules) {
-    drawModule(ctx, module, moduleW, moduleH, scale, payload, showLabels);
+    drawModule(ctx, module, module.moduleW, moduleH, scale, payload, showLabels);
   }
 }
 
@@ -1135,13 +1320,36 @@ def config_from_payload(payload: dict[str, object]) -> ArrayHydrodynamicsConfig:
         vertical_mesh_size_m=_optional_float(module_data, "vertical_mesh_size_m"),
         mass_kg=_optional_float(module_data, "mass_kg"),
     )
+    division_mode = str(layout_data.get("division_mode", "uniform")).lower().replace("-", "_")
+    total_length_m = _optional_float(layout_data, "total_length_m")
+    align_centers_to_grid = _bool(layout_data, "align_centers_to_structural_grid", False)
+    structural_grid = None
+    if align_centers_to_grid:
+        structural_grid = StructuralGridSpec(
+            length_m=total_length_m or module.length_m * _int(layout_data, "columns"),
+            width_m=module.width_m,
+            dx_m=_float(layout_data, "structural_grid_dx_m", 5.0),
+            dy_m=_float(layout_data, "structural_grid_dy_m", 5.0),
+        )
+    module_lengths_x_m = _module_lengths_from_layout(
+        layout_data,
+        division_mode=division_mode,
+        total_length_m=total_length_m or module.length_m * _int(layout_data, "columns"),
+        columns=_int(layout_data, "columns"),
+        structural_grid_dx_m=structural_grid.dx_m if structural_grid is not None else None,
+    )
     layout = ArrayLayoutSpec(
         rows=_int(layout_data, "rows"),
         columns=_int(layout_data, "columns"),
         spacing_x_m=_float(layout_data, "spacing_x_m", module.length_m),
         spacing_y_m=_float(layout_data, "spacing_y_m", module.width_m),
+        division_mode=division_mode,
+        total_length_m=total_length_m,
+        module_lengths_x_m=module_lengths_x_m,
     )
 
+    water_depth_m = _optional_float(hydro_data, "water_depth_m")
+    g = _float(hydro_data, "g", 9.81)
     mode = str(omega_data.get("mode", "single"))
     if mode == "range":
         omegas = omega_values_from_range(
@@ -1152,6 +1360,13 @@ def config_from_payload(payload: dict[str, object]) -> ArrayHydrodynamicsConfig:
     elif mode == "list":
         values = omega_data.get("values_rad_s", "")
         omegas = parse_float_sequence(values if isinstance(values, str) else values or [])
+    elif mode == "wavelength":
+        values = omega_data.get("wavelength_values_m", "")
+        omegas = omega_values_from_wavelengths(
+            values if isinstance(values, str) else values or [],
+            water_depth_m,
+            g,
+        )
     else:
         omegas = (_float(omega_data, "single_rad_s", 0.5851),)
     if not omegas:
@@ -1174,10 +1389,11 @@ def config_from_payload(payload: dict[str, object]) -> ArrayHydrodynamicsConfig:
         omegas_rad_s=omegas,
         output_path=output_path,
         wave_directions_rad=degrees_to_radians(directions),
-        water_depth_m=_optional_float(hydro_data, "water_depth_m"),
+        water_depth_m=water_depth_m,
         rho=_float(hydro_data, "rho", 1025.0),
-        g=_float(hydro_data, "g", 9.81),
+        g=g,
         n_jobs=_int(hydro_data, "n_jobs", 1),
+        structural_grid=structural_grid,
     )
 
 
@@ -1193,6 +1409,27 @@ def run_job(job_id: str, payload: dict[str, object]) -> None:
             JOBS[job_id]["status"] = "running"
             JOBS[job_id]["output_path"] = str(config.output_path)
         log("Input deck parsed")
+        log(f"Module division mode: {config.layout.division_mode}")
+        log(
+            "Module lengths m: "
+            + _format_float_list(config.layout.module_lengths(config.module.length_m))
+        )
+        log(
+            "Module boundaries m: "
+            + _format_float_list(config.layout.x_boundaries(config.module.length_m))
+        )
+        centers = [item.x_m for item in config.layout.module_geometries(config.module.length_m)]
+        log("Module centers x m: " + _format_float_list(centers))
+        if config.structural_grid is not None:
+            mappings = module_structural_node_mappings(config)
+            log(
+                "Structural FEM node ids: "
+                + "[" + ", ".join(str(item["fem_node_one_based"]) for item in mappings) + "]"
+            )
+            log(
+                "Structural FEM node x m: "
+                + _format_float_list(item["x_m"] for item in mappings)
+            )
         result = run_array_hydrodynamics(config, log=log)
         with JOBS_LOCK:
             JOBS[job_id].update(
@@ -1239,6 +1476,22 @@ def _optional_float(data: dict[str, object], key: str) -> float | None:
     return float(value)
 
 
+def _optional_int(data: dict[str, object], key: str) -> int | None:
+    value = data.get(key)
+    if value is None or value == "":
+        return None
+    return int(value)
+
+
+def _bool(data: dict[str, object], key: str, default: bool = False) -> bool:
+    value = data.get(key, default)
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        return value.strip().lower() in {"1", "true", "yes", "on"}
+    return bool(value)
+
+
 def _int(data: dict[str, object], key: str, default: int | None = None) -> int:
     value = data.get(key, default)
     if value is None or value == "":
@@ -1246,6 +1499,141 @@ def _int(data: dict[str, object], key: str, default: int | None = None) -> int:
             raise ValueError(f"{key} is required")
         return int(default)
     return int(value)
+
+
+def _module_lengths_from_layout(
+    data: dict[str, object],
+    *,
+    division_mode: str,
+    total_length_m: float,
+    columns: int,
+    structural_grid_dx_m: float | None = None,
+) -> tuple[float, ...] | None:
+    if division_mode == "uniform":
+        return None
+    values = data.get("module_lengths_x_m")
+    if values not in (None, ""):
+        lengths = parse_float_sequence(values if isinstance(values, str) else values or [])
+    elif division_mode == "random":
+        seed = _optional_int(data, "random_seed")
+        if structural_grid_dx_m is not None:
+            lengths = _random_grid_aligned_module_lengths(
+                total_length_m,
+                columns,
+                structural_grid_dx_m,
+                seed,
+            )
+        else:
+            lengths = _random_module_lengths(total_length_m, columns, seed)
+    else:
+        raise ValueError("custom division requires module_lengths_x_m")
+    _validate_module_lengths(
+        lengths,
+        total_length_m=total_length_m,
+        columns=columns,
+        structural_grid_dx_m=structural_grid_dx_m,
+    )
+    return lengths
+
+
+def _validate_module_lengths(
+    lengths: tuple[float, ...],
+    *,
+    total_length_m: float,
+    columns: int,
+    structural_grid_dx_m: float | None = None,
+) -> None:
+    if len(lengths) != columns:
+        raise ValueError("number of module lengths must equal columns")
+    for length in lengths:
+        if length <= 0.0:
+            raise ValueError("all module lengths must be positive")
+    if abs(sum(lengths) - total_length_m) > 1.0e-6:
+        raise ValueError("sum(module_lengths_x_m) must equal total_length_m")
+    if structural_grid_dx_m is not None:
+        center_unit = 2.0 * structural_grid_dx_m
+        for length in lengths:
+            ratio = length / center_unit
+            if abs(ratio - round(ratio)) > 1.0e-6:
+                raise ValueError(
+                    "module lengths must be multiples of 2 * structural_grid_dx_m "
+                    "so centers fall on FEM nodes"
+                )
+
+
+def _random_module_lengths(total_length_m: float, columns: int, seed: int | None) -> tuple[float, ...]:
+    state = abs(int(seed or 1)) % 2147483647
+    if state == 0:
+        state = 1
+
+    def next_random() -> float:
+        nonlocal state
+        state = (state * 48271) % 2147483647
+        return state / 2147483647
+
+    weights = [0.25 + next_random() for _ in range(columns)]
+    weight_sum = sum(weights)
+    lengths = [round(total_length_m * weight / weight_sum, 6) for weight in weights]
+    lengths[-1] = round(lengths[-1] + total_length_m - sum(lengths), 6)
+    return tuple(lengths)
+
+
+def _random_grid_aligned_module_lengths(
+    total_length_m: float,
+    columns: int,
+    structural_grid_dx_m: float,
+    seed: int | None,
+) -> tuple[float, ...]:
+    center_unit = 2.0 * structural_grid_dx_m
+    total_units = total_length_m / center_unit
+    rounded_units = round(total_units)
+    if abs(total_units - rounded_units) > 1.0e-9:
+        raise ValueError("total_length_m must be divisible by 2 * structural_grid_dx_m")
+    if rounded_units < columns:
+        raise ValueError("columns is too large for the requested structural grid spacing")
+
+    state = abs(int(seed or 1)) % 2147483647
+    if state == 0:
+        state = 1
+
+    def next_random() -> float:
+        nonlocal state
+        state = (state * 48271) % 2147483647
+        return state / 2147483647
+
+    units = [rounded_units // columns for _ in range(columns)]
+    remainder = rounded_units - sum(units)
+    indices = list(range(columns))
+    for index in range(columns - 1, 0, -1):
+        swap_index = int(next_random() * (index + 1))
+        indices[index], indices[swap_index] = indices[swap_index], indices[index]
+    for index in indices[:remainder]:
+        units[index] += 1
+
+    min_unit = max(1, rounded_units // columns - 1)
+    max_unit = math.ceil(rounded_units / columns) + 1
+    transfer_count = min(int(columns * 0.4), columns - remainder)
+    donor_order = [index for index in indices if units[index] > min_unit]
+    receiver_order = [index for index in indices if units[index] < max_unit]
+    transfers = 0
+    for donor in donor_order:
+        receiver = next(
+            (index for index in receiver_order if index != donor and units[index] < max_unit),
+            None,
+        )
+        if receiver is None:
+            break
+        units[donor] -= 1
+        units[receiver] += 1
+        transfers += 1
+        if transfers >= transfer_count:
+            break
+
+    return tuple(float(unit * center_unit) for unit in units)
+
+
+def _format_float_list(values) -> str:
+    return "[" + ", ".join(f"{float(value):.6g}" for value in values) + "]"
 
 
 def make_server(host: str, port: int) -> tuple[ThreadingHTTPServer, int]:

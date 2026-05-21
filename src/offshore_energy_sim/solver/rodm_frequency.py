@@ -54,11 +54,14 @@ def solve_rodm_frequency_case(case: RodmFrequencyCase) -> RodmFrequencyResult:
     if not case.use_hydrostatic:
         raise NotImplementedError("FEM spring hydrostatic alternative is not migrated yet.")
 
-    master_nodes = calculate_node_positions(
-        case.master_node_rule.first_node,
-        case.master_node_rule.node_interval,
-        case.master_node_rule.count,
-    )
+    if case.master_nodes_one_based is None:
+        master_nodes = calculate_node_positions(
+            case.master_node_rule.first_node,
+            case.master_node_rule.node_interval,
+            case.master_node_rule.count,
+        )
+    else:
+        master_nodes = list(case.master_nodes_one_based)
 
     dataset = open_hydrodynamic_dataset(case.hydrodynamic_dataset, merge_complex=True)
     try:
@@ -81,6 +84,7 @@ def solve_rodm_frequency_case(case: RodmFrequencyCase) -> RodmFrequencyResult:
             master_displacement,
             structural.master_dofs,
             structural.slave_dofs,
+            reverse_master_order=structural.reverse_master_order_for_reconstruction,
         )
 
         return RodmFrequencyResult(

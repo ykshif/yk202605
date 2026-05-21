@@ -35,9 +35,15 @@ class RodmFrequencyCase:
     master_node_rule: MasterNodeRule
     hydrodynamic_dataset: Path
     structural_matrices: StructuralMatrixPaths
+    master_nodes_one_based: tuple[int, ...] | None = None
     hydrodynamic_nodes: int = 10
     hydrodynamic_dof_to_remove_zero_based: int = 5
     mass_blend_beta: float = 0.0
+    structural_reduction_method: str = "serep"
+    preserve_master_order: bool = False
+    robust_serep_mode_multiplier: float = 3.0
+    robust_serep_rcond: float = 1.0e-12
+    serep_ridge_relative_lambda: float = 1.0e-16
     use_hydrostatic: bool = True
     frequency_index: int = 0
     reverse_hydrodynamic_node_order: bool = False

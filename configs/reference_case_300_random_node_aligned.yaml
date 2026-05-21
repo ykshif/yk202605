@@ -1,0 +1,41 @@
+# Node-aligned random non-uniform hydrodynamic case for the 300 m x 60 m model.
+#
+# The hydrodynamic module centers are constrained to the 5 m x 5 m structural
+# grid. The explicit master-node list must stay in the same order as the
+# hydrodynamic body blocks in the NetCDF file.
+
+case:
+  id: reference_case_300_random_node_aligned
+  description: 300 m x 60 m floating body with random 1D module lengths aligned to 5 m FEM nodes
+
+geometry:
+  length_m: 300
+  width_m: 60
+  mesh_label: 5m_x_5m
+  total_nodes: 793
+  nodes_per_row: 61
+  retained_dofs_per_node: 5
+  full_dofs_per_node: 6
+  removed_dofs_zero_based: [5]
+  master_node_rule:
+    function: offshore_energy_sim.structure.calculate_node_positions
+    first_node: 424
+    node_interval: 6
+    count: 10
+  master_nodes_one_based: [425, 419, 412, 406, 401, 395, 389, 383, 376, 370]
+
+hydrodynamics:
+  dataset: results/hydrodynamics_ui/bounded_nonuniform_node_aligned_D0p5_L300_W60_H2_mesh2_wl300.nc
+  hydrodynamic_nodes: 10
+  hydrodynamic_dof_to_remove_zero_based: 5
+  reverse_hydrodynamic_node_order: false
+
+structure:
+  mass_matrix: 'E:\phd\Code\DM-FEM2D\StructureData\JobMesh5_5_MASS1.mtx'
+  stiffness_matrix: 'E:\phd\Code\DM-FEM2D\StructureData\JobMesh5_5_STIF1.mtx'
+  mass_blend_beta: 0.0
+
+solver:
+  type: frequency_domain_mck
+  use_hydrostatic: true
+  frequency_index: 0

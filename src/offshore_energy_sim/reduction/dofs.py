@@ -86,6 +86,8 @@ def reorder_displacement_to_natural_order(
     displacement: np.ndarray,
     master_dofs: np.ndarray,
     slave_dofs: np.ndarray,
+    *,
+    reverse_master_order: bool = True,
 ) -> np.ndarray:
     """Reorder displacement from `[master, slave]` order to natural DOF order.
 
@@ -94,7 +96,8 @@ def reorder_displacement_to_natural_order(
     """
 
     total_dofs = len(master_dofs) + len(slave_dofs)
-    current_order = np.concatenate([master_dofs[::-1], slave_dofs])
+    ordered_master_dofs = master_dofs[::-1] if reverse_master_order else master_dofs
+    current_order = np.concatenate([ordered_master_dofs, slave_dofs])
     natural_order = np.empty(total_dofs, dtype=int)
     natural_order[current_order] = np.arange(total_dofs)
     return displacement[natural_order, :]
