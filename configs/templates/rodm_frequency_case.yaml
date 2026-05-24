@@ -46,14 +46,69 @@ structure:
   stiffness_matrix: path/to/stiffness.mtx
   mass_blend_beta: 0.0
 
+mooring:
+  # WEC-Sim-style linear Mooring Matrix support.
+  # F_moor = F0 - K_moor*q - C_moor*qdot
+  enabled: false
+  model: linear_matrix
+  # If omitted, retained full DOFs are inferred from geometry.removed_dofs_zero_based.
+  retained_full_dofs_zero_based: [0, 1, 2, 3, 4]
+  # The current main frequency-domain runner records but does not apply mooring.
+  # Time-domain runs apply K/C/F0 when enabled.
+  apply_to_frequency_domain: false
+  include_pretension_in_frequency_rhs: false
+  attachments:
+    - name: front_left_line
+      node_one_based: 1
+      stiffness:
+        diagonal: [1.0e7, 1.0e7, 0.0, 0.0, 0.0, 0.0]
+      damping:
+        diagonal: [1.0e5, 1.0e5, 0.0, 0.0, 0.0, 0.0]
+      pretension: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+
 reduction:
   method: SEREP
   retained_dofs_per_node: 5
 
 solver:
+  # domain can be "frequency" or "time". The generic runner defaults to
+  # frequency when this key is omitted, preserving the legacy workflow.
+  domain: frequency
   type: frequency_domain_mck
   use_hydrostatic: true
   frequency_index: 0
+
+time_domain:
+  # Used by scripts/run_rodm_case_from_config.py --domain time.
+  # radiation_model can be:
+  # - constant: single-frequency validation bridge using A(omega), B(omega)
+  # - direct_convolution: Cummins radiation memory using A_inf and IRF
+  radiation_model: constant
+  cycles: 80
+  steps_per_cycle: 180
+  ramp_cycles: 5
+  # Spectrum/external-force excitation is currently exposed through
+  # scripts/run_time_domain_excitation_case.py.
+  excitation_model: regular_wave
+  wave_amplitude: 1.0
+  phase_rad: 0.0
+  spectrum_type: jonswap
+  significant_wave_height: 1.0
+  peak_period: null
+  peak_enhancement_factor: 3.3
+  spectrum_seed: 20260522
+  memory_duration: null
+  damping_convention: physical
+  infinite_added_mass_method: high_frequency
+  added_mass_tail_count: 3
+  radiation_passivity_correction: none
+  # selected_frequency adds finite-band residual A/B terms so the discrete
+  # Cummins convolution matches the selected regular-wave frequency.
+  radiation_residual_model: none
+  radiation_frequency_window: none
+  radiation_window_start_omega: null
+  radiation_window_stop_omega: null
+  radiation_convolution_rule: rectangular
 
 response:
   extraction:

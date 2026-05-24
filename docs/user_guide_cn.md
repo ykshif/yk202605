@@ -46,6 +46,23 @@ docs/full_code_user_manual_cn.md
 /Users/yongkang/miniconda3/envs/offshore-energy-sim/bin/python scripts/run_hydrodynamics_ui.py --host 127.0.0.1 --port 8765
 ```
 
+线性系泊模块入口：
+
+```bash
+python scripts/run_mooring_linear_matrix_demo.py --scenario one_node
+python scripts/run_mooring_linear_matrix_demo.py --scenario yaml --config configs/templates/mooring_linear_demo.yaml
+python scripts/validate_mooring_linear_framework.py
+python scripts/run_rodm_case_from_config.py --config configs/your_case.yaml --domain time
+python scripts/run_wecsim_like_time_domain_platform.py --mooring-config configs/your_case.yaml
+```
+
+完整说明见：
+
+```text
+docs/mooring_framework_cn.md
+docs/mooring_todo_cn.md
+```
+
 窗口用户说明：
 
 ```text

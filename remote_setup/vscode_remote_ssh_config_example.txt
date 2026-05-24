@@ -1,0 +1,24 @@
+# MacBook 端 VS Code Remote SSH 配置示例
+#
+# 可放入 MacBook 的 ~/.ssh/config 文件中，也可以在 VS Code Remote SSH 中编辑 SSH 配置。
+
+Host yk-windows-workstation
+    HostName 100.xxx.xxx.xxx
+    User WYJ
+    Port 22
+
+说明：
+
+1. HostName 改成 Windows 工作站在 Tailscale 中显示的 100.x.x.x IP。
+2. User 改成 Windows 工作站的 Windows 用户名。
+3. 第一次连接会要求确认主机指纹，并输入 Windows 登录密码。
+4. VS Code 连接成功后，可以打开 D:\ResearchCode 中的代码目录。
+5. 如果连接失败，先检查 Tailscale 是否在线，再检查 Windows 工作站上的 sshd 服务是否正在运行。
+
+MacBook 终端测试命令示例：
+
+ssh WYJ@100.xxx.xxx.xxx
+
+VS Code 中推荐使用扩展：
+
+Remote - SSH

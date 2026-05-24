@@ -111,6 +111,27 @@ Generic config-driven runner:
 D:\Users\KKKKK\anaconda3\Scripts\conda.exe run -n base python scripts\run_rodm_case_from_config.py --config configs\reference_case_300.yaml
 ```
 
+The same runner now supports explicit domain selection:
+
+```powershell
+python scripts\run_rodm_case_from_config.py --config configs\reference_case_300.yaml --domain frequency
+python scripts\run_rodm_case_from_config.py --config configs\reference_case_300.yaml --domain time --cycles 80 --steps-per-cycle 180
+```
+
+Frequency-domain runs keep writing the standard `response.npy`. Time-domain
+runs write to a separate variant, for example:
+
+```text
+results/<case_id>/variants/time_domain/response.npy
+results/<case_id>/variants/time_domain/time.npy
+results/<case_id>/variants/time_domain/master_displacement_time.npy
+```
+
+The current time-domain path is a single-frequency linear validation model: it
+uses the selected frequency's added mass and radiation damping as constant
+coefficients, then fits the steady-state time response back to a complex
+amplitude for comparison with the frequency-domain solver.
+
 Explicit reversed variant:
 
 ```powershell

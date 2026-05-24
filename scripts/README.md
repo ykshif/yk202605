@@ -11,7 +11,9 @@
 | `run_yoon_hinge_cases.py` | Yoon 单铰接、双铰接标准验证。 |
 | `run_complex_hinge_10x10.py` | 10x10 模块铰接水弹性计算或输入检查。 |
 | `build_hydroelastic_validation_report.py` | 汇总连续体和铰接验证结果，生成中文报告。 |
-| `run_rodm_case_from_config.py` | 从 YAML 配置运行单个 RODM 频域算例。 |
+| `run_rodm_case_from_config.py` | 从 YAML 配置运行单个 RODM 频域或时域算例；时域路径支持线性系泊 `mooring` 配置。 |
+| `run_mooring_linear_matrix_demo.py` | 不依赖外部数据的线性系泊 demo，支持单节点、四角节点和 `configs/templates/mooring_linear_demo.yaml` 输入，输出 reduced `K/C/F0`、metrics 和检查图。 |
+| `run_wecsim_like_time_domain_platform.py` | WEC-Sim-like 时域平台入口；支持 `--mooring-config` 接入正式 `offshore_energy_sim.mooring` provider。 |
 
 ## 验证/回归脚本
 
@@ -22,6 +24,7 @@
 | `validate_complex_hinge_10x10_setup.py` | 检查 10x10 网格、主节点和铰接节点配对。 |
 | `validate_published_hinge_kernels.py` | 对照已发表铰接程序中的核函数和节点规则。 |
 | `validate_environment_load_power_strength.py` | 检查环境、风载、响应谱、强度和光伏辅助函数。 |
+| `validate_mooring_linear_framework.py` | 检查 WEC-Sim 风格线性系泊公式、装配、降阶投影、配置 provider 和 1DOF/2DOF 时域闭合。 |
 | `run_refactor_regression_suite.py` | 聚合运行多项回归检查。 |
 
 ## 历史/专项诊断脚本

@@ -743,8 +743,8 @@ def _assemble_rodm_dataset(results, *, body, config: ArrayHydrodynamicsConfig, a
         "radiating_dof": list(dof_labels),
         "influenced_dof": list(dof_labels),
     }
-    dataset = xr.Dataset(
-        data_vars={
+    data_vars = {
+            "rho": ((), float(config.rho)),
             "added_mass": (
                 ("omega", "radiating_dof", "influenced_dof"),
                 added_mass,
@@ -773,7 +773,12 @@ def _assemble_rodm_dataset(results, *, body, config: ArrayHydrodynamicsConfig, a
                 ("influenced_dof", "radiating_dof"),
                 _body_matrix_values(body.hydrostatic_stiffness, dof_labels),
             ),
-        },
+        }
+    if config.water_depth_m is not None:
+        data_vars["water_depth"] = ((), float(config.water_depth_m))
+
+    dataset = xr.Dataset(
+        data_vars=data_vars,
         coords=coords,
         attrs=dict(attrs),
     )
